@@ -5,7 +5,7 @@
 1. Clone this repository. Create a subdirectory for your recipe
 2. Include a .md document in your sub dir [Github Markdown Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 3. You can also include any pictures of the preparation or completed dish you think would be helpful. Keep it tasteful, save all that goatse stuff for later.
-4. 
+4. Do a pull request against this repo and we will merge your stuff in. Reach out to @mzbat or @theDevilsVoice if you need help with it.
 
 #### Who are you 
 

@@ -7,9 +7,10 @@
 3. You can also include any pictures of the preparation or completed dish you think would be helpful. Keep it tasteful, save all that goatse stuff for later.
 4. Do a pull request against this repo and we will merge your stuff in. Reach out to @mzbat or @theDevilsVoice if you need help with it.
 
-#### Who are you 
+#### Who You Are
 
-Include how you’d like to be credited/identified in your .md file
+Include how you’d like to be credited/identified in your .md file. 
+Include a way for us to contact you if needed.
 
 #### Name of dish
 
@@ -29,4 +30,4 @@ Set of steps that explain how to create your dish.
 
 Instructional and/or completed dish should be uploaded to your sub-folder in the repository.
 
-How shoudl the Dish Be served?
+#### How should the Dish Be served?

@@ -3,7 +3,7 @@
 This is a collaborative effort. The goal is to collect recipes for an eclectic mix of dishes from around the hacker community. Your recipe submission must be unique and original. This is not the place to tell us about your favorite existing recipe. The recipe must be your creation or something you hacked with your own unique twist. Feel free to include a recommendation for booze pairing.
 
 General questions should be directed to [@mzbat](https://twitter.com/mzbat) who will be curating the book along with [@iheartmalware](https://twitter.com/iheartmalware). 
-As the response has already been overwhelming on Twitter, we can't promise that all submissions will be included in the final printed book. We do plan to leave this repo up indefinitely. All proceeds from printed book will go to charity. [Hackers for Charity](http://www.hackersforcharity.org/)
+As the response has already been overwhelming on Twitter, we can't promise that all submissions will be included in the final printed book. We do plan to leave this repo up indefinitely. We intend to give proceeds from any sales of printed book will go to [Hackers for Charity](http://www.hackersforcharity.org/).
 
 #### Rules for Submission
 

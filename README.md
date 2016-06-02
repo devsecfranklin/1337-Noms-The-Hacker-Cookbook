@@ -1,18 +1,21 @@
 # 1337-Noms-The-Hacker-Cookbook
 
+#### Rules for Submission
 
-#### Github markdown cheat sheet:
+1. Clone this repository. Create a subdirectory for your recipe
+2. Include a .md document (github markdown formatted text file)
 
-```
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-```
+[Github Markdown Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+3. 
 
 #### Who are you 
 
-(how you’d like to be credited)
+Include how you’d like to be credited/identified in your .md file
 
 #### Name of dish
 
+Just like it sounds, we have to call the dish something. 
 
 #### Ingredients
 
@@ -26,6 +29,6 @@ Set of steps that explain how to create your dish.
 
 #### Photos 
 
-instructional and/or completed dish
+Instructional and/or completed dish should be uploaded to your sub-folder in the repository.
 
 How shoudl the Dish Be served?

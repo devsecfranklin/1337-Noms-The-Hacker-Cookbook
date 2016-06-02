@@ -31,3 +31,5 @@ Set of steps that explain how to create your dish.
 Instructional and/or completed dish should be uploaded to your sub-folder in the repository.
 
 #### How should the Dish Be served?
+
+Temperature, serving tips, anything that gives it the finishing touch. 

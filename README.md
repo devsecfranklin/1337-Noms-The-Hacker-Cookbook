@@ -1,11 +1,19 @@
 # 1337-Noms-The-Hacker-Cookbook
 
+This is a collaborative effort. The goal is to collect recipes for an eclectic mix of dishes from around the hacker community. Your recipe submission must be unique, and original. This is not the place to tell us about your favorite existing recipe, this needs to be something you created or hacked with your own unique twist. Feel free to include a recommendation for booze pairing.
+
+
+
+General questions should be directed to @mzbat who will be curating the book along with @iheartmalware 
+As the response has already been overwhelming on Twitter we can't promise that all submissions will be included in the final printed book however we plan to leave this repo up indefinitely.
+
+
 #### Rules for Submission
 
 1. Clone this repository. Create a subdirectory for your recipe
 2. Include a .md document in your sub dir [Github Markdown Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 3. You can also include any pictures of the preparation or completed dish you think would be helpful. Keep it tasteful, save all that goatse stuff for later.
-4. Do a pull request against this repo and we will merge your stuff in. Reach out to @mzbat or @theDevilsVoice if you need help with it.
+4. Do a pull request against this repo and we will merge your stuff in. Reach out to @theDevilsVoice if you need technical help with it.
 
 #### Who You Are
 

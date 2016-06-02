@@ -3,11 +3,9 @@
 #### Rules for Submission
 
 1. Clone this repository. Create a subdirectory for your recipe
-2. Include a .md document (github markdown formatted text file)
-
-[Github Markdown Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-3. 
+2. Include a .md document in your sub dir [Github Markdown Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+3. You can also include any pictures of the preparation or completed dish you think would be helpful. Keep it tasteful, save all that goatse stuff for later.
+4. 
 
 #### Who are you 
 

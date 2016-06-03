@@ -1,5 +1,8 @@
 # 1337-Noms-The-Hacker-Cookbook
 
+<img align="center" src="https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/hacked.jpeg" alt="hacked"> 
+
+
 This is a collaborative effort. The goal is to collect recipes for an eclectic mix of dishes from around the hacker community. Your recipe submission must be unique and original. This is not the place to tell us about your favorite existing recipe. The recipe must be your creation or something you hacked with your own unique twist. Feel free to include a recommendation for booze pairing.
 
 General questions should be directed to [@mzbat](https://twitter.com/mzbat) who will be curating the book along with [@iheartmalware](https://twitter.com/iheartmalware). 

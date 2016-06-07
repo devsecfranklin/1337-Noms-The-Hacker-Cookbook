@@ -21,7 +21,7 @@ The preparation is pretty straightforward. Wash/Drain your chicken then add in s
 
 ## Instructions
 
-1. Season with Pepper heavily and then microwave the chicken breast for 8-11 minutes (Depending on the power of your microwave), most large microwaves cook it around 8.45 minutes; also let it rest for 4 minutes in the microwave. Use an spoon and blast the chicken to thin shreds.
+1. Season with Pepper heavily and then microwave the chicken breast for 8-11 minutes (Depending on the power of your microwave), most large microwaves cook it around 8.45 minutes; also let it rest for 4 minutes in the microwave. Use a spoon and blast the chicken to thin shreds.
 
 2. Get the tortilla heated and then plaster half the avocado as the base, Add in the chicken shreds, 4 tablespoon of beans, 3 tablespoon sriracha sauce, flakes, remaining avocado and wrap it (the hard part).
 

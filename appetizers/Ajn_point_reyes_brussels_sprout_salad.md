@@ -1,6 +1,6 @@
 # Ajn's Point Reyes Brussel Sprout Salad
 
-This is the template to view your awesome recipe. If you view it as raw, you can see the markup for it and use this as a template
+The key is absolutely the mild flavor of this cheese from a creamery in Calfornia.  Been meaning to try cambazola for fun, but haven't yet had the chance.  Here goes...
 
 ## Ingredients
 

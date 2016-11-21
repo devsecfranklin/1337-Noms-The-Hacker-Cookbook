@@ -14,7 +14,7 @@ Why is it called a Baked Gringo? It's full of white cheese, mild chilies, and is
 
 1. Preheat oven to 350 degrees Fahrenheit
 2. Cut the cheese blocks into 1/2 to 3/4 inch rectangular slices
-3. Open and slice the whole green chiles length wise into 1 to 2 inch wide
+3. Open and slice the whole green chilies length wise into 1 to 2 inch wide
 4. Take two slices of ham and roll/fold them up so they're only a few inches across and lay them down the center of a tortilla
 5. Place a straight line of chilies along the center on top of the ham
 6. Top the ham and chilies with one or more slabs of the white cheese

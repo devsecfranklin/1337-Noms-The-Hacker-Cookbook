@@ -25,11 +25,11 @@ Serves 8 to 10
 
 - **Mild**: Choose smooth skinned jalapeños and cut them in half and scrape out everything with a spoon leaving only the green flesh. Continue to scrape away anything lighter in color on the inside of the chili to minimize the heat.
 
-- **Maximum heat**: Choose aged jalapeños and remove the top stem and pith (white ball near the top) and leave everything else. Seeds are optional.  Include the habeneros.
+- **Maximum heat**: Choose aged jalapeños and remove the top stem and pith (white ball near the top) and leave everything else. Seeds are optional.  Include the habaneros.
 
 **Processing the veggies**: I double process all of the onions, chilies, and cilantro to make a smoother guacamole.  By double processing, I mean I use a Hand Food Chopper (which sends the dogs into a frenzy and gives me schadenfreude) and then put the resulting mess into a motorized food shredder.  Use whatever tactics you feel is best to reduce the size of veggies down to as small as possible.  It doesn't have to be a paste. I start with the cilantro so the following ingredients help extract the sticky cilantro leaves from the chopper. 
 
-**Habeneros** (optional): Remove their top stems, process, and add them one at a time at the end to control the heat level. 
+**Habaneros** (optional): Remove their top stems, process, and add them one at a time at the end to control the heat level. 
 
 **Keep it from turning gray**: If you need to wait a couple hours before serving, store the finished product in an airtight container(s) with no room for air and refrigerate.  The lime juice will help slow the graying and some say the avocado pits help as well.  You can then dish it in a bowl when the time comes to serve it.
 

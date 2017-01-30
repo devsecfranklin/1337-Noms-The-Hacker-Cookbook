@@ -1,2 +1,2 @@
-# Entres
-- This is a collection of entres for the hackers cookbook
+# Entrees
+- This is a collection of entrees for the hackers cookbook

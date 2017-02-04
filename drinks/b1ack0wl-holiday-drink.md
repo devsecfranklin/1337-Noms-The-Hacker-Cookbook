@@ -1,6 +1,6 @@
 # b1ack0wl's Holiday Drink
-### Serving Size: 2
-### Calories: bout tree-fiddy
+**Serving Size**: 2\
+**Calories**: bout tree-fiddy
 
 ## Ingredients
 - 1/3 cup unsweetened cocoa powder

@@ -1,5 +1,5 @@
 # Mashed Potato Croquettes
-# Contributed by Russ Rogers
+# Contributed by Russ Rogers a.k.a. @v3rtig0
 #
 # This recipe takes a good old Southern Mashed Potato recipe, makes it "loaded", and
 # then creates crispy, fried croqettes from them. It takes a bit of time, mostly due

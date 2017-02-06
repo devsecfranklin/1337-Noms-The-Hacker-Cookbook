@@ -5,8 +5,8 @@ His palm's spaghetti, knees weak, arms spaghetti.  There's vomit on his sweater 
 - 3 cans chopped clams (minced also fine)
 - 1/3 cup olive oil
 - 1/4 cup unsalted butter
-- 2 cloves garlic, crushed -or- 2 tsp minced garlic
-- 2 Tbsp chopped fresh parsley -or- 2 tsp dried parsley
+- 2 cloves garlic, crushed `xor` 2 tsp minced garlic
+- 2 Tbsp chopped fresh parsley `xor` 2 tsp dried parsley
 - 1 tsp salt
 - 16oz spaghetti, cooked and drained
 

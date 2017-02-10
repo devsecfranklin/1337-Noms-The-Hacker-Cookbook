@@ -11,3 +11,4 @@
 - @0xrnair - Monster Chicken Burrito
 - @b1ack0wl - Holiday drink
 - [@dualcoremusic](https://twitter.com/dualcoremusic) - Drink all the booze, Hack all the things!
+- [@jmarler](https://twitter.com/jmarler) - Marler's Quick Migas

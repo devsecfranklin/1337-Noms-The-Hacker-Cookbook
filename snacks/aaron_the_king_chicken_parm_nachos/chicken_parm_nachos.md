@@ -1,8 +1,6 @@
 # Chicken Parm Nachos
 Turn your leftover chicken parm into an exciting midnight snack!
 
-
-
 ## Ingredients
 * Leftover chicken parm
 * Shredded Cheese of your choice, one handful per layer
@@ -20,7 +18,7 @@ Turn your leftover chicken parm into an exciting midnight snack!
 3. Sprinkle your fun enhancers on the cheese (if any)
 4. Microwave until the cheese is melted to your satisfaction
 
-## Tips n' Tricks
+## Tips n' Tricks!
 * This snack is best prepared and served between 23:00 and 04:00 during an all nighter when you're getting hungry and want to take a short relaxing break.
 * Don't be afraid of being too boring if you don't have some fun enhancers. Simply heating up your chicken parm and eating it plain would be boring. We're making nachos!
 * After you've finished your nachos just pick up the chicken parm and eat it with your hands.

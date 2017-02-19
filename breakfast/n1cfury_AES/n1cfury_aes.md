@@ -24,4 +24,4 @@ At low heat you should start to notice the bottom cook and become solid.  Take a
 I did this without toast because its not as messy and less carbs if you care about that sort of thing.  Enjoy!
 
 [My GitHub page](https://github.com/n1cfury)
-[Follow me on Twitter](https://twitter.com/n1cfury)
+[Follow me on Twitter](https://twitter.com/n1c_fury)

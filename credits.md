@@ -10,3 +10,4 @@
 - @boredsilly
 - @0xrnair - Monster Chicken Burrito
 - @b1ack0wl - Holiday drink
+- @n1c_Fury - AES-Avocado Eggs Sriracha

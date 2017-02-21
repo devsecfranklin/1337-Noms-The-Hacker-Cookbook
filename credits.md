@@ -10,6 +10,7 @@
 - @boredsilly
 - @0xrnair - Monster Chicken Burrito
 - @b1ack0wl - Holiday drink
+- @n1c_Fury - AES-Avocado Eggs Sriracha
 - @Wireghost - Eclectic Freedom Fries
 - [@dualcoremusic](https://twitter.com/dualcoremusic) - Drink all the booze, Hack all the things!
 - [@jmarler](https://github.com/jmarler) - Marler's Quick Migas

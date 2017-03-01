@@ -1,4 +1,4 @@
-#@Hardwaterhacker's Crispy Parmesean Baked Walleye
+#@hardwaterhacker's Crispy Parmesan Baked Walleye
 
 This recipe works great for walleye, crappie/sunfish/bluegill (a.k.a. bream), northern pike, or any other similar freshwater, non-oily white meat fish.
 

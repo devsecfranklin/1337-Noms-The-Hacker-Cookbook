@@ -30,3 +30,5 @@ Slice lemons with rind on as thinly as possible.
 6. Grill fillet for 25 minutes or until thickest part of fillet reaches 135 degrees F (57 C) internal temperature.
 
 Keep a close eye on the grill during cooking.  The brown sugar mixture is likely to flare up.   Knock down flames with a spray bottle filled with water.
+
+![alt text](https://github.com/hardwaterhacker/1337-Noms-The-Hacker-Cookbook/blob/master/entrees/hardwaterhacker_grilled_cedar_plank_salmon/grilled_cedar_plank_salmon.jpg "Grilled Cedar Plank Salmon")

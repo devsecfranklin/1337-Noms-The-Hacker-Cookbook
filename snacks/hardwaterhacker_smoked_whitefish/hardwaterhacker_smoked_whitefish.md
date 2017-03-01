@@ -27,6 +27,6 @@ For smoking whitefish, I like to use a mix of apple and hickory chips.  Cherry c
 
 ![whitefish in brine](https://github.com/hardwaterhacker/1337-Noms-The-Hacker-Cookbook/tree/master/snacks/hardwaterhacker_smoked_whitefish/whitefish_brine.jpg "Whitefish in brine")
 
-![whitefish_in_smoker](https://github.com/hardwaterhacker/1337-Noms-The-Hacker-Cookbook/tree/master/snacks/hardwaterhacker_smoked_whitefish/whitefish_in_smoker.jpg "Whitefish in smoker")
+![whitefish in smoker](https://github.com/hardwaterhacker/1337-Noms-The-Hacker-Cookbook/blob/master/snacks/hardwaterhacker_smoked_whitefish/whitefish_in_smoker.jpg "Whitefish in smoker")
 
 ![smoked whitefish](https://github.com/hardwaterhacker/1337-Noms-The-Hacker-Cookbook/blob/master/snacks/hardwaterhacker_smoked_whitefish/smoked_whitefish.jpg "Smoked whitefish")

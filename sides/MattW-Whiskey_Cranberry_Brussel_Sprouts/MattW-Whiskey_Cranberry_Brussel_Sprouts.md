@@ -1,6 +1,6 @@
 # Matt W - Whiskey Cranberry Brussel Sprouts
 
-![](http://./brusselsprouts.jpg)
+![]brusselsprouts.jpg)
 
 This is one of my wife's favorite sides and even if you hate brussel sprouts, this might be your opportunity the change your mind. Feeds 5-6
 

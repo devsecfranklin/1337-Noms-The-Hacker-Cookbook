@@ -1,15 +1,10 @@
-#
-# Description: Process the recipes from the hacker Cookbook: 
-# https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook
-#
-# Author: @theDevilsVoice
-# Date  : April 10, 2017
+# -*- coding: utf-8 -*-
 
 import os
- 
+
 exclude_list = ['template.md', 'credits.md']
 rootDir = '.'
-outfile = open('/tmp/output.md', 'w') 
+outfile = open('/tmp/output.md', 'w')
 for dirName, subdirList, fileList in os.walk(rootDir):
   if ".git" in dirName.lower():
     continue

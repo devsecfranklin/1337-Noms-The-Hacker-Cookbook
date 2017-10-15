@@ -14,7 +14,7 @@
 - @Wireghost - Eclectic Freedom Fries
 - [@dualcoremusic](https://twitter.com/dualcoremusic) - Drink all the booze, Hack all the things!
 - [@jmarler](https://github.com/jmarler) - Marler's Quick Migas
-- [@aaron_the_king](https://github.com/Metruption) - Chicken Parm Nachos
+- [@aaron_the_king](https://github.com/Metruption) - Chicken Parm Nachos, Hashbrownpatty Bacon Sandwich, Dishwasher Salmon, and Tea Tasting Can
 - [@hardwaterhacker](https://twitter.com/hardwaterhacker) - Grilled Cedar Plank Salmon, Crispy Parmesan Walleye, Smoked Whitefish
 - [@MattW](https://twitter.com/_Nips_) - Whiskey Cranberry Brussel Sprouts 
 - @travelar - Southwest Pork Chops

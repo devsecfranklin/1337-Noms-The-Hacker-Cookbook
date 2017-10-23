@@ -1,3 +1,13 @@
+* What changes are you proposing?  (Describe below):
+
+
+
+
+
+
+
+* If you have issues you can reach out to  [Frank](https://github.com/theDevilsVoice)
+
 ** NOTE: You are releasing the rights to your work [under the included LICENSE](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/LICENSE)
 
 ** Who You Are
@@ -12,7 +22,7 @@ Just like it sounds, we have to call the dish something.
 
 Please include Metric and English wherever possible
 
-[Conversion to/from English/Metric Measurements] (http://www.sciencemadesimple.com/volume_conversion.php)
+[Conversion to/from English/Metric Measurements](http://www.sciencemadesimple.com/volume_conversion.php)
 
 ** Detailed preparation instructions
 

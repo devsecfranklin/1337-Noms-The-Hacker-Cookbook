@@ -18,3 +18,4 @@
 - [@hardwaterhacker](https://twitter.com/hardwaterhacker) - Grilled Cedar Plank Salmon, Crispy Parmesan Walleye, Smoked Whitefish
 - [@MattW](https://twitter.com/_Nips_) - Whiskey Cranberry Brussel Sprouts 
 - @travelar - Southwest Pork Chops
+- @rahlquist Slow Cooker Chorizo Black Bean Stew

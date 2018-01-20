@@ -16,6 +16,7 @@ Go through the output and address the formatting issues.
 
 ## Build the PDF File 
 
+* To omit MD files from the book, edit the exclude list in the file "book/makebook.py"
 * Run the makebook.sh script to generate the PDF. 
 * The md2pdf tool is still python2
 

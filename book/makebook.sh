@@ -119,6 +119,7 @@ function debian {
     echo -e "${NC}"
     mkdir ${THEMES_DIR}
     cp ${BASE_DIR}/github.css ${THEMES_DIR}
+    cp ${BASE_DIR}/style.css ${THEMES_DIR}
   fi
 
   if [ -f "${BUILD_DIR}/output.md" ] 
@@ -126,8 +127,8 @@ function debian {
     echo -e "${LPURP}"
     echo "Building PDF..."
     echo -e "${NC}"
-    md2pdf ${BUILD_DIR}/output.md
-    #md2pdf ${BUILD_DIR}/output.md --theme=github 
+    #md2pdf ${BUILD_DIR}/output.md
+    md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/github.css
     #md2pdf output.md --theme=path_to_style.css
   else 
     echo -e "${YELLOW}" 

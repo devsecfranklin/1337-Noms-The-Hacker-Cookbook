@@ -14,7 +14,8 @@
 
 import os
 
-exclude_list = ['template.md', 'credits.md']
+#exclude_list = ['template.md', 'credits.md']
+exclude_list = ['template.md', 'book/README.md']
 rootDir = '..'
 if not os.path.exists('/tmp/cookbook'):
   os.makedirs('/tmp/cookbook')

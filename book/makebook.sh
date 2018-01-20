@@ -138,7 +138,7 @@ function debian {
  
   if [ -f "${BUILD_DIR}/output.pdf" ] 
   then 
-    mv ${BUILD_DIR}/output.pdf ${BASE_DIR}/hacker_cookbook.pdf
+    cp ${BUILD_DIR}/output.pdf ${BASE_DIR}/hacker_cookbook.pdf
     echo -e "${LGREEN}"
     echo "Success!"
     echo -e "${NC}"
@@ -148,7 +148,7 @@ function debian {
     echo -e "${NC}"
     exit 1
   fi
-  #cd ${BASE_DIR} && rm -rf ${BUILD_DIR}
+  cd ${BASE_DIR} && rm -rf ${BUILD_DIR}
   deactivate 
   return 0
 

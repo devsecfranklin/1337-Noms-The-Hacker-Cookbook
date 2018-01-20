@@ -15,7 +15,7 @@
 import os
 
 exclude_list = ['template.md', 'credits.md']
-rootDir = '.'
+rootDir = '..'
 if not os.path.exists('/tmp/cookbook'):
   os.makedirs('/tmp/cookbook')
 outfile = open('/tmp/cookbook/output.md', 'w')

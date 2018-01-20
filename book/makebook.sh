@@ -108,19 +108,6 @@ function debian {
   #
   pip install wheel
   pip install markdown2pdf
-  if [ -d "${THEMES_DIR}" ]
-  then 
-    echo -e "${LPURP}"
-    echo "Found themes directory"
-    echo -e "${NC}"
-  else 
-    echo -e "${LPURP}"
-    echo "Creating themes directory, copying themes"
-    echo -e "${NC}"
-    mkdir ${THEMES_DIR}
-    cp ${BASE_DIR}/github.css ${THEMES_DIR}
-    cp ${BASE_DIR}/style.css ${THEMES_DIR}
-  fi
 
   if [ -f "${BUILD_DIR}/output.md" ] 
   then 
@@ -128,7 +115,8 @@ function debian {
     echo "Building PDF..."
     echo -e "${NC}"
     #md2pdf ${BUILD_DIR}/output.md
-    md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/github.css
+    #md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/github.css
+    md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/style.css
     #md2pdf output.md --theme=path_to_style.css
   else 
     echo -e "${YELLOW}" 

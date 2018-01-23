@@ -20,3 +20,4 @@
 * [@MattW](https://twitter.com/_Nips_) - Whiskey Cranberry Brussel Sprouts 
 * @travelar - Southwest Pork Chops
 * @rahlquist Slow Cooker Chorizo Black Bean Stew
+* @wireheadlance - Fried chicken and gravy recipe

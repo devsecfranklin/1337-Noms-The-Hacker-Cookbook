@@ -115,8 +115,8 @@ function debian {
     echo "Building PDF..."
     echo -e "${NC}"
     #md2pdf ${BUILD_DIR}/output.md
-    #md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/github.css
-    md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/style.css
+    md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/frank.css
+    #md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/style.css
     #md2pdf output.md --theme=path_to_style.css
   else 
     echo -e "${YELLOW}" 

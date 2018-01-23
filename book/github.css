@@ -164,6 +164,7 @@
 .markdown-body h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  page-break-before: always;
 }
 
 .markdown-body img {
@@ -263,6 +264,7 @@
 .markdown-body h1 {
   font-size: 32px;
   font-weight: 600;
+  page-break-before: always;
 }
 
 .markdown-body h2 {
@@ -493,6 +495,7 @@
   padding-bottom: 0.3em;
   font-size: 2em;
   border-bottom: 1px solid #eaecef;
+  page-break-before: always;
 }
 
 .markdown-body h2 {

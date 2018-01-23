@@ -21,11 +21,13 @@ if not os.path.exists('/tmp/cookbook'):
   os.makedirs('/tmp/cookbook')
 outfile = open('/tmp/cookbook/output.md', 'w')
 for dirName, subdirList, fileList in os.walk(rootDir):
+  fileList.sort(reverse=False)
+  subdirList.sort(reverse=False)
   if ".git" in dirName.lower():
     continue
   #print('Found directory: %s' % dirName)
   for fname in fileList:
-    if not fname in exclude_list and ".md" in fname:
+    if not fname in exclude_list and (".md" or ".jpg") in fname:
       #print('Processing.... ' + dirName + '/' + fname)
       full_path = dirName + '/' + fname
       with open(full_path) as infile:

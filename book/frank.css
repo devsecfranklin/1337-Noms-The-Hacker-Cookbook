@@ -1,3 +1,14 @@
+@page {
+  @bottom-right {
+    content: counter(page) " of " counter(pages);
+    font-family: "Arial";
+  }
+}
+
+.pagebreak {
+  page-break-after: always;
+}
+
 h1 {
   page-break-before: always;
   font-family: "Arial";

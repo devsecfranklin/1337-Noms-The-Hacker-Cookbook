@@ -1,7 +1,6 @@
 # 1337-Noms-The-Hacker-Cookbook
 
-<img src="https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/hacked.jpeg" />
-
+![hacked](https://www.bitsmasher.net/tmp/hacked.jpeg)
 
 
 This is a collaborative effort. The goal is to collect recipes for an eclectic mix of dishes from around the hacker community. Tell us about your favorite recipe or something you like to make with your own unique twist. Feel free to include a recommendation for booze pairing.

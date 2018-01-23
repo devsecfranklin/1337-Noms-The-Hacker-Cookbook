@@ -1,4 +1,4 @@
-# @0xrnair Monster Chicken Burrito (Extra Hot)
+# Monster Chicken Burrito (Extra Hot)
 
 A quick way to get a large meal ready with the least amount of effort.
 
@@ -17,6 +17,7 @@ A quick way to get a large meal ready with the least amount of effort.
 
 
 ## Preparation
+
 The preparation is pretty straightforward. Wash/Drain your chicken then add in salt, generous amounts of Oldbay seasoning (2 fistful) , red chilli powder and mix them well. Then add in half lemon and a 4 tablespoons of white vinegar. Keep it overnight. _Poking some holes into the chicken helps too_
 
 ## Instructions
@@ -28,6 +29,3 @@ The preparation is pretty straightforward. Wash/Drain your chicken then add in s
 Have fun stuffing yourself.
 
 In case stuffing all the ingredients into a single tortilla seems too much for you, you can split the above into 2 burritos but will lose the "monster" tag.
-
----
-

@@ -1,4 +1,4 @@
-# CC0 1.0 Universal
+# <a name="lic">CC0 1.0 Universal</a>
 
 Statement of Purpose
 

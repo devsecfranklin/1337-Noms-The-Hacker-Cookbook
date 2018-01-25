@@ -9,7 +9,26 @@ General questions should be directed to [@mzbat](https://twitter.com/mzbat) or [
 
 We can't promise that all submissions will be included in the final printed book. We do plan to leave this repo up indefinitely. We intend to give proceeds from any sales of printed book to [Electronic Frontier Foundation](https://supporters.eff.org/shop).
 
-#### Guidelines for Submission
+# Table of Contents
+
+<div id="toc_container">
+<ul class="toc">
+<li><a href="#guide">Guidelines</a></li>
+<li><a href="#crd">Credits</a></li>
+<li><a href="#lic">License</a></li>
+<li><a href="#app">Appetizers</a></li>
+<li><a href="#brk">Breakfast</a></li>
+<li><a href="#ckw">Cookware</a></li>
+<li><a href="#des">Desserts</a></li>
+<li><a href="#drk">Drinks</a></li>
+<li><a href="#ent">Entrees</a></li>
+<li><a href="#sau">Sauces</a></li>
+<li><a href="#sid">Side Dishes</a></li>
+<li><a href="#snk">Snacks</a></li>
+</ul>
+</div>
+
+# <a name="guide">Guidelines for Submission</a>
 
 1. Fork this repository. Create a subdirectory for your recipe. Try to make the name of the subdirectory match the name of your recipe.
 2. Include a .md document in your sub dir [Github Markdown Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) You can use the [template file](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/template.md) as a guide to help you in your effort. There is a [markdown tutorial here](http://www.markdowntutorial.com/)
@@ -17,36 +36,35 @@ We can't promise that all submissions will be included in the final printed book
 4. Don't forget to add your name/handle to the bottom of the [credits file](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/credits.md)
 5. Do a pull request against this repo and we will merge your stuff in. Reach out to [@theDevilsVoice](https://twitter.com/thedevilsvoice) if you need technical help.
 
-NOTE: You are releasing the rights to your work under the [included LICENSE](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/LICENSE)
+NOTE: You are releasing the rights to your work under the [included LICENSE](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/license.md)
 
-#### Who You Are
+## Who You Are
 
 * Include how you’d like to be credited/identified in your .md file. 
-* Include a way for us to contact you if needed.
 * Be sure you add your details to the end of the [credits.md](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/credits.md) file.
 
-#### Name of dish
+## Name of dish
 
 * Just like it sounds, we have to call the dish something. 
     * Choose a category (also OK to add a new category)
     * Create a folder to hold your files. 
-    * Name it something like "myname_name_of_dish"
+    * Name it something like "myname_dishname"
 
-#### Ingredients
+## Ingredients
 
 * Please include Metric and English wherever possible
-    * [Conversion to/from English/Metric Measurements] (http://www.sciencemadesimple.com/volume_conversion.php)
+    * [Conversion to/from English/Metric Measurements](http://www.sciencemadesimple.com/volume_conversion.php)
 * Make a file with the same format as the parent folder, but with the .md extension
-    * "myname_name_of_dish.md"
+    * "myname_dishname.md"
 * Set of steps that explain how to create your dish go in your .md file.
 
-#### Photos 
+## Photos 
 
 * Instructional and/or completed dish should be uploaded to your sub-folder in the repository.
 
-#### How should the Dish Be served?
+## How should the Dish Be served?
 
 * Temperature
 * Serving tips
-* Beer, wine or drink pairings. 
-* Anything that gives it the finishing touch. 
+* Beer, wine or drink pairings
+* Anything that gives it the finishing touch

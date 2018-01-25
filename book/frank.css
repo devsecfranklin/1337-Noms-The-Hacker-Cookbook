@@ -5,6 +5,13 @@
   }
 }
 
+@page :right {
+  @top-right {
+    font-family: "Arial";
+    content: "The Hacker Cookbook";
+  }
+}
+
 .pagebreak {
   page-break-after: always;
 }
@@ -15,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Arial";
+  font-family: "Arial";
 }
 
 h3 {
@@ -30,3 +37,56 @@ body {
   font-family: "Arial";
 }
 
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+  list-style: outside none none !important;
+}
+
+/* TOC */
+
+ul.toc, ul.toc ul { 
+  list-style-type: none;
+  margin: 0; padding: 0;
+}
+ul.toc ul {
+  margin-left: 1em;
+  font-weight: normal;
+}
+ul.toc > li { 
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+ul.toc a::after {
+  content: leader('.') target-counter(attr(href), page);
+  font-style: normal;
+}
+ul.toc > li.frontmatter a::after {
+  content: leader('.') target-counter(attr(href), page, lower-roman);
+  font-style: normal;
+}
+ul.toc > li.endmatter a::after {
+  content: leader('.') target-counter(attr(href), page);
+  font-style: normal;
+}
+ul.toc > li.chapter::before {
+  content: "Chapter " counter(toc-chapter, decimal);
+  display: block;
+  margin: 1em 0 0.1em -2.5cm;
+  font-weight: normal;
+  counter-increment: toc-chapter;
+  page-break-after: avoid;
+}

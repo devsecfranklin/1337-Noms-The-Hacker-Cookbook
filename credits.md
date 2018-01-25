@@ -1,7 +1,7 @@
-# Credits
+# <a name="crd">Credits</a>
 
 * [@mzbat](https://twitter.com/mzbat) - Organizing the project
-* @iHeartMalware - Organizing the project
+* [@iHeartMalware](https://twitter.com/iheartmalware)  - Organizing the project
 * [@TheDevilsVoice](https://twitter.com/TheDevilsVoice) - Organizing the project
 * @da_667 - Crock Pot Cheesey Chicken Chili (Dinner)
 * @iHeartMalware - Crock Pot Pulled Pork (Entrees), THE Purple Drink (drinks)

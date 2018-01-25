@@ -1,6 +1,7 @@
 # 1337-Noms-The-Hacker-Cookbook
 
-![hacked](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/hacked.jpeg)
+![hacked](https://www.bitsmasher.net/tmp/hacked.jpeg)
+
 
 This is a collaborative effort. The goal is to collect recipes for an eclectic mix of dishes from around the hacker community. Tell us about your favorite recipe or something you like to make with your own unique twist. Feel free to include a recommendation for booze pairing.
 
@@ -8,7 +9,26 @@ General questions should be directed to [@mzbat](https://twitter.com/mzbat) or [
 
 We can't promise that all submissions will be included in the final printed book. We do plan to leave this repo up indefinitely. We intend to give proceeds from any sales of printed book to [Electronic Frontier Foundation](https://supporters.eff.org/shop).
 
-# Guidelines for Submission
+# Table of Contents
+
+<div id="toc_container">
+<ul class="toc">
+<li><a href="#guide">Guidelines</a></li>
+<li><a href="#crd">Credits</a></li>
+<li><a href="#lic">License</a></li>
+<li><a href="#app">Appetizers</a></li>
+<li><a href="#brk">Breakfast</a></li>
+<li><a href="#ckw">Cookware</a></li>
+<li><a href="#des">Desserts</a></li>
+<li><a href="#drk">Drinks</a></li>
+<li><a href="#ent">Entrees</a></li>
+<li><a href="#sau">Sauces</a></li>
+<li><a href="#sid">Side Dishes</a></li>
+<li><a href="#snk">Snacks</a></li>
+</ul>
+</div>
+
+# <a name="guide">Guidelines for Submission</a>
 
 1. Fork this repository. Create a subdirectory for your recipe. Try to make the name of the subdirectory match the name of your recipe.
 2. Include a .md document in your sub dir [Github Markdown Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) You can use the [template file](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/template.md) as a guide to help you in your effort. There is a [markdown tutorial here](http://www.markdowntutorial.com/)
@@ -46,5 +66,5 @@ NOTE: You are releasing the rights to your work under the [included LICENSE](htt
 
 * Temperature
 * Serving tips
-* Beer, wine or drink pairings. 
-* Anything that gives it the finishing touch. 
+* Beer, wine or drink pairings
+* Anything that gives it the finishing touch

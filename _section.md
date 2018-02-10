@@ -68,3 +68,7 @@ NOTE: You are releasing the rights to your work under the [included LICENSE](htt
 * Serving tips
 * Beer, wine or drink pairings
 * Anything that gives it the finishing touch
+
+## How do I get a copy of the book?
+
+* You're looking at it!

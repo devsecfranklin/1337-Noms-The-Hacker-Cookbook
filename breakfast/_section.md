@@ -1,3 +1,5 @@
 # <a name="brk">Breakfast</a>
 
-![foods](https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/08/Freezer-Breakfast-BurritosIMG_9431-340x340.jpg)
+- Can't be a daytime hacker without a good breakfast
+
+![foods](https://images.pexels.com/photos/101533/pexels-photo-101533.jpeg?w=315&h=237&dpr=2&auto=compress&cs=tinysrgb)

@@ -4,14 +4,14 @@ A nice pick-me-up mocha-ish treat. Versatile. I suggest using the strongest most
 
 ## Ingredients
 
-- ½ Pound Butter Melted (choice of butter here is optional salted/unsalted) Also please check and abide by State Laws if adding any “alternative” butter. 
+- 1/2 Pound Butter Melted (choice of butter here is optional salted/unsalted) Also please check and abide by State Laws if adding any “alternative” butter. 
 - 4 Tablespoons Dark Cocoa
 - 1 Cup Water
 - 2 Cups Flour
 - 2 Cups Sugar
 - 1 Teaspoon Baking Soda
-- ½ Teaspoon Salt
-- ½ Cup Buttermilk
+- 1/2 Teaspoon Salt
+- 1/2 Cup Buttermilk
 - 2 Eggs
 - 1 Teaspoon Vanila
 - 2-4 Shots Espresso (as thick as possible, or just add less water if over 4 shots)

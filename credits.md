@@ -21,3 +21,4 @@
 * @travelar - Southwest Pork Chops
 * @rahlquist Slow Cooker Chorizo Black Bean Stew
 * @wireheadlance - Fried chicken and gravy recipe
+* @TailPufft - Tons of desserts and cookies

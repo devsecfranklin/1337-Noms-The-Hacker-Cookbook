@@ -173,7 +173,24 @@ function apple {
 
 function main {
 
-  remove_stale 
+  cat <<'EOF'
+
+   _                _                             _    _                 _    
+   | |__   __ _  ___| | _____ _ __  ___ ___   ___ | | _| |__   ___   ___ | | __
+   | '_ \ / _` |/ __| |/ / _ | '__ / __/ _ \ / _ \| |/ | '_ \ / _ \ / _ \| |/ /
+   | | | | (_| | (__|   |  __| |  | (_| (_) | (_) |   <| |_) | (_) | (_) |   < 
+   |_| |_|\__,_|\___|_|\_\___|_|   \___\___/ \___/|_|\_|_.__/ \___/ \___/|_|\_\
+	                                                                               
+EOF
+
+  while true; do
+	  read -p "Erase all cached deps and files? (takes longer (y/n))" yn
+    case $yn in
+      [Yy]* ) remove_stale; break;;
+      [Nn]* ) break;;
+      * ) echo "Please answer yes or no.";…
+    esac
+  done
 
   if [ "$(uname)" == "Darwin" ]; then
     apple

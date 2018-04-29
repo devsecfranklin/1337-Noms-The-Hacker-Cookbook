@@ -6,7 +6,7 @@ This is a collaborative effort. The goal is to collect recipes for an eclectic m
 
 General questions should be directed to [@mzbat](https://twitter.com/mzbat) or [@iheartmalware](https://twitter.com/iheartmalware). 
 
-We can't promise that all submissions will be included in the final printed book. We do plan to leave this repo up indefinitely. We intend to give proceeds from any sales of printed book to [Electronic Frontier Foundation](https://supporters.eff.org/shop).
+We can't promise that all submissions will be included in the final printed book. We do plan to leave this repo up indefinitely. We intend to give any proceeds to a charitable cause.
 
 # Guidelines for Submission
 
@@ -52,3 +52,5 @@ NOTE: You are releasing the rights to your work under the [included LICENSE](htt
 ## How do I get a copy of the book?
 
 * Browse to book directory and follow the instructions! (Tl;dr, cd book/, ./makebook.sh)
+* Try to use the #hackercookbook hashtag when tweeting about recipes and such. This is so we can find things later.
+

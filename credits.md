@@ -5,8 +5,8 @@
 * [@TheDevilsVoice](https://twitter.com/TheDevilsVoice) - Organizing the project
 * @da_667 - Crock Pot Cheesey Chicken Chili (Dinner)
 * @iHeartMalware - Crock Pot Pulled Pork (Entrees), THE Purple Drink (drinks)
-* [Ajn](https://github.com/x41x41x90) 
-* @v3rtig0 (Russ Rogers) 
+* [Ajn](https://github.com/x41x41x90)
+* @v3rtig0 (Russ Rogers)
 * @timstrazz aka diff - diff's Asian Chicken Wings
 * @boredsilly
 * @0xrnair - Monster Chicken Burrito
@@ -17,8 +17,9 @@
 * [@jmarler](https://github.com/jmarler) - Marler's Quick Migas
 * [@aaron_the_king](https://github.com/Metruption) - Chicken Parm Nachos, Hashbrownpatty Bacon Sandwich, Dishwasher Salmon, and Tea Tasting Can
 * [@hardwaterhacker](https://twitter.com/hardwaterhacker) - Grilled Cedar Plank Salmon, Crispy Parmesan Walleye, Smoked Whitefish
-* [@MattW](https://twitter.com/_Nips_) - Whiskey Cranberry Brussel Sprouts 
+* [@MattW](https://twitter.com/_Nips_) - Whiskey Cranberry Brussel Sprouts
 * @travelar - Southwest Pork Chops
 * @rahlquist Slow Cooker Chorizo Black Bean Stew
 * @wireheadlance - Fried chicken and gravy recipe
 * @TailPufft - Tons of desserts and cookies
+* @moonbas3 - Ribs, Pot Roast, "New" Fashioned

@@ -4,7 +4,6 @@
 
 ### Required Equipment ###
 * Smoker or barbecue that can smoke..
-* Digital thermometer
 
 ### Ingredients ###
 Rub makes the world go round, sauce finishes the journey.

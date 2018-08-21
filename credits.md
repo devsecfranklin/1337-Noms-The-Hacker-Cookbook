@@ -22,4 +22,4 @@
 * @rahlquist Slow Cooker Chorizo Black Bean Stew
 * @wireheadlance - Fried chicken and gravy recipe
 * @TailPufft - Tons of desserts and cookies
-* @moonbas3 - Ribs, Pot Roast, "New" Fashioned
+* [@moonbas3][https://twitter.com/moonbas3) - Ribs, Pot Roast, "New" Fashioned

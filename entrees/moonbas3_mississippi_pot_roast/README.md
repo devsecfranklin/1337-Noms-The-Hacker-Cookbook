@@ -27,6 +27,6 @@ Keeps good in the refrigerator for 4-5 days, but it will never last that long.
 1. Put roast in instant pot
 2. Add au jus gravy mix, ranch dressing mix, salt and pepper.
 3. Switch Instant Pot to "Pressure" and set for 2 hours.
-  i. Alternatively, set Slow Cooker to "high" and cook for 8 hours.
+    1. Alternatively, set Slow Cooker to "high" and cook for 8 hours.
 4. Do not remove until meat falls apart to the touch.
 5. Optional - Toast some provolone cheese onto a hoagie roll and serve "philly cheese steak style".

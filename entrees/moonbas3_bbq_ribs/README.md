@@ -5,6 +5,11 @@
 ### Required Equipment ###
 * Smoker or barbecue that can smoke..
 
+### Discussion ###
+I developed this recipe over several iterations of cooking ribs. This works for both baby back and St. Louis (spare) ribs style ribs. The only difference is baby backs will cook in about 3-4 hours versus spare ribs taking 5-6. I start checking in on them about 1 hour before I anticipate it being done and sometimes sooner depending on how well I am managing smoking temperatures. The sauce is my competition sauce, which is one of my favorites without a doubt. Anyone who has gone to Fowler's Fourth of July blow out has had this a few times and I've never gone home with any leftovers..
+
+Because of the dimensions of the ribs and the locations of their meat, it is difficult to cook to temperature. I have tried multiple times (see image for my probing schema) and have gotten wildly different results depending on where I put the probes, the average distance between bones, and the striation of meat. Now, I just cook to time (3 hours for baby backs, 4 hours for spares) before I begin testing for doneness. Generally, I can just look at the tips of the bones and know how long I have left, but I will be the first to admit it is a "skill" and takes a few iterations to learn well.
+
 ### Ingredients ###
 Rub makes the world go round, sauce finishes the journey.
 
@@ -64,10 +69,11 @@ Rub makes the world go round, sauce finishes the journey.
   3. (Optional) I use a drip pan that I initially fill with ~2 cups of water, this will last about 3 hours and need to be refilled.
 1. Build fire slowly, coast your smoker up to ~230F.
 2. Put on ribs so they are shielded by your indirect heat zone.
-3. Close lid and do not open for 4 hours.
+3. Close lid and do not open for 4 hours (or 3hrs if cooking baby backs).
 4. Ribs will be "done" when they pass a few criteria:
   1. Ribs will have pulled back from the bone about 1".
   2. Ribs will pass the twist test (grab with tongs and twist, they should almost separate and flake).
+  3. If not done, wait 20 minutes and try again.
 5. (Optional but tasty) Take ribs off smoker, remove indirect heating blocker or scatter charcoal to create a direct heat zone, then put sauce on ribs directly and cook each side for 90 seconds over open flame. This will caramelize the sugar in the sauce and give a great smoky flavor to your hard-won bark.
 
 Enjoy!

@@ -2,6 +2,12 @@
 
 ![Moonbas3 "Instant" Mississippi Pot Roast](https://i.imgur.com/C9hp4Wk.jpg)
 
+### Discussion ###
+
+While this sounds absolutely awful, it is in fact, delicious. When executed correctly, the pot roast will pull apart or fall apart and mix it's fat juices with the various mixes. I am not a fan of pepperoncinis, but I tend to over-add them to this recipe since they bring out a wonderful flavor when everything finally settles. I generally throw this together when it's going to be a busy couple of days and my wife and I need dinner covered.
+
+Keeps good in the refrigerator for 4-5 days, but it will never last that long.
+
 ### Required Equipment ###
 
 * Instant Pot or Slow Cooker
@@ -24,9 +30,3 @@
   * Alternatively, set Slow Cooker to "high" and cook for 8 hours.
 4. Do not remove until meat falls apart to the touch.
 5. Optional - Toast some provolone cheese onto a hoagie roll and serve "philly cheese steak style".
-
-### Discussion ###
-
-While this sounds absolutely awful, it is in fact, delicious. When executed correctly, the pot roast will pull apart or fall apart and mix it's fat juices with the various mixes. I am not a fan of pepperoncinis, but I tend to over-add them to this recipe since they bring out a wonderful flavor when everything finally settles. I generally throw this together when it's going to be a busy couple of days and my wife and I need dinner covered.
-
-Keeps good in the refrigerator for 4-5 days, but it will never last that long.

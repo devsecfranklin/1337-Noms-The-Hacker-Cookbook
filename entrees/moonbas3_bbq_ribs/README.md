@@ -1,6 +1,6 @@
 # Moonbas3 St. Louis Style Barbecue Ribs #
 
-[[https://i.imgur.com/cnVmd7g.jpg|alt=Moonbas3 St. Louis Style Barbecue Ribs]]
+![Moonbas3 St. Louis Style Barbecue Ribs](https://i.imgur.com/cnVmd7g.jpg)
 
 ### Required Equipment ###
 * Smoker or barbecue that can smoke..

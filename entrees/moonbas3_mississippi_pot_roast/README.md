@@ -4,7 +4,7 @@
 
 ### Discussion ###
 
-While this sounds absolutely awful, it is in fact, delicious. When executed correctly, the pot roast will pull apart or fall apart and mix it's fat juices with the various mixes. I am not a fan of pepperoncinis, but I tend to over-add them to this recipe since they bring out a wonderful flavor when everything finally settles. I generally throw this together when it's going to be a busy couple of days and my wife and I need dinner covered.
+While this sounds absolutely chaotic mixture of tastes and textures, it is in fact, delicious. When executed correctly, the pot roast will pull apart or fall apart and mix it's fat juices with the various mixes. I am not a fan of pepperoncinis, but I tend to over-add them to this recipe since they bring out a wonderful flavor when everything finally settles. I generally throw this together when it's going to be a busy couple of days and my wife and I need dinner covered.
 
 Keeps good in the refrigerator for 4-5 days, but it will never last that long.
 

@@ -2,15 +2,15 @@
 
 ![Moonbas3 St. Louis Style Barbecue Ribs](https://i.imgur.com/cnVmd7g.jpg)
 
-### Required Equipment ###
+## Required Equipment
 * Smoker or barbecue that can smoke..
 
-### Discussion ###
+## Discussion
 I developed this recipe over several iterations of cooking ribs. This works for both baby back and St. Louis (spare) ribs style ribs. The only difference is baby backs will cook in about 3-4 hours versus spare ribs taking 5-6. I start checking in on them about 1 hour before I anticipate it being done and sometimes sooner depending on how well I am managing smoking temperatures. The sauce is my competition sauce, which is one of my favorites without a doubt. Anyone who has gone to Fowler's Fourth of July blow out has had this a few times and I've never gone home with any leftovers..
 
 Because of the dimensions of the ribs and the locations of their meat, it is difficult to cook to temperature. I have tried multiple times (see image for my probing schema) and have gotten wildly different results depending on where I put the probes, the average distance between bones, and the striation of meat. Now, I just cook to time (3 hours for baby backs, 4 hours for spares) before I begin testing for doneness. Generally, I can just look at the tips of the bones and know how long I have left, but I will be the first to admit it is a "skill" and takes a few iterations to learn well.
 
-### Ingredients ###
+## Ingredients
 Rub makes the world go round, sauce finishes the journey.
 
 
@@ -42,7 +42,7 @@ Rub makes the world go round, sauce finishes the journey.
 * (optional) 1/2 cup of water, if going to heat or like a bit less sticky sauce.
 
 
-### Directions ###
+## Directions
 
 #### Making the rub ####
 

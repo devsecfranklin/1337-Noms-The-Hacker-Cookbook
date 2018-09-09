@@ -17,7 +17,10 @@
 #      REVISION:  ---
 #===============================================================================
 
-set -o nounset    # Treat unset variables as an error
+#set -o nounset    # Treat unset variables as an error
+
+# collet new markdown filenames
+NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep *.md)
 
 # install ruby
 echo "Install Ruby"
@@ -27,10 +30,20 @@ cat rvm.sh | bash -s stable
 source ~/.rvm/scripts/rvm
 rvm install ruby --default
 
+# install markdown lint https://github.com/markdownlint/markdownlint
+gem install mdl
 
-NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep *.md)
+# run markdown lint on new markdown files
+MDL_RESULTS=$(mdl ${NEW_MD})
 
-# run mdcheckr
+curl -i -H "Authorization: token $GITHUB_TOKEN" \
+        -H "Content-Type: application/json" \
+        -X POST -d "\{body\":\"$MDL_RESULTS\"}" \
+        https://api.github.com/repos/DEAD10C5/1337-Noms-The-Hacker-Cookbook
+/issues/$TRAVIS_PULL_REQUEST/comments
+
+
+# run mdcheckr on new markdown files
 MD_CHK_RES=$(/usr/local/bin/mdcheckr ${NEW_MD})
 
 curl -i -H "Authorization: token $GITHUB_TOKEN" \

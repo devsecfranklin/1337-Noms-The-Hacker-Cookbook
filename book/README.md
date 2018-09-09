@@ -1,5 +1,11 @@
 # How To Generate the Cookbook
 
+[![Build Status](https://travis-ci.org/DEAD10C5/1337-Noms-The-Hacker-Cookbook.svg?branch=master)](https://travis-ci.org/DEAD10C5/1337-Noms-The-Hacker-Cookbook)
+
+## mdcheckr
+
+https://github.com/mike42/mdcheckr
+
 ## Check Formatting 
 
 Install the markdown lint tool and clean up the MD files.  

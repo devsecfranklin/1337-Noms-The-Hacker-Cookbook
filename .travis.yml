@@ -6,9 +6,13 @@ addons:
       - curl
       - xmllint
       - pandoc
+      - aspell
+      - aspell-en
 before_install:
   - curl https://raw.githubusercontent.com/mike42/mdcheckr/master/mdcheckr -o mdcheckr
   - chmod +x mdcheckr
   - sudo cp mdcheckr /usr/local/bin
-after_success: |
-  git clone https://github.com/markdownlint/markdownlint
+script: 
+  - build/validate_pr.sh
+#after_success: |
+#  git clone https://github.com/markdownlint/markdownlint && 

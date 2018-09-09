@@ -4,7 +4,7 @@ addons:
   apt:
     packages:
       - curl
-      - xmllint
+      - libxml2-utils
       - pandoc
       - aspell
       - aspell-en

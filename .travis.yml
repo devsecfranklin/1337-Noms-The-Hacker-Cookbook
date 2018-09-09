@@ -1,0 +1,14 @@
+language: generic
+sudo: required
+addons:
+  apt:
+    packages:
+      - curl
+      - xmllint
+      - pandoc
+before_install:
+  - curl https://raw.githubusercontent.com/mike42/mdcheckr/master/mdcheckr -o mdcheckr
+  - chmod +x mdcheckr
+  - sudo cp mdcheckr /usr/local/bin
+after_success: |
+  git clone https://github.com/markdownlint/markdownlint

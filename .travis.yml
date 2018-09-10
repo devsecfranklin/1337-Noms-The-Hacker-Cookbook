@@ -3,16 +3,19 @@ sudo: required
 addons:
   apt:
     packages:
-      - curl
-      - libxml2-utils
-      - pandoc
-      - aspell
-      - aspell-en
+    - curl
+    - libxml2-utils
+    - pandoc
+    - aspell
+    - aspell-en
 before_install:
-  - curl https://raw.githubusercontent.com/mike42/mdcheckr/master/mdcheckr -o mdcheckr
-  - chmod +x mdcheckr
-  - sudo cp mdcheckr /usr/local/bin
-script: 
-  - build/validate_pr.sh
-#after_success: |
-#  git clone https://github.com/markdownlint/markdownlint && 
+- curl https://raw.githubusercontent.com/mike42/mdcheckr/master/mdcheckr -o mdcheckr
+- chmod +x mdcheckr
+- sudo cp mdcheckr /usr/local/bin
+script:
+- build/validate_pr.sh
+after_success:
+- "./success.sh"
+env:
+  GITHUB_TOKEN:
+    secure: NlzZZyFSYqGZlnqzg/zLbw5bP37gZYaPhs8FcOnAv9DdlgUHr2hJ3mZ1Vpx/oLHosdioXzA8fjMdeB+k0TWmfhvC7csU2ffoIDG+YfwsMoSjnl0GxK85+MRFy3zXkfj1SbMZntCgm3B2NIUaGlw1JvIpZLieVS+LJbs4GUpD1Q1ec7uj7ktxE/plSnGCWyRzCaZ8sJsUxXX1+uhGFcEEf29R+u3lOQ6tc8Y2tJ8KbKzlSSYP3MbT2QJg2kPd3pEXG12/EL+EXdYmm9+jpUPH8SmD4M2gtJZzege9re0mKN4b7PMo0ocMfmpOijQYry2zzvReAEYKd1ewREq/brPb8vESVmRWQv1BIffMAHMtQeLPw+SUObT2NaQRKRaedPhKxZris9du5tK/U538HXdG6hSufqm/t5mVOhuin3Uov1FiyQnc5VQtldCSRruGfaLdmLhDvXsk/yuaL11Nf4jGgLZOE2G5IjMX8YXis7ywigd4Ac+KLTATM0/EcVn/pE/2RmAzA9r2rQ67WFvt3qsXffGGzlv6YedY0IAZXcYdhWNBZhrh/1Axy3kQbK2mS03TPXTUNqq/0qc84EJAYP0tdLEc7z2sB2+2gjvjWQPnSaDtWzSr2QkcSCOSzS9kd9pUSCpoe5YURWIFMCELdw68NC+xBPye0zpLVnmN2tmWyZE=

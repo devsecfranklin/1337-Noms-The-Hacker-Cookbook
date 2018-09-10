@@ -20,7 +20,7 @@
 #set -o nounset    # Treat unset variables as an error
 
 # collet new markdown filenames
-NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep *.md)
+NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep -H *.md)
 
 # install ruby
 echo "Install Ruby"
@@ -36,10 +36,10 @@ gem install mdl
 # run markdown lint on new markdown files
 MDL_RESULTS=$(mdl ${NEW_MD})
 
-#curl -i -H "Authorization: token $GITHUB_TOKEN" \
-#        -H "Content-Type: application/json" \
-#        -X POST -d "\{body\":\"$MDL_RESULTS\"}" \
-#        https://api.github.com/repos/DEAD10C5/1337-Noms-The-Hacker-Cookbook/issues/$TRAVIS_PULL_REQUEST/comments
+curl -i -H "Authorization: token $GITHUB_TOKEN" \
+        -H "Content-Type: application/json" \
+        -X POST -d "\{body\":\"$MDL_RESULTS\"}" \
+        https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/$TRAVIS_PULL_REQUEST/comments
 
 
 # run mdcheckr on new markdown files
@@ -48,4 +48,4 @@ MD_CHK_RES=$(/usr/local/bin/mdcheckr ${NEW_MD})
 curl -i -H "Authorization: token $GITHUB_TOKEN" \
 	-H "Content-Type: application/json" \
 	-X POST -d "\{body\":\"$MD_CHK_RES\"}" \
-	https://api.github.com/repos/DEAD10C5/1337-Noms-The-Hacker-Cookbook/issues/$TRAVIS_PULL_REQUEST/comments
+	https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/$TRAVIS_PULL_REQUEST/comments

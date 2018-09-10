@@ -1,5 +1,5 @@
 # 1337-Noms-The-Hacker-Cookbook
-[![Build Status](https://travis-ci.org/DEAD10C5/1337-Noms-The-Hacker-Cookbook.svg?branch=master)](https://travis-ci.org/DEAD10C5/1337-Noms-The-Hacker-Cookbook)
+[![Build Status](https://travis-ci.org/DEAD10C5/1337-Noms-The-Hacker-Cookbook.svg?branch=master)](https://travis-ci.org/DEAD10C5/1337-Noms-The-Hacker-Cookbook) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ![hacked](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/hacked.jpeg)
 

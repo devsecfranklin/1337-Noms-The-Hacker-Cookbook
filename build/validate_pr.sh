@@ -20,7 +20,7 @@
 #set -o nounset    # Treat unset variables as an error
 
 # collet new markdown filenames
-NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep *.md)
+NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep -H *.md)
 
 # install ruby
 echo "Install Ruby"

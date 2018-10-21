@@ -175,7 +175,7 @@ function main {
 
   cat <<'EOF'
 
-   _                _                             _    _                 _    
+    _                _                             _    _                 _    
    | |__   __ _  ___| | _____ _ __  ___ ___   ___ | | _| |__   ___   ___ | | __
    | '_ \ / _` |/ __| |/ / _ | '__ / __/ _ \ / _ \| |/ | '_ \ / _ \ / _ \| |/ /
    | | | | (_| | (__|   |  __| |  | (_| (_) | (_) |   <| |_) | (_) | (_) |   < 
@@ -193,11 +193,20 @@ EOF
   done
 
   if [ "$(uname)" == "Darwin" ]; then
-    apple
+    #apple
+    echo -e "${YELLOW}"
+    echo "Not set up yet, try running on Debian."
+    echo -e "${NC}"
   elif [ "$(uname)" == "OpenBSD" ]; then
-    obsd
+    #obsd
+    echo -e "${YELLOW}"
+    echo "Not set up yet, try running on Debian."
+    echo -e "${NC}"
   elif [ "$(grep -Ei 'fedora|redhat' /etc/*release)" ]; then
-    redhat
+    #redhat
+    echo -e "${YELLOW}"
+    echo "Not set up yet, try running on Debian."
+    echo -e "${NC}"
   elif [ "$(grep -Ei 'debian|buntu|mint' /etc/*release)" ]; then
     debian
   else

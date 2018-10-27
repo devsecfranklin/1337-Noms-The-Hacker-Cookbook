@@ -38,7 +38,7 @@ echo "Finished installing ruby gems."
 # run markdown lint on new markdown files
 echo "Run markdown lint on new .md files: ${NEW_MD}"
 MDL_RESULTS=$(mdl ${NEW_MD})
-MDL_JSON=`printf '{"body":"%s"}\n' "$MDL_RESULTS"`
+MDL_JSON=`echo -e "{\"body\":\""$MDL_RESULTS"\"}"`
 echo "Here are your results:"
 echo "${MDL_JSON}"
 
@@ -51,7 +51,7 @@ curl -i -H "Authorization: token ${GH_TOKEN}" \
 # run mdcheckr on new markdown files
 echo "Run mdcheckr on new markdown files"
 MD_CHK_RES=$(/usr/local/bin/mdcheckr ${NEW_MD})
-MD_JSON=`printf '{"body":"%s"}\n' "$MD_CHECK_RES"`
+MD_JSON=`echo -e "{\"body\":\""$MD_CHECK_RES"\"}"`
 
 curl -i -H "Authorization: token ${GH_TOKEN}" \
 	-H "Content-Type: application/json" \

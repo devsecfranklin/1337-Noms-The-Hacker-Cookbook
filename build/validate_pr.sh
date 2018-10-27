@@ -36,8 +36,12 @@ gem install mdl travis travis-lint
 echo "Finished installing ruby gems."
 
 # run markdown lint on new markdown files
-echo "Run markdown lint on new .md files: ${NEW_MD}"
-MDL_RESULTS=$(mdl ${NEW_MD})
+echo -e "[RECIPE BOT]\\nRun markdown lint on new .md files:\n ${NEW_MD}"
+while read -r line; do
+  MDL_RESULTS="`echo -e "${MDL_RESULTS}\\n$i"`"
+done <<< "${NEW_MD}"
+#MDL_RESULTS=$(mdl ${NEW_MD})
+
 MDL_JSON=`echo -e "{\"body\":\""[RECIPE BOT]\n$MDL_RESULTS"\"}"`
 echo "Here are your results:"
 echo "${MDL_JSON}"
@@ -49,8 +53,11 @@ curl -i -H "Authorization: token ${GH_TOKEN}" \
 
 
 # run mdcheckr on new markdown files
-echo "Run mdcheckr on new markdown files"
-MD_CHK_RES=$(/usr/local/bin/mdcheckr ${NEW_MD})
+echo -e "[RECIPE BOT]\\nRun mdcheckr on new markdown files"
+while read -r line; do
+  MD_CHECK_RES="`echo -e "${MD_CHECK_RES}\\n$i"`"
+done <<< "${NEW_MD}"
+#MD_CHK_RES=$(/usr/local/bin/mdcheckr ${NEW_MD})
 MD_JSON=`echo -e "{\"body\":\""[RECIPE BOT]\n$MD_CHECK_RES"\"}"`
 
 curl -i -H "Authorization: token ${GH_TOKEN}" \

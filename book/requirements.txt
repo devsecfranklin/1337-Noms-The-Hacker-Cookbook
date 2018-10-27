@@ -10,7 +10,7 @@ cairocffi==0.8.0
 cffi==1.11.5 
 cssselect2==0.2.1 
 html5lib==1.0.1 
-markdown2==2.3.5 
+markdown2==2.3.6
 markdown2pdf==0.1.4 
 pdfrw==0.4 
 pycparser==2.18 

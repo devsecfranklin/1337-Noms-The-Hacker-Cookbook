@@ -8,16 +8,24 @@ addons:
       - aspell
       - aspell-en
 after_success: 
-  - ./success.sh
-before_install: 
+  - build/success.sh
+before_install:
+  - sudo apt-get update -qq
+language: python
+python: 
+  - "3.4"
+script: 
+  - rm -rf ./output
+  - rm -rf ./cache
+  - rm -rf ./plugins/*
   - "curl https://raw.githubusercontent.com/mike42/mdcheckr/master/mdcheckr -o mdcheckr"
   - "chmod +x mdcheckr"
-  - "sudo cp mdcheckr /usr/local/bin"
-env: 
-  GITHUB_TOKEN: 
-    - 
-      secure: NlzZZyFSYqGZlnqzg/zLbw5bP37gZYaPhs8FcOnAv9DdlgUHr2hJ3mZ1Vpx/oLHosdioXzA8fjMdeB+k0TWmfhvC7csU2ffoIDG+YfwsMoSjnl0GxK85+MRFy3zXkfj1SbMZntCgm3B2NIUaGlw1JvIpZLieVS+LJbs4GUpD1Q1ec7uj7ktxE/plSnGCWyRzCaZ8sJsUxXX1+uhGFcEEf29R+u3lOQ6tc8Y2tJ8KbKzlSSYP3MbT2QJg2kPd3pEXG12/EL+EXdYmm9+jpUPH8SmD4M2gtJZzege9re0mKN4b7PMo0ocMfmpOijQYry2zzvReAEYKd1ewREq/brPb8vESVmRWQv1BIffMAHMtQeLPw+SUObT2NaQRKRaedPhKxZris9du5tK/U538HXdG6hSufqm/t5mVOhuin3Uov1FiyQnc5VQtldCSRruGfaLdmLhDvXsk/yuaL11Nf4jGgLZOE2G5IjMX8YXis7ywigd4Ac+KLTATM0/EcVn/pE/2RmAzA9r2rQ67WFvt3qsXffGGzlv6YedY0IAZXcYdhWNBZhrh/1Axy3kQbK2mS03TPXTUNqq/0qc84EJAYP0tdLEc7z2sB2+2gjvjWQPnSaDtWzSr2QkcSCOSzS9kd9pUSCpoe5YURWIFMCELdw68NC+xBPye0zpLVnmN2tmWyZE=
-language: generic
-script: 
+  - "sudo cp mdcheckr/mdcheckr /usr/local/bin"
+  - git config user.email "frank378@gmail.com"
+  - git config user.name "@thedevilsvoice"
+  - rsync -rv --exclude=.git
   - build/validate_pr.sh
 sudo: required
+env: 
+  global:
+    secure: "fAfD7w+ZY8fT0qC2H5PCAz8iFL8LC1fhuZNYUtPtZqfBy7gqLZL5LbQsraPul1NciF+XiCvccBJDwVcZsKJKQ1MgcCeLOJ67PjKvat6/PttZS/d95709gZflJlVbK/RA5NPOw3n4shnwyRWAsvokQTJvMMoftHSV50Pm5tzFgrMBjMiKgTqnqJJhoWNzBwJP3FOgqdgU1odn3VZvBuKtWICnzUs/gpPJ1ukrIXiZAe7p5OI1dMQSyHYGByJNXIyGfvVqbCVmb978veLDSi6Ww4FA2jrUl7uWL4ln2xn9UmUy4RUKnf59YvOwSeQMN/XWMr2Ec4qkzC7oEuAmcopMl1ICDjdai07uLZVwK+0PD3PnXCyg4o3K0UdjXkrDHIxm5zW5Q69CeL81a7d0UmL5ZTv5sxmgOOuBsORXCvhbC53zTj6ZccNj5JlDmVBH+3iug+5xR3CG2a8qfNaxOJnHbts7ZqJaMPWeaRNQ6uC0PxSEQK4zHns2mS3uUPewP59HwfUENF9TdFPAzHAnLbAF5dVp8pj89Z7jpXuyCKMRGO9EyZ6Dx8HPa8EeL9EjnE4Vsdr0AA7zjGz8qAq+fMYdUE3ChVeKZ7tqXdQYQoI1mLlYCSYPwcxKg73Ru3y+LJzIrl1o7Ar1pWOaqfy0Rxca4VKgZlvHK/I8NKPWg0l9mxs="

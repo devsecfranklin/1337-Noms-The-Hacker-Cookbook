@@ -14,6 +14,8 @@ language: python
 python:
 - '3.4'
 script:
+- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash echo "PULL REQUEST: $TRAVIS_PULL_REQUEST"; fi'
+- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash  echo "NON PULL REQUEST"; fi'
 - rm -rf ./output
 - rm -rf ./cache
 - rm -rf ./plugins/*
@@ -23,7 +25,6 @@ script:
 - "/usr/local/bin/mdcheckr -v"
 - git config user.email "frank378@gmail.com"
 - git config user.name "@thedevilsvoice"
-- build/validate_pr.sh
 sudo: required
 env:
   global:

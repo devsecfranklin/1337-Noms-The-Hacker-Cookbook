@@ -20,7 +20,7 @@
 #set -o nounset    # Treat unset variables as an error
 
 # collet new markdown filenames
-NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep -rI --include=\*.md .)
+NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep -rlI --include=\*.md .)
 
 # install ruby
 echo "Install Ruby"
@@ -38,7 +38,7 @@ echo "Finished installing ruby gems."
 # run markdown lint on new markdown files
 echo "Run markdown lint on new .md files: ${NEW_MD}"
 MDL_RESULTS=$(mdl ${NEW_MD})
-MDL_JSON=`echo -e "{\"body\":\""$MDL_RESULTS"\"}"`
+MDL_JSON=`echo -e "{\"body\":\""[RECIPE BOT]\n$MDL_RESULTS"\"}"`
 echo "Here are your results:"
 echo "${MDL_JSON}"
 
@@ -51,7 +51,7 @@ curl -i -H "Authorization: token ${GH_TOKEN}" \
 # run mdcheckr on new markdown files
 echo "Run mdcheckr on new markdown files"
 MD_CHK_RES=$(/usr/local/bin/mdcheckr ${NEW_MD})
-MD_JSON=`echo -e "{\"body\":\""$MD_CHECK_RES"\"}"`
+MD_JSON=`echo -e "{\"body\":\""[RECIPE BOT]\n$MD_CHECK_RES"\"}"`
 
 curl -i -H "Authorization: token ${GH_TOKEN}" \
 	-H "Content-Type: application/json" \

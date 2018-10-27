@@ -38,10 +38,11 @@ echo "Finished installing ruby gems."
 # run markdown lint on new markdown files
 echo "Run markdown lint on new .md files: ${NEW_MD}"
 MDL_RESULTS=$(mdl ${NEW_MD})
+MDL_JSON=`printf '{"body":"%s"}\n' "$MDL_RESULTS"`
 
 curl -i -H "Authorization: token ${GH_TOKEN}" \
         -H "Content-Type: application/json" \
-        -X POST -d "\{\"body\":\"${MDL_RESULTS}\"}" \
+        -X POST -d "" \
         https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments
 
 

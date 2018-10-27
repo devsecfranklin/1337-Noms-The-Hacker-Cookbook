@@ -39,6 +39,8 @@ echo "Finished installing ruby gems."
 echo "Run markdown lint on new .md files: ${NEW_MD}"
 MDL_RESULTS=$(mdl ${NEW_MD})
 MDL_JSON=`printf '{"body":"%s"}\n' "$MDL_RESULTS"`
+echo "Here are your results:"
+echo "${MDL_JSON}"
 
 curl -i -H "Authorization: token ${GH_TOKEN}" \
         -H "Content-Type: application/json" \

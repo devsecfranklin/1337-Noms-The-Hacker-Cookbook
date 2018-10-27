@@ -33,6 +33,7 @@ rvm install ruby --default
 # install markdown lint https://github.com/markdownlint/markdownlint
 echo "Installing ruby gems..."
 gem install mdl travis travis-lint
+echo "Finished installing ruby gems."
 
 # run markdown lint on new markdown files
 echo "Run markdown lint on new .md files: ${NEW_MD}"

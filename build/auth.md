@@ -1,6 +1,7 @@
 ## set up auth for travis
 
 travis login --pro  --github-token abdce18e9e378e33e67ab8e1efd261fb9b95c54542
+git config --local travis.slug
 travis pubkey -r DEAD10C5/1337-Noms-The-Hacker-Cookbook 
 
 Public key for DEAD10C5/1337-Noms-The-Hacker-Cookbook:

@@ -20,11 +20,11 @@ script:
 - curl https://raw.githubusercontent.com/mike42/mdcheckr/master/mdcheckr -o mdcheckr
 - chmod +x mdcheckr
 - sudo cp mdcheckr /usr/local/bin
+- "/usr/local/bin/mdcheckr -v"
 - git config user.email "frank378@gmail.com"
 - git config user.name "@thedevilsvoice"
 - build/validate_pr.sh
 sudo: required
 env:
   global:
-    GH_TOKEN: 
-      secure: OBsm/W8SG8cQlAr8lN+NDnDbX4N0SG7NmRvypYY6L+LoierXJZQner1gYWfeddCfyXv6jqhXkI81xLu5INNBakl3HifouAIzocEqq3EN/fjNZ0LN7p/oglexSiV+1Myw0buwQJ27Twv40Lobp6deV0tcv/1WwZ2h7HuMa4NWHetaDS5rmpT+ouUEz4gEW6sgDuDZCxkEHItgUd2vguiRtZo8uV1yUReGDr+J6aIl77sSeD9+J43YpLgGDL0YfV3td7zqecCoCDyHQ2W9ADFMQrg27ATE9nXzxSryLG+EcaGTmkDMannnxd/lWGuuoHIC9nWrFhZcffT5mdSzbgRu2PNG9gbcw7mgM8fcXnFJs9sPXX2itpmGsmNJzrxBXNGmEccNguVHGexMhK2PKpDslxOxFMSWi9NsvleV7iTgEPZW5mLw/JgIXoTBhkuHPjkIE4HlZ7BiVLWfVJA3k5+YPCM1DHin+0p5WeYSWZHxk7FkafBXW7Pv6E9rg7MZNR57fyHKdiMh5MFyICQLDBISkl65KQKGjaZNCfdcuA8yxr4kBEaygM/SCJazW2aJ/a9s+nAAFu2nPngC96ImpUPKt6M98yDVkNI78jsxXwZdHdR3TphSlOwJlecGhajoI+kFNj93cTogoenhWRm/+RSI34/8byRc+7V70RQ/4Wiu2LM=
+  - secure: "JEduVpR1291JVr6T0C/rCYAqlH0rgb6bYkXyWanQ+7KqDNXP6pcxUE6JKTlgdDYoxkww/Wzn2N1hozzseik23DwK7I3fcw0LBxlrXefQGM0uGtXBJHLamQdtOeeVsRkC+sx76bcwk5zgwDcM3N/I5yPabTw4D28/rJdeX5/khkv6rmApzgywFIXRlb9V3FvGI3OiVF3HG3vSNvZn4cqoKlmzbfizN8GVWOdxdITCvIsXv5Ph59hXkyR/XS6qqxj3JEggETELsXV9J7R4jNCZ7kpRWS8/9afrtx0ILofyU6sllS//UM9fuxatdwaJo6TiKXD3xFfTIWFAyHW7v8xUCk3o9BG4ozw3ZOAjv2PwxPbNrpldUgXYnjEVnxKM2fdBIxVeGt4KbTyDwOG4o3GTLxXLhi2aPB2WrjfSDgstr4iIFKvKXKiHU2iuNUG2d6W0PvjrQ7z3Zta/Uj+iuqGkNt0bd3EtuZD4BxLR94AnlQrjDkP9y0J7HiRfhR3SNRlhrgvOD0ubZcYIjFzM5vGbHbUVvLm1XTm0oFjuw+3+7UFoXeC/H523c6CKTHy0R99Dr1BkpE+ep8jeDUVHYnXi7mtu98kbDigjP4Er9IC2qJ3hG8wUKtTt/f1+UdS9bEpK+cWMAKuuqCLK+P+pvzK45Yeohbq8yQQ2CpNMoAnIR7Y="

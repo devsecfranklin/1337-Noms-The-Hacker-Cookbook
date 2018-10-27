@@ -6,8 +6,6 @@ addons:
     - pandoc
     - aspell
     - aspell-en
-after_success:
-- if build/success.sh
 before_install:
 - sudo apt-get update -qq
 language: python
@@ -24,6 +22,7 @@ script:
 - git config user.email "frank378@gmail.com"
 - git config user.name "@thedevilsvoice"
 - build/validate_pr.sh
+- build/success.sh
 sudo: required
 env:
   global:

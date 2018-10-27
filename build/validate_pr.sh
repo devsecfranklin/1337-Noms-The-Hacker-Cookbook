@@ -20,7 +20,7 @@
 #set -o nounset    # Treat unset variables as an error
 
 # collet new markdown filenames
-NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep -H *.md)
+NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep -rI --include=\*.md .)
 
 # install ruby
 echo "Install Ruby"
@@ -41,7 +41,7 @@ MDL_RESULTS=$(mdl ${NEW_MD})
 
 curl -i -H "Authorization: token ${GH_TOKEN}" \
         -H "Content-Type: application/json" \
-        -X POST -d "\{body\":\"${MDL_RESULTS}\"}" \
+        -X POST -d "\{\"body\":\"${MDL_RESULTS}\"}" \
         https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments
 
 
@@ -51,5 +51,5 @@ MD_CHK_RES=$(/usr/local/bin/mdcheckr ${NEW_MD})
 
 curl -i -H "Authorization: token ${GH_TOKEN}" \
 	-H "Content-Type: application/json" \
-	-X POST -d "\{body\":\"${MD_CHK_RES}\"}" \
+	-X POST -d "\{\"body\":\"${MD_CHK_RES}\"}" \
 	https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/$TRAVIS_PULL_REQUEST/comments

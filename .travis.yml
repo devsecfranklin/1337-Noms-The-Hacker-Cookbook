@@ -20,10 +20,9 @@ script:
   - rm -rf ./plugins/*
   - "curl https://raw.githubusercontent.com/mike42/mdcheckr/master/mdcheckr -o mdcheckr"
   - "chmod +x mdcheckr"
-  - "sudo cp mdcheckr/mdcheckr /usr/local/bin"
+  - "sudo cp mdcheckr /usr/local/bin"
   - git config user.email "frank378@gmail.com"
   - git config user.name "@thedevilsvoice"
-  - rsync -rv --exclude=.git
   - build/validate_pr.sh
 sudo: required
 env: 

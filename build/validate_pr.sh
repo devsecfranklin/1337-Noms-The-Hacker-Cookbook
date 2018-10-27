@@ -31,21 +31,24 @@ source ~/.rvm/scripts/rvm
 rvm install ruby --default
 
 # install markdown lint https://github.com/markdownlint/markdownlint
+echo "Installing ruby gems..."
 gem install mdl travis travis-lint
 
 # run markdown lint on new markdown files
+echo "Run markdown lint on new .md files: ${NEW_MD}"
 MDL_RESULTS=$(mdl ${NEW_MD})
 
-curl -i -H "Authorization: token $GITHUB_TOKEN" \
+curl -i -H "Authorization: token ${GH_TOKEN}" \
         -H "Content-Type: application/json" \
-        -X POST -d "\{body\":\"$MDL_RESULTS\"}" \
+        -X POST -d "\{body\":\"${MDL_RESULTS}\"}" \
         https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments
 
 
 # run mdcheckr on new markdown files
+echo "Run mdcheckr on new markdown files"
 MD_CHK_RES=$(/usr/local/bin/mdcheckr ${NEW_MD})
 
-curl -i -H "Authorization: token $GITHUB_TOKEN" \
+curl -i -H "Authorization: token ${GH_TOKEN}" \
 	-H "Content-Type: application/json" \
-	-X POST -d "\{body\":\"$MD_CHK_RES\"}" \
+	-X POST -d "\{body\":\"${MD_CHK_RES}\"}" \
 	https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/$TRAVIS_PULL_REQUEST/comments

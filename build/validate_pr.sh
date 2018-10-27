@@ -44,15 +44,16 @@ echo "${MDL_JSON}"
 
 curl -i -H "Authorization: token ${GH_TOKEN}" \
         -H "Content-Type: application/json" \
-        -X POST -d "" \
+        -X POST -d "${MDL_JSON}" \
         https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments
 
 
 # run mdcheckr on new markdown files
 echo "Run mdcheckr on new markdown files"
 MD_CHK_RES=$(/usr/local/bin/mdcheckr ${NEW_MD})
+MD_JSON=`printf '{"body":"%s"}\n' "$MD_CHECK_RES"`
 
 curl -i -H "Authorization: token ${GH_TOKEN}" \
 	-H "Content-Type: application/json" \
-	-X POST -d "\{\"body\":\"${MD_CHK_RES}\"}" \
-	https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/$TRAVIS_PULL_REQUEST/comments
+	-X POST -d "${MD_JSON}" \
+	https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments

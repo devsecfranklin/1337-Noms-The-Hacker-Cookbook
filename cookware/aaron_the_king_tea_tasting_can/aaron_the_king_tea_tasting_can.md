@@ -29,4 +29,4 @@ This hardware hack is for those times when you want to make tea but you have no 
 
 ## Brewing Tips n' Tricks!
 * When lifting the TTC out of your mug don't go too fast. Otherwise the tea will gush out of the holes and shoot past the sides of your mug.
-* Use the same amount of leaves/water each time for more consitent brews. Overflowing the cup slightly might feel messy but it ensures you always have the same amount of water.
+* Use the same amount of leaves and water each time for more consitent brews. Overflowing the cup slightly might feel messy but it ensures you always have the same amount of water.

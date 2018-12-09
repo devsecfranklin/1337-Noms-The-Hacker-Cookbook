@@ -14,6 +14,7 @@
 # Error Log: Any output found in /path/to/logfile
 
 BUILD_DIR=/tmp/cookbook
+SRC_DIR=${PWD}
 
 #Black        0;30     Dark Gray     1;30
 #Red          0;31     Light Red     1;31
@@ -73,7 +74,6 @@ function check_installed() {
 #############################
 function debian {
 
-  BASE_DIR=${PWD}
   THEMES_DIR="${BUILD_DIR}/local/lib/python2.7/site-packages/markdown2pdf/themes"
 
   # Python3
@@ -81,7 +81,12 @@ function debian {
   check_installed python3-dev
   
   #/usr/bin/python3 -m venv ${BUILD_DIR}
-  /usr/bin/python3 ./makebook.py 
+  if [ ! -f "./makebook.py" ] 
+  then
+    /usr/bin/python3 ${SRC_DIR}/book/makebook.py 
+  else 
+    /usr/bin/python3 makebook.py
+  fi
 
   if [ -f "${BUILD_DIR}/output.md" ]
   then
@@ -94,20 +99,22 @@ function debian {
     echo -e "${NC}"
     exit 1
   fi
-  # Python2
-  pip install virtualenvwrapper
-  /usr/bin/python -m virtualenv ${BUILD_DIR}
-
-  # needed for md2pdf
-  check_installed libffi-dev
-
-  cd ${BUILD_DIR} && source bin/activate  
-
-  #
+  
+  /usr/bin/python3 -m virtualenv ${BUILD_DIR}
+  cd ${BUILD_DIR} && source bin/activate
   # https://pypi.python.org/pypi/Markdown2PDF/0.1.3
-  #
-  pip install wheel
-  pip install markdown2pdf
+  if [ -f "${SRC_DIR}/book/requirements.txt" ]
+  then
+    pip3 install -r ${SRC_DIR}/book/requirements.txt
+  elif [ -f "${SRC_DIR}/requirements.txt" ]
+  then
+    pip3 install -r ${SRC_DIR}/requirements.txt
+  else
+    echo "Could not find requirements.txt"
+    exit 1
+  fi
+
+  check_installed libffi-dev
 
   if [ -f "${BUILD_DIR}/output.md" ] 
   then 
@@ -115,7 +122,7 @@ function debian {
     echo "Building PDF..."
     echo -e "${NC}"
     #md2pdf ${BUILD_DIR}/output.md
-    md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/frank.css
+    ${BUILD_DIR}/bin/md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/frank.css
     #md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/style.css
     #md2pdf output.md --theme=path_to_style.css
   else 
@@ -127,7 +134,7 @@ function debian {
  
   if [ -f "${BUILD_DIR}/output.pdf" ] 
   then 
-    cp ${BUILD_DIR}/output.pdf ${BASE_DIR}/hacker_cookbook.pdf
+    cp ${BUILD_DIR}/output.pdf ${SRC_DIR}/hacker_cookbook.pdf
     echo -e "${LGREEN}"
     echo "Success!"
     echo -e "${NC}"
@@ -137,7 +144,7 @@ function debian {
     echo -e "${NC}"
     exit 1
   fi
-  cd ${BASE_DIR} && rm -rf ${BUILD_DIR}
+  cd ${SRC_DIR} && rm -rf ${BUILD_DIR}
   deactivate 
   return 0
 

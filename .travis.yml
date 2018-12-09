@@ -6,8 +6,6 @@ addons:
     - pandoc
     - aspell
     - aspell-en
-after_success:
-- if [[ $TRAVIS_PULL_REQUEST == 'false' ]]; then build/success.sh; fi
 before_install:
 - sudo apt-get update -qq
 language: python
@@ -23,7 +21,8 @@ script:
 - "/usr/local/bin/mdcheckr -v"
 - git config user.email "frank378@gmail.com"
 - git config user.name "@thedevilsvoice"
-- if [[ $TRAVIS_PULL_REQUEST == 'false' ]]; then build/validate_pr.sh; fi
+- build/validate_pr.sh
+- build/success.sh
 sudo: required
 env:
   global:

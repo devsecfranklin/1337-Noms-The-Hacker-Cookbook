@@ -82,7 +82,7 @@ function debian {
   fi
   
   /usr/bin/python3 -m virtualenv ${BUILD_DIR}
-  cd "${BUILD_DIR}" && source bin/activate
+  cd "${BUILD_DIR}" && source "${BUILD_DIR}"/bin/activate
   # https://pypi.python.org/pypi/Markdown2PDF/0.1.3
   if [ -f "${SRC_DIR}/book/requirements.txt" ]
   then
@@ -103,7 +103,7 @@ function debian {
     echo "Building PDF..."
     echo -e "${NC}"
     #md2pdf ${BUILD_DIR}/output.md
-    PYV=`python -c "import sys;t='{v[0]}.{v[1]}'.format(v=list(sys.version_info[:2]));sys.stdout.write(t)";`
+    PYV=$(python -c "import sys;t='{v[0]}.{v[1]}'.format(v=list(sys.version_info[:2]));sys.stdout.write(t)";)
     mkdir -p "${BUILD_DIR}"/lib/python"$PYV"/site-packages/markdown2pdf/themes
     # what is this stupid missing parens
     find /tmp/cookbook/lib/python3.5/site-packages/markdown2pdf/ -type f -exec sed -i 's/print css_file/print (css_file)/g' {} \;
@@ -130,7 +130,7 @@ function debian {
     echo -e "${NC}"
     exit 1
   fi
-  cd ${SRC_DIR} #&& rm -rf ${BUILD_DIR}
+  cd ... || exit
   deactivate 
   return 0
 

@@ -43,11 +43,15 @@ clean: ## clean up the book build
 	@echo "\033[1;32mRenaming stale build dir and backing up last build.\033[0m"
 ifneq (,$(wildcard ./hacker_cookbook_old.pdf))
 	rm hacker_cookbook_old.pdf
+endif
+ifneq (,$(wildcard ./hacker_cookbook.pdf))
 	mv hacker_cookbook.pdf hacker_cookbook_old.pdf
 endif
-
 ifneq (,$(wildcard ${BUILD_DIR}.old))
 	rm -rf ${BUILD_DIR}.old
+	
+endif
+ifneq (,$(wildcard ${BUILD_DIR}))
 	mv ${BUILD_DIR} ${BUILD_DIR}.old
 endif
 

@@ -1,8 +1,9 @@
 ---
 linters:
-  csslint:
-  shellcheck:
-    shell: bash
-  black:
-    config: ./pyproject.toml
+    csslint:
+      ignore:
+    shellcheck:
+      shell: bash
+    black:
+      config: ./pyproject.toml
       fixer: true

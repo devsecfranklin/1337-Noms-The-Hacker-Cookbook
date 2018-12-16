@@ -82,7 +82,7 @@ function debian {
   fi
   
   /usr/bin/python3 -m virtualenv ${BUILD_DIR}
-  cd "${BUILD_DIR}" && source "${BUILD_DIR}"/bin/activate
+  . "${BUILD_DIR}/bin/activate"
   # https://pypi.python.org/pypi/Markdown2PDF/0.1.3
   if [ -f "${SRC_DIR}/book/requirements.txt" ]
   then
@@ -130,7 +130,6 @@ function debian {
     echo -e "${NC}"
     exit 1
   fi
-  cd ... || exit
   deactivate 
   return 0
 

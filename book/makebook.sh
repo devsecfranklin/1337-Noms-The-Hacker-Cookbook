@@ -33,25 +33,6 @@ LPURP='\033[1;35m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
-
-function remove_stale {
-
-  if [ -d "${BUILD_DIR}.old" ]
-  then 
-    rm -rf ${BUILD_DIR}.old
-  fi 
-
-  if [ -d "${BUILD_DIR}" ] 
-  then 
-    mv ${BUILD_DIR} ${BUILD_DIR}.old
-    echo "Renaming stale directory in /tmp."
-  fi
-  return 0
-
-  mkdir ${BUILD_DIR}
-
-} # //remove_stale
-
 function check_installed() {
  
   PACKAGE=$1
@@ -83,7 +64,7 @@ function debian {
   #/usr/bin/python3 -m venv ${BUILD_DIR}
   if [ ! -f "./makebook.py" ] 
   then
-    /usr/bin/python3 ${SRC_DIR}/book/makebook.py 
+    /usr/bin/python3 "${SRC_DIR}"/book/makebook.py 
   else 
     /usr/bin/python3 makebook.py
   fi
@@ -101,14 +82,14 @@ function debian {
   fi
   
   /usr/bin/python3 -m virtualenv ${BUILD_DIR}
-  cd ${BUILD_DIR} && source bin/activate
+  cd "${BUILD_DIR}" && source bin/activate
   # https://pypi.python.org/pypi/Markdown2PDF/0.1.3
   if [ -f "${SRC_DIR}/book/requirements.txt" ]
   then
-    pip3 install -r ${SRC_DIR}/book/requirements.txt
+    pip3 install -r "${SRC_DIR}"/book/requirements.txt
   elif [ -f "${SRC_DIR}/requirements.txt" ]
   then
-    pip3 install -r ${SRC_DIR}/requirements.txt
+    pip3 install -r "${SRC_DIR}"/requirements.txt
   else
     echo "Could not find requirements.txt"
     exit 1
@@ -122,7 +103,12 @@ function debian {
     echo "Building PDF..."
     echo -e "${NC}"
     #md2pdf ${BUILD_DIR}/output.md
-    ${BUILD_DIR}/bin/md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/frank.css
+    PYV=`python -c "import sys;t='{v[0]}.{v[1]}'.format(v=list(sys.version_info[:2]));sys.stdout.write(t)";`
+    mkdir -p "${BUILD_DIR}"/lib/python"$PYV"/site-packages/markdown2pdf/themes
+    # what is this stupid missing parens
+    find /tmp/cookbook/lib/python3.5/site-packages/markdown2pdf/ -type f -exec sed -i 's/print css_file/print (css_file)/g' {} \;
+    cp "${SRC_DIR}"/book/frank.css "${BUILD_DIR}"/lib/python"$PYV"/site-packages/markdown2pdf/themes
+    "${BUILD_DIR}"/bin/md2pdf "${BUILD_DIR}"/output.md --theme frank
     #md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/style.css
     #md2pdf output.md --theme=path_to_style.css
   else 
@@ -144,7 +130,7 @@ function debian {
     echo -e "${NC}"
     exit 1
   fi
-  cd ${SRC_DIR} && rm -rf ${BUILD_DIR}
+  cd ${SRC_DIR} #&& rm -rf ${BUILD_DIR}
   deactivate 
   return 0
 
@@ -189,15 +175,6 @@ function main {
    |_| |_|\__,_|\___|_|\_\___|_|   \___\___/ \___/|_|\_|_.__/ \___/ \___/|_|\_\
 	                                                                               
 EOF
-
-  while true; do
-	  read -p "Erase all cached deps and files? (takes longer (y/n))" yn
-    case $yn in
-      [Yy]* ) remove_stale; break;;
-      [Nn]* ) break;;
-      * ) echo "Please answer yes or no.";…
-    esac
-  done
 
   if [ "$(uname)" == "Darwin" ]; then
     #apple

@@ -1,3 +1,4 @@
+pycairo>=1.15.4
 cffi>=1.1.0
 virtualenv 
 markdown2pdf

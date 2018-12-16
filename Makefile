@@ -1,11 +1,11 @@
 .PHONY: book lint
 
-book: 
+book: ## Generate a PDF copy of the Hacker Cookbook
 	book/makebook.sh
 
 dev-env: 
 
-lint: 
+lint: ## check the Markdown files for issues
 	if [ ! command -v mdl ]; then \
 	  echo "gem: --no-document" >> ~/.gemrc;\
 	  sudo gem install mdl;\

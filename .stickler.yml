@@ -1,0 +1,7 @@
+---
+linters:
+  shellcheck:
+    shell: bash
+  black:
+    config: ./pyproject.toml
+      fixer: true

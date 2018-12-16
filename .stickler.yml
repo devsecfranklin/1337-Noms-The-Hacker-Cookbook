@@ -1,5 +1,6 @@
 ---
 linters:
+  csslint:
   shellcheck:
     shell: bash
   black:

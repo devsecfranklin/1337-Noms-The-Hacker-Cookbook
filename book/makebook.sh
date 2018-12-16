@@ -82,7 +82,8 @@ function debian {
   fi
   
   /usr/bin/python3 -m virtualenv ${BUILD_DIR}
-  . "${BUILD_DIR}/bin/activate"
+  # shellcheck source=/tmp/cookbook
+  . /tmp/cookbook/bin/activate
   # https://pypi.python.org/pypi/Markdown2PDF/0.1.3
   if [ -f "${SRC_DIR}/book/requirements.txt" ]
   then

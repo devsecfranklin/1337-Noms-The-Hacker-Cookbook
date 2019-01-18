@@ -30,3 +30,9 @@ Depending on baking dish size it is usually easier to double the recipe. Use thi
 
 Quick prep and only oven time for cooking. For a quick meal add some quinoa or wild rice with a vegetable of choice.
 
+
+![alt text](https://github.com/elegin/1337-Noms-The-Hacker-Cookbook/blob/master/entrees/elegin_balsamic_tempeh/1.jpg )
+![alt text](https://github.com/elegin/1337-Noms-The-Hacker-Cookbook/blob/master/entrees/elegin_balsamic_tempeh/2.jpg )
+![alt text](https://github.com/elegin/1337-Noms-The-Hacker-Cookbook/blob/master/entrees/elegin_balsamic_tempeh/3.jpg )
+![alt text](https://github.com/elegin/1337-Noms-The-Hacker-Cookbook/blob/master/entrees/elegin_balsamic_tempeh/4.jpg )
+

@@ -14,6 +14,7 @@
 # Error Log: Any output found in /path/to/logfile
 
 BUILD_DIR=/tmp/cookbook
+SRC_DIR=${PWD}
 
 #Black        0;30     Dark Gray     1;30
 #Red          0;31     Light Red     1;31
@@ -31,25 +32,6 @@ CYAN='\033[0;36m'
 LPURP='\033[1;35m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
-
-
-function remove_stale {
-
-  if [ -d "${BUILD_DIR}.old" ]
-  then 
-    rm -rf ${BUILD_DIR}.old
-  fi 
-
-  if [ -d "${BUILD_DIR}" ] 
-  then 
-    mv ${BUILD_DIR} ${BUILD_DIR}.old
-    echo "Renaming stale directory in /tmp."
-  fi
-  return 0
-
-  mkdir ${BUILD_DIR}
-
-} # //remove_stale
 
 function check_installed() {
  
@@ -73,7 +55,6 @@ function check_installed() {
 #############################
 function debian {
 
-  BASE_DIR=${PWD}
   THEMES_DIR="${BUILD_DIR}/local/lib/python2.7/site-packages/markdown2pdf/themes"
 
   # Python3
@@ -81,7 +62,12 @@ function debian {
   check_installed python3-dev
   
   #/usr/bin/python3 -m venv ${BUILD_DIR}
-  /usr/bin/python3 ./makebook.py 
+  if [ ! -f "./makebook.py" ] 
+  then
+    /usr/bin/python3 "${SRC_DIR}"/book/makebook.py 
+  else 
+    /usr/bin/python3 makebook.py
+  fi
 
   if [ -f "${BUILD_DIR}/output.md" ]
   then
@@ -94,20 +80,23 @@ function debian {
     echo -e "${NC}"
     exit 1
   fi
-  # Python2
-  pip install virtualenvwrapper
-  /usr/bin/python -m virtualenv ${BUILD_DIR}
-
-  # needed for md2pdf
-  check_installed libffi-dev
-
-  cd ${BUILD_DIR} && source bin/activate  
-
-  #
+  
+  /usr/bin/python3 -m virtualenv ${BUILD_DIR}
+  # shellcheck source=/tmp/cookbook
+  . /tmp/cookbook/bin/activate
   # https://pypi.python.org/pypi/Markdown2PDF/0.1.3
-  #
-  pip install wheel
-  pip install markdown2pdf
+  if [ -f "${SRC_DIR}/book/requirements.txt" ]
+  then
+    pip3 install -r "${SRC_DIR}"/book/requirements.txt
+  elif [ -f "${SRC_DIR}/requirements.txt" ]
+  then
+    pip3 install -r "${SRC_DIR}"/requirements.txt
+  else
+    echo "Could not find requirements.txt"
+    exit 1
+  fi
+
+  check_installed libffi-dev
 
   if [ -f "${BUILD_DIR}/output.md" ] 
   then 
@@ -115,7 +104,12 @@ function debian {
     echo "Building PDF..."
     echo -e "${NC}"
     #md2pdf ${BUILD_DIR}/output.md
-    md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/frank.css
+    PYV=$(python -c "import sys;t='{v[0]}.{v[1]}'.format(v=list(sys.version_info[:2]));sys.stdout.write(t)";)
+    mkdir -p "${BUILD_DIR}"/lib/python"$PYV"/site-packages/markdown2pdf/themes
+    # what is this stupid missing parens
+    find /tmp/cookbook/lib/python3.5/site-packages/markdown2pdf/ -type f -exec sed -i 's/print css_file/print (css_file)/g' {} \;
+    cp "${SRC_DIR}"/book/frank.css "${BUILD_DIR}"/lib/python"$PYV"/site-packages/markdown2pdf/themes
+    "${BUILD_DIR}"/bin/md2pdf "${BUILD_DIR}"/output.md --theme frank
     #md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/style.css
     #md2pdf output.md --theme=path_to_style.css
   else 
@@ -127,7 +121,7 @@ function debian {
  
   if [ -f "${BUILD_DIR}/output.pdf" ] 
   then 
-    cp ${BUILD_DIR}/output.pdf ${BASE_DIR}/hacker_cookbook.pdf
+    cp ${BUILD_DIR}/output.pdf ${SRC_DIR}/hacker_cookbook.pdf
     echo -e "${LGREEN}"
     echo "Success!"
     echo -e "${NC}"
@@ -137,7 +131,6 @@ function debian {
     echo -e "${NC}"
     exit 1
   fi
-  cd ${BASE_DIR} && rm -rf ${BUILD_DIR}
   deactivate 
   return 0
 
@@ -182,15 +175,6 @@ function main {
    |_| |_|\__,_|\___|_|\_\___|_|   \___\___/ \___/|_|\_|_.__/ \___/ \___/|_|\_\
 	                                                                               
 EOF
-
-  while true; do
-	  read -p "Erase all cached deps and files? (takes longer (y/n))" yn
-    case $yn in
-      [Yy]* ) remove_stale; break;;
-      [Nn]* ) break;;
-      * ) echo "Please answer yes or no.";…
-    esac
-  done
 
   if [ "$(uname)" == "Darwin" ]; then
     #apple

@@ -32,5 +32,3 @@ see also "The Hotel Room Gourmet" here... http://deviating.net/nom/
 9. Sear all sides of the steak again. A nice, solid sear.
 10. Plate the steak on your now-warm dishware. Rest a generous pat of the grass-fed cow butter atop and let it begin to melt.  serve quickly, so that the already-limited heat in the steak does not dissipate too much.  suggested sides: asparagus, broad beans, mashed cauliflower, or mushrooms sautéed in butter.
 enjoy!
-
-

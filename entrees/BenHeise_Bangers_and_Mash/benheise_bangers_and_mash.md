@@ -60,4 +60,4 @@ If you are in some country other than England, you're going to have to do some s
 
 12. Garnish with Parsley
 
-<img width="300" height="400" src="DS-p7YYWkAMlRRK.jpg?raw=true">
+<img width="300" height="400" src="DS-rKFAWkAIUih1.jpg?raw=true">

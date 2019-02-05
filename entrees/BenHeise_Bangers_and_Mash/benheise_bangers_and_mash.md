@@ -13,6 +13,7 @@ If you are in some country other than England, you're going to have to do some s
 - 1 stick of unsalted butter
 - 4 ounces of heavy cream (or creme fraiche if you live in a country with a working economy)
 - 1/2 cup of whole milk
+- Parsley for garnish (optional)
 
 ## Equipment
 
@@ -56,3 +57,7 @@ If you are in some country other than England, you're going to have to do some s
 <img width="300" height="400" src="DS-p7YYWkAMlRRK.jpg?raw=true">
 
 11. Plate the mash, put the bangers on top of the mash, scoop a bunch of the onion gravy over the bangers, put a big spoonful of freedom legumes on the side of the mash, and eat because you started off this venture already hungry and following instructions with low blood sugar is hard.
+
+12. Garnish with Parsley
+
+<img width="300" height="400" src="DS-p7YYWkAMlRRK.jpg?raw=true">

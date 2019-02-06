@@ -7,7 +7,6 @@ Simple, hot, and tasty stuff to share with pals.
 - 1 or 2 15" x 10" x 2" rectangular baking dish
 - 2 rimmed baking sheets (but only if you choose to make croutons)
 - 1 large non-stick skillet
-- 1 small saucepan
 - 1 large mixing bowl
 - Cooking utensils for stirring
 - A Sharp chef's knife for cutting and chopping stuff

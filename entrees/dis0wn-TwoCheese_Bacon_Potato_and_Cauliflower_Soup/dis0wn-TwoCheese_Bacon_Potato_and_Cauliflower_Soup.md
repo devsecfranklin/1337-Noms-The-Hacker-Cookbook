@@ -1,7 +1,7 @@
 # dis0wn's Two-Cheese Bacon Potato and Cauliflower Soup
 
 My variation of a traditional Irish soup. Serve with a hearty bread to dip. 
-![](dis0wn-TCBPCsoup.jpg)
+![](dis0wn-TCBPCsoup.png)
 
 ## Ingredients
 

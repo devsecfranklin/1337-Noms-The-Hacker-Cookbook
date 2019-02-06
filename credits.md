@@ -17,7 +17,7 @@
 * [@jmarler](https://github.com/jmarler) - Marler's Quick Migas
 * [@aaron_the_king](https://github.com/Metruption) - Chicken Parm Nachos, Hashbrownpatty Bacon Sandwich, Dishwasher Salmon, and Tea Tasting Can
 * [@hardwaterhacker](https://twitter.com/hardwaterhacker) - Grilled Cedar Plank Salmon, Crispy Parmesan Walleye, Smoked Whitefish
-* [@MattW](https://twitter.com/_Nips_) - Whiskey Cranberry Brussel Sprouts
+* [@dis0wn](https://twitter.com/dis0wn_) Matt Wagenknecht - Whiskey Cranberry Brussel Sprouts
 * [@travelar](https://twitter.com/erikburgess_) - Southwest Pork Chops
 * @rahlquist Slow Cooker Chorizo Black Bean Stew
 * @wireheadlance - Fried chicken and gravy recipe

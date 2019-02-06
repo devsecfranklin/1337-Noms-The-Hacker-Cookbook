@@ -25,6 +25,7 @@ Simple, hot, and tasty stuff to share with pals.
 - 3 or so cups vegetable stock  (I like to use stock made from leftover veggies but store bought works well, too).
 - 4-5 cups jumbo mushrooms - chopped into big chunks - the more the merrier.
 - 1 tablespoon freshly choppsed thyme (sometimes sage is good, too).
+- Some small, fresh sprigs or rosemary for the top when it's done.
 
 ## How to make it
 
@@ -48,4 +49,14 @@ Simple, hot, and tasty stuff to share with pals.
 10. Cover with buttered foil and bake for 30-40 minutes. 
 11. Uncover and bake until golden brown on top (yummy), 20 minutes or so more.
 
-And enjoy!
+# How to serve
+
+This dish looks great with some small, fresh sprigs of rosemary sprinkled on top.
+
+Is a great option for vegatarian pals served alongside meat-based dishes for those who aren't.
+
+It's hearty and makes your whole place smell amazing, too.
+
+Goes great with beer, wine, grog, or toddy.
+
+Enjoy!

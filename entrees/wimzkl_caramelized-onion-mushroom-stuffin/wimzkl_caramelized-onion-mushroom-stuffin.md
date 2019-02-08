@@ -16,7 +16,7 @@ Simple, hot, and tasty stuff to share with pals.
 ## Ingredients
 
 - 6 Tablespoons salted butter, plus a little more to rub/coat this inside of the Pyrex or glass bakeware with.
-- 1 large loaf of bread (I like to use somewhat old homemade sourdough and make croutons) but you can use any of your favorite bread or store-bought croutons (about 1 pound). *If you use your favorite bread to make homemade croutons, it works well to cut it into 3⁄4-inch pieces (about 16 cups) because they will shrink when you bake them. Sturdy breads like pumpernickel and Sourdough seem to work best for this recipe.
+- 1 large loaf of bread (I like to use somewhat old homemade sourdough and make croutons) but you can use any of your favorite bread or store-bought croutons (about 1 pound). If you use your favorite bread to make homemade croutons, it works well to cut it into 3⁄4-inch pieces (about 16 cups) because they will shrink when you bake them. Sturdy breads like pumpernickel and Sourdough seem to work best for this recipe.
 - 6 medium onions, halved, medium sliced, and chopped
 - 1 bunch of celery, chopped medium-thick, not too thin, we want it to be a little bit crunchy so a little thicker is better.
 - A pinch or 3 of sea salt and fresh ground black pepper, as you like.

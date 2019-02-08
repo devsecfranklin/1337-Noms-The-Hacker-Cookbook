@@ -36,16 +36,16 @@ Simple, hot, and tasty stuff to share with pals.
 
 ### The Stuffin'
 
-1. Melt the 6 tablespoons of butter in the large non-stick skillet over medium heat. 
-2. Add the onions, a pinch or two of salt, and pepper, as you like. 
-3. Cook over medium-low heat, stirring occasionally, until the onions are a deep golden brown, about an hour or so. 
-4. When they're nice and brown, reduce them with the balsamic and cook until it's all evaporated, which only takes a little while. 
+1. Melt the 6 tablespoons of butter in the large non-stick skillet over medium heat.
+2. Add the onions, a pinch or two of salt, and pepper, as you like.
+3. Cook over medium-low heat, stirring occasionally, until the onions are a deep golden brown, about an hour or so.
+4. When they're nice and brown, reduce them with the balsamic and cook until it's all evaporated, which only takes a little while.
 5. While they're cooking down, you can heat your oven to 375° F.
 6. When the balsamic is all reduced, transfer the onions to a large bowl and let cool for for a few minutes.
 7. Butter up the 15x10x2-inch baking dish (or 2 depending on how many are coming over) and make sure the inside is completely and more or less evenly coated.
-8. In a large mixing bowl, combine your croutons, stock, shrooms, thyme/sage, onions, and sprinkle ½ teaspoon of sea salt over the top. 
-9. Transfer the mixture to the prepared baking dish(es). 
-10. Cover with buttered foil and bake for 30-40 minutes. 
+8. In a large mixing bowl, combine your croutons, stock, shrooms, thyme/sage, onions, and sprinkle ½ teaspoon of sea salt over the top.
+9. Transfer the mixture to the prepared baking dish(es).
+10. Cover with buttered foil and bake for 30-40 minutes.
 11. Uncover and bake until golden brown on top (yummy), 20 minutes or so more.
 
 # How to serve

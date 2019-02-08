@@ -14,7 +14,7 @@ I'm a college student. To give me credit you can link my github https://github.c
     * Ground Beef, three pinches per layer
     * Sliced Olives, one pinch per layer
     * Diced Bell Pepper, two pinches per layer
-    * Salsa, three teaspoons per layer 
+    * Salsa, three teaspoons per layer
 
 ## Instructions
 

@@ -29,7 +29,7 @@ Fryer with appropriate oil, heated to 350 degrees F, when needed.
 ## Making the potatoes
 
 Wash and peel the potatoes. Dice them all into 1 inch squares or less. Rinse the potatoes briefly.
-Place the potatoes in a large pot of water, and bring to a boil. You can add salt if you, but I 
+Place the potatoes in a large pot of water, and bring to a boil. You can add salt if you, but I
 tend to add the salt to the mashed potatoes, once they're prepared. Boil the potatoes until tender.
 
 While the potatoes are cooking, finely dice the chives, and set aside for next step. Also grate the cheese, and set aside.
@@ -42,7 +42,7 @@ pot, and mix well.  Check the texture, and taste.  Adjust the texture with milk,
 ## Spread the Potatoes
 
 Spread the potatoes into a 9x13 pan (you can pre-grease with cooking spray if you want to make it
-a bit simpler to get the potato strips out, later. Spread to a depth of about 1/3 inch. You may 
+a bit simpler to get the potato strips out, later. Spread to a depth of about 1/3 inch. You may
 need to use two pans.
 
 Once spread out, put the potatoes into a freezer for a couple of hours, until they harden. Once hardened, pull out, and cut into strips, but don't remove, yet. Make each strip about 1/2 inch wide, and 3-4 inches long. Put back in the freezer for a couple of hours. Once completely frozen, you can pull the strips out, and place in a bowl to be used later.
@@ -58,7 +58,7 @@ Take a strip of potatoes (still frozen) and roll in the egg bath. Then roll in t
 
 ## To cook
 
-Heat your oil to about 350 degrees. You can check the temperature of the oil, if you don't have a 
+Heat your oil to about 350 degrees. You can check the temperature of the oil, if you don't have a
 thermometer, by putting the handle of a wooden spoon into the oil. If the oil is ready, bubbles will form around the handle.
 
 Cook 5 strips at a time, for about 1 1/2 to 2 minutes, until golden brown. Place on a pan with paper towels, to remove excess oil.  They're ready to eat at this point.

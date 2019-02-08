@@ -19,7 +19,7 @@ If you have refrigerated the Avocado, make sure you take it out the night before
 ##Instructions
 Turn on the stove at low heat.  If you have a gas stove, the flame should be barely visible.  Put a few drops of olive oil on the skillet to coat the bottom and run it along the inside taking account for the surface area of the egg.  Once it warms up, add a small amount of the sea salt and pepper to the skillet, enough to where the pepper will slightly sizzle.  After this crack open two eggs and pour into the skillet adding a bit more salt and pepper to the top of the egg.
 
-At low heat you should start to notice the bottom cook and become solid.  Take a fork and scoop at the edges ensuring you can scrape it off, but dont remove it yet.   Once the egg can be flipped without spilling, flip it over and let it cook.  While its cooking, evenly spread the half of Avocado onto the egg.  Turn off the stove and wait about a minute.  Remove from the skillet and place onto a plate and add Sriracha on top of the Avocado.  I usually do a spiral pattern or tic-tac-toe to cover it evenly without overdoing it.  
+At low heat you should start to notice the bottom cook and become solid.  Take a fork and scoop at the edges ensuring you can scrape it off, but dont remove it yet.   Once the egg can be flipped without spilling, flip it over and let it cook.  While its cooking, evenly spread the half of Avocado onto the egg.  Turn off the stove and wait about a minute.  Remove from the skillet and place onto a plate and add Sriracha on top of the Avocado.  I usually do a spiral pattern or tic-tac-toe to cover it evenly without overdoing it.
 
 I did this without toast because its not as messy and less carbs if you care about that sort of thing.  Enjoy!
 

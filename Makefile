@@ -1,24 +1,7 @@
-.PHONY: book lint
+.PHONY: book build
 
 REQS := requirements.txt
 BUILD_DIR := /tmp/cookbook
-
-#Black        0;30     Dark Gray     1;30
-#Red          0;31     Light Red     1;31
-#Green        0;32     Light Green   1;32
-#Brown/Orange 0;33     Yellow        1;33
-#Blue         0;34     Light Blue    1;34
-#Purple       0;35     Light Purple  1;35
-#Cyan         0;36     Light Cyan    1;36
-#Light Gray   0;37     White         1;37
-
-#RED=$(echo -e '\033[0;31m')
-#LRED=$(echo -e '\033[1;31m')
-#LGREEN=$(echo -e \033[1;32m')
-#CYAN=$(echo -e '\033[0;36m')
-#LPURP=$(echo -e '\033[1;35m')
-#YELLOW := $(echo -e "\033[1;33m")
-#NC := $(echo -e "\033[0m") # No Color
 
 define PRINT_HELP_PYSCRIPT
 import re, sys
@@ -35,7 +18,7 @@ export PRINT_HELP_PYSCRIPT
 help: 
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
-book:clean ## Generate a PDF copy of the Hacker Cookbook
+book: clean ## Generate a PDF copy of the Hacker Cookbook
 	@echo "\033[1;33mGenerating PDF cookbook...hang tight!\033[0m"
 	book/makebook.sh
 

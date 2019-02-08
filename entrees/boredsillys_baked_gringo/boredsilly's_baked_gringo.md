@@ -1,11 +1,11 @@
 # Boredsilly's Baked Gringo
 by @boredsilly
 
-Why is it called a Baked Gringo? It's full of white cheese, mild Spanish chilies, and is 420 friendly (quick, easy, and gloriously cheesy). This is a family favorite for comfort food. 
+Why is it called a Baked Gringo? It's full of white cheese, mild Spanish chilies, and is 420 friendly (quick, easy, and gloriously cheesy). This is a family favorite for comfort food.
 
 ## Ingredients
 
-- 20 to 24 slices of thinly sliced smoked ham 
+- 20 to 24 slices of thinly sliced smoked ham
 - 2 pounds of Monterrey Jack (block form)
 - 3 small cans of whole green chilies or fresh roasted, skinned, and deseeded Anaheim chilies (fresh takes longer but is worth it)
 - 1 package of small flour tortillas (10 to 12 count)

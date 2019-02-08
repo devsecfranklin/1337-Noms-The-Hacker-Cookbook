@@ -11,7 +11,7 @@ Another super simple quick dish..just chop..add to pot..and drink till done.
 - 1/2 tsp red pepper flakes (2.5ml)
 - 2" piece of ginger, sliced (large slices..you will remove these later) (5cm)
 - 2 Tbsp. peanut butter (30mL)
-- 1 Tbsp. brown sugar or maple (15mL) 
+- 1 Tbsp. brown sugar or maple (15mL)
 - 2 servings of rice pasta (use your best judgement)
 - 1 package of cubed tofu (baked the tofu and add to near end or just dump it in at beginning dealers choice)
 

@@ -16,7 +16,7 @@ Peppernuts, a multigenerational autumn treat
 - 1 tsp anise flavoring
 - Enough flour to make a very stiff dough
 
-## Directions 
-1. Knead in flour then roll into ropes, about the diameter of your finger. 
+## Directions
+1. Knead in flour then roll into ropes, about the diameter of your finger.
 2. Cut into 1/2 - 3/4 inch pieces, then place onto a cookie sheet.
-3. Bake in 359-375F oven until golden brown. 
+3. Bake in 359-375F oven until golden brown.

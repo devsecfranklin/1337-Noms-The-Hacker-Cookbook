@@ -1,7 +1,7 @@
 # Tea Tasting Can
 Make loose leaf tea without a fancy teacup or teapot!
 
-This hardware hack is for those times when you want to make tea but you have no teapot. One common solution is a tea tasting cup, which is a cup that lets you brew proper tea in a cup and then remove the leaves afterwards. 
+This hardware hack is for those times when you want to make tea but you have no teapot. One common solution is a tea tasting cup, which is a cup that lets you brew proper tea in a cup and then remove the leaves afterwards.
 
 
 ## Supplies

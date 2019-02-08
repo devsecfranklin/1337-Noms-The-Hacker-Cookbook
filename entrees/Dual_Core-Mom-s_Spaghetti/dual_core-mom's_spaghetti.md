@@ -12,7 +12,7 @@ His palm's spaghetti, knees weak, arms spaghetti.  There's vomit on his sweater 
 
 ## Instructions
 1. Drain clams while reserving 3/4 cup liquid; set aside.
-2. In a medium skillet, slowly heat olive oil and butter.  
+2. In a medium skillet, slowly heat olive oil and butter.
 3. Add garlic and sauté until golden brown.  Remove from heat.
 4. Stir in clam liquid, parsley, and salt; bring to boiling.
 5. Reduce heat: simmer uncovered for 10 minutes.

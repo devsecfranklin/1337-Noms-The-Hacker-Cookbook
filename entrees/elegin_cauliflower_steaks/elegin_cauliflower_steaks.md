@@ -1,13 +1,13 @@
-# Elegin's Cauliflower Steak or Rubbed Roots 
+# Elegin's Cauliflower Steak or Rubbed Roots
 
 This works well with cauliflower florets along with any root vegetable really. Great for pairing rub/blend with other parts of dish.
 This can be an entrée or side.
 
 ## Ingredients
 
-- 1 head of Cauliflower 
-- Mustard French herb blend (or any dam rub/blend you want) 
- 
+- 1 head of Cauliflower
+- Mustard French herb blend (or any dam rub/blend you want)
+
 
 ## Instructions
 

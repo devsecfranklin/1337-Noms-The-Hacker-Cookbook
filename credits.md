@@ -29,3 +29,4 @@
 * [@aaronsteimle](https://twitter.com/aaronsteimle)
 * [@TunnyTraffic](https://twitter.com/tunnytraffic) - Foolproof Victoria Sponge
 * [@benheise](https://twitter.com/benheise) - English-style Bangers and Mash
+* [@wimzkl](https://twitter.com/wimzkl) - Caramelized Onion and Mushroom Stuffin'

@@ -1,8 +1,10 @@
 # Caramelized Onion and Mushroom Stuffin'
 
+
 Simple, hot, and tasty stuff to share with pals.
 
 ## Cooking Hardware
+
 
 - 1 or 2 15" x 10" x 2" rectangular baking dish
 - 2 rimmed baking sheets (but only if you choose to make croutons)
@@ -14,6 +16,7 @@ Simple, hot, and tasty stuff to share with pals.
 - Standard stove/oven
 
 ## Ingredients
+
 
 - 6 Tablespoons salted butter, plus a little more to rub/coat this inside of the Pyrex or glass bakeware with.
 - 1 large loaf of bread (I like to use somewhat old homemade sourdough and make croutons) but you can use any of your favorite bread or store-bought croutons (about 1 pound). If you use your favorite bread to make homemade croutons, it works well to cut it into 3⁄4-inch pieces (about 16 cups) because they will shrink when you bake them. Sturdy breads like pumpernickel and Sourdough seem to work best for this recipe.
@@ -28,13 +31,16 @@ Simple, hot, and tasty stuff to share with pals.
 
 ## How to make it
 
+
 ### Croutons - if you choose to make the croutons yourself, it's easy, delicious, and pretty satisfying to do:
+
 - Cut your favorite bread into very large crouton-sized chunks.
 - Toss them in a big mixing bowl with some olive oil, salt, and pepper, as you like (be careful not to use too much oil or they will smoke you out of the kitchen when you bake them).
 - Divide them between 2 rimmed baking sheets and bake until dry, a bit golden, and crisp, 10 minutes or so.
 - When they're done, set them aside.
 
 ### The Stuffin'
+
 
 1. Melt the 6 tablespoons of butter in the large non-stick skillet over medium heat.
 2. Add the onions, a pinch or two of salt, and pepper, as you like.
@@ -49,6 +55,7 @@ Simple, hot, and tasty stuff to share with pals.
 11. Uncover and bake until golden brown on top (yummy), 20 minutes or so more.
 
 # How to serve
+
 
 This dish looks great with some small, fresh sprigs of rosemary sprinkled on top.
 

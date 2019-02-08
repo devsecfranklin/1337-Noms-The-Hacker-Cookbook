@@ -1,11 +1,14 @@
 # TailPufft's Vegan Carrot Cake
 
+
 ## Ingredients
+
 - 1 bottle of whiskey
 - Hand pie press or empanada press or hey, just wing it.
 - Digital scale
 
 ## Crust
+
 - 2 1/2 cups flower
 - 1 cup grease (1/2 butter, 1/2 shortening)
 - 1 tsp. salt
@@ -13,6 +16,7 @@
 - Some of the whiskey
 
 ## Filling
+
 - About 12 apples
 - 1 1/2 tbsp. cinnamon
 - 1/2 cup sugar
@@ -20,6 +24,7 @@
 - 2 eggs for egg wash
 
 ## Caramel
+
 - 1 cup sugar
 - 2 oz. water
 - 4 oz.  cream
@@ -27,6 +32,7 @@
 
 
 ## Directions
+
 1. Crust first because you gotta chill it.
 2. Dump flour, salt, and sugar into a bowl and mix together.
 3. Add your butter / shortening.
@@ -47,6 +53,7 @@
 
 
 ## Caramel Cooking
+
 - Go watch a YouTube vide oon how to make caramel.
 - Go watch another YouTube video on what sugar burns do to you
 - At this point maybe excuse children or accident-prone adults out of the kitchen. Kick them the hell out.

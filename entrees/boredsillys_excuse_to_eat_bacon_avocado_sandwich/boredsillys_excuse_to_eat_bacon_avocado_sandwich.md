@@ -1,9 +1,11 @@
 # "Excuse to Eat Bacon" Avocado Sandwich
+
 by @boredsilly
 
 My wife used to crave avocado sandwiches while she was pregnant but they were too plain for me.  That inspired me to kick them up to an unhealthy level so I could enjoy them too. It also gave me another delivery mechanism for bacon.
 
 ## Ingredients
+
 
 - Bacon
 - Cracked black pepper
@@ -16,6 +18,7 @@ My wife used to crave avocado sandwiches while she was pregnant but they were to
 - Salt (optional)
 
 ## Instructions
+
 
 1. Crack the black pepper over several slices of bacon (at least 2) and cook until crispy.
 2. Mix the hot sauce into the mayonnaise and spread evenly over both slices of bread.

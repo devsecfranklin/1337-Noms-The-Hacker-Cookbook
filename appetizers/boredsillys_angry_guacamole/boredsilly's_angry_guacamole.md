@@ -1,4 +1,5 @@
 # Angry Guacamole
+
 by @boredsilly
 
 I get a lot of compliments with this and I believe that's due to the process I've polished in the tips and tricks section. The dish is angry because if you like it spicy like me, your backside will be. This recipe allows for whatever level of heat you can tolerate so don't worry if you aren't a chili head.  It may call for a lot of cilantro but even haters don't seem to notice because they're processed so well.
@@ -7,6 +8,7 @@ Serves 8 to 10
 
 
 ## Ingredients
+
 
 - 6 large ripe avocados
 - 4 large bunches of cilantro or 6 smaller bunches
@@ -18,6 +20,7 @@ Serves 8 to 10
 
 
 ## Preparation Tips and Tricks: [*Read this section first*]
+
 
 **Cilantro**: Hate destemming cilantro like I do?  **BEFORE** you wash it, use a fork to rake down the length of the bunch from the base toward the end. It will pull off the leaves and only some of the stems.  You only then have to process a few stems.  You don't wash the leaves first or those little bastards will stick to everything.  I then throw the destemmed cilantro leaves in a colander and wash them at the end. Remember, the stems are bitter so remove as many as possible for the best flavor.
 
@@ -35,6 +38,7 @@ Serves 8 to 10
 
 
 ## Instructions
+
 
 1. Process the cilantro, onion(s), and chilies as described above and place them in a bowl.
 2. Cut the avocados in half, remove the pits, and scoop out the flesh into the bowl

@@ -1,6 +1,8 @@
 # TailPufft's Vegan Carrot Cake
 
+
 ## Ingredients
+
 - 3 cups flour
 - 2 tsp. baking soda
 - 1 tsp. salt
@@ -12,6 +14,7 @@
 - 1 cup pureed banana (or alternate egg substitue to replace the equivelant of 4 eggs)
 
 ## Directions
+
 A. Pre-heat oven to 350
 1. Mix all the dry ingredients (including sugar)
 2. Mix the wet items (stop giggling) including the walnuts

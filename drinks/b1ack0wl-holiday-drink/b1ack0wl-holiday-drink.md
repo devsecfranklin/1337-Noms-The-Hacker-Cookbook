@@ -1,7 +1,9 @@
 # b1ack0wl's Holiday Drink
+
 **Serving Size**: 2, **Calories**: bout tree-fiddy
 
 ## Ingredients
+
 - 1/3 cup unsweetened cocoa powder
 - 1/2 cup of sugar
 - 1 tsp of salt || to taste
@@ -16,12 +18,14 @@
   - Whatever just don't fuck it up
 
 ### (Optional)
+
 - Whipped Cream
 - Cinnamon powder
 - Sprinkles
 - Marshmallows
 
 ## Recipe
+
 
 - Mix all of the dry ingredients first
 - Boil some water
@@ -36,6 +40,7 @@
 - Add your Liquor
 
 ## (Optional Steps)
+
 - Add marshmallows to each mug
 - Apply whipped cream in a circular fashion to each mug
 - Take a small amount of cocoa powder onto a spoon and tap the spoon slightly to sprinkle cocoa powder on top of the whipped cream.

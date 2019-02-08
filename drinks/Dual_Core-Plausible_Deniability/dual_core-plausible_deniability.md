@@ -1,7 +1,9 @@
 # Dual Core's Plausible Deniability
+
 **Serving Size:** Time Travel, **Calories:** Hackerman
 
 ## Ingredients
+
 - Sugar
 - Grapefruit
 - Pomegranate juice
@@ -9,6 +11,7 @@
 - Vodka
 
 ## Recipe
+
 1. Place ice into a shaker
 2. Cut grapefruit into quarters
 3. Squeeze 1/4 grapefruit into shaker
@@ -21,6 +24,7 @@
 10. Pour shaker contents into sugar-coated pint glass
 
 ## Warnings
+
 * The first time a friend had this drink, he woke up with a broken rib in the morning.  Unsolved mystery.
 * Another friend woke up with bruises the next morning.  Unsolved mystery.
 * **DO NOT** get clever and substitute the grapefruit juice with grapefruit vodka.  #REKT

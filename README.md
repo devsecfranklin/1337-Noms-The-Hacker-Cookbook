@@ -1,4 +1,5 @@
 # 1337-Noms-The-Hacker-Cookbook
+
 [![Build Status](https://travis-ci.org/Nocsetse/1337-Noms-The-Hacker-Cookbook.svg?branch=master)](https://travis-ci.org/Nocsetse/1337-Noms-The-Hacker-Cookbook) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ![hacked](https://github.com/Nocsetse/1337-Noms-The-Hacker-Cookbook/blob/master/hacked.jpeg)
@@ -54,4 +55,3 @@ NOTE: You are releasing the rights to your work under the [included LICENSE](htt
 
 * Browse to book directory and follow the instructions! (Tl;dr, cd book/, ./makebook.sh)
 * Try to use the #hackercookbook hashtag when tweeting about recipes and such. This is so we can find things later.
-

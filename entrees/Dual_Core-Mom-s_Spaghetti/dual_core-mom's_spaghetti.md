@@ -1,7 +1,9 @@
 # Dual Core's Mom's Spaghetti
+
 His palm's spaghetti, knees weak, arms spaghetti.  There's vomit on his sweater spaghetti.  Mom's spaghetti.
 
 ## Ingredients
+
 - 3 cans chopped clams (minced also fine)
 - 1/3 cup olive oil
 - 1/4 cup unsalted butter
@@ -11,6 +13,7 @@ His palm's spaghetti, knees weak, arms spaghetti.  There's vomit on his sweater 
 - 16oz spaghetti, cooked and drained
 
 ## Instructions
+
 1. Drain clams while reserving 3/4 cup liquid; set aside.
 2. In a medium skillet, slowly heat olive oil and butter.
 3. Add garlic and sauté until golden brown.  Remove from heat.
@@ -21,4 +24,5 @@ His palm's spaghetti, knees weak, arms spaghetti.  There's vomit on his sweater 
 Serve over hot spaghetti.  Makes 3-4 servings.  Salad and Italian bread complete this meal.
 
 ## Obligatory Meme Reference
+
 You better lose yourself in your Mom's spaghetti, it's ready.  https://youtu.be/zg-ypZqXAYQ

@@ -1,10 +1,12 @@
 #@hardwaterhacker's Grilled Cedar Plank Salmon
 
+
 This recipe works great for any salmonid.  I've used it on Alaskan red salmon, lake trout, chinook and coho salmon, but should work well with other trout or salmon species.
 
 Serves: 3-4
 
 ##Ingredients
+
 (1) 2 lb. (900 g) salmon fillet, skin left on<br>
 1/2 c (90 g) brown sugar, packed<br>
 2 Tbsp (30 mL) extra virgin olive oil<br>
@@ -16,6 +18,7 @@ Fresh ground black pepper<br>
 (1) Cedar plank
 
 ##Preparation
+
 Soak cedar plank in water for at least one hour prior to grilling.
 
 Preheat gas grill to medium.

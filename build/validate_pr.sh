@@ -11,8 +11,8 @@
 #  REQUIREMENTS: ---
 #          BUGS: ---
 #         NOTES: ---
-#        AUTHOR: YOUR NAME (), 
-#  ORGANIZATION: 
+#        AUTHOR: @theDevilsVoice, 
+#  ORGANIZATION: DEAD10C5 
 #       CREATED: 09/09/2018 18:33
 #      REVISION:  ---
 #===============================================================================
@@ -20,7 +20,7 @@
 #set -o nounset    # Treat unset variables as an error
 
 # collet new markdown filenames
-NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep -H *.md)
+NEW_MD=$(git diff --name-only $TRAVIS_COMMIT_RANGE | grep -rlI --include=\*.md .)
 
 # install ruby
 echo "Install Ruby"
@@ -31,21 +31,36 @@ source ~/.rvm/scripts/rvm
 rvm install ruby --default
 
 # install markdown lint https://github.com/markdownlint/markdownlint
-gem install mdl
+echo "Installing ruby gems..."
+gem install mdl travis travis-lint
+echo "Finished installing ruby gems."
 
 # run markdown lint on new markdown files
-MDL_RESULTS=$(mdl ${NEW_MD})
+echo -e "[RECIPE BOT]\\nRun markdown lint on new .md files:\n ${NEW_MD}"
+while read -r line; do
+  MDL_RESULTS="`echo -e "${MDL_RESULTS}\\n$i"`"
+done <<< "${NEW_MD}"
+#MDL_RESULTS=$(mdl ${NEW_MD})
 
-curl -i -H "Authorization: token $GITHUB_TOKEN" \
+MDL_JSON=`echo -e "{\"body\":\""[RECIPE BOT]\n$MDL_RESULTS"\"}"`
+echo "Here are your results:"
+echo "${MDL_JSON}"
+
+curl -i -H "Authorization: token ${GH_TOKEN}" \
         -H "Content-Type: application/json" \
-        -X POST -d "\{body\":\"$MDL_RESULTS\"}" \
-        https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/$TRAVIS_PULL_REQUEST/comments
+        -X POST -d "${MDL_JSON}" \
+        https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments
 
 
 # run mdcheckr on new markdown files
-MD_CHK_RES=$(/usr/local/bin/mdcheckr ${NEW_MD})
+echo -e "[RECIPE BOT]\\nRun mdcheckr on new markdown files"
+while read -r line; do
+  MD_CHECK_RES="`echo -e "${MD_CHECK_RES}\\n$i"`"
+done <<< "${NEW_MD}"
+#MD_CHK_RES=$(/usr/local/bin/mdcheckr ${NEW_MD})
+MD_JSON=`echo -e "{\"body\":\""[RECIPE BOT]\n$MD_CHECK_RES"\"}"`
 
-curl -i -H "Authorization: token $GITHUB_TOKEN" \
+curl -i -H "Authorization: token ${GH_TOKEN}" \
 	-H "Content-Type: application/json" \
-	-X POST -d "\{body\":\"$MD_CHK_RES\"}" \
-	https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/$TRAVIS_PULL_REQUEST/comments
+	-X POST -d "${MD_JSON}" \
+	https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments

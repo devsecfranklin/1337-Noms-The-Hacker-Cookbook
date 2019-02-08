@@ -1,5 +1,3 @@
-language: generic
-sudo: required
 addons:
   apt:
     packages:
@@ -9,13 +7,26 @@ addons:
     - aspell
     - aspell-en
 before_install:
+- sudo apt-get update -qq
+language: python
+python:
+- '3.4'
+script:
+- rm -rf ./output
+- rm -rf ./cache
+- rm -rf ./plugins/*
 - curl https://raw.githubusercontent.com/mike42/mdcheckr/master/mdcheckr -o mdcheckr
 - chmod +x mdcheckr
 - sudo cp mdcheckr /usr/local/bin
-script:
+- "/usr/local/bin/mdcheckr -v"
+- git config user.email "frank378@gmail.com"
+- git config user.name "@thedevilsvoice"
 - build/validate_pr.sh
-after_success:
-- "./success.sh"
+- build/success.sh
+sudo: required
 env:
-  GITHUB_TOKEN:
-    secure: NlzZZyFSYqGZlnqzg/zLbw5bP37gZYaPhs8FcOnAv9DdlgUHr2hJ3mZ1Vpx/oLHosdioXzA8fjMdeB+k0TWmfhvC7csU2ffoIDG+YfwsMoSjnl0GxK85+MRFy3zXkfj1SbMZntCgm3B2NIUaGlw1JvIpZLieVS+LJbs4GUpD1Q1ec7uj7ktxE/plSnGCWyRzCaZ8sJsUxXX1+uhGFcEEf29R+u3lOQ6tc8Y2tJ8KbKzlSSYP3MbT2QJg2kPd3pEXG12/EL+EXdYmm9+jpUPH8SmD4M2gtJZzege9re0mKN4b7PMo0ocMfmpOijQYry2zzvReAEYKd1ewREq/brPb8vESVmRWQv1BIffMAHMtQeLPw+SUObT2NaQRKRaedPhKxZris9du5tK/U538HXdG6hSufqm/t5mVOhuin3Uov1FiyQnc5VQtldCSRruGfaLdmLhDvXsk/yuaL11Nf4jGgLZOE2G5IjMX8YXis7ywigd4Ac+KLTATM0/EcVn/pE/2RmAzA9r2rQ67WFvt3qsXffGGzlv6YedY0IAZXcYdhWNBZhrh/1Axy3kQbK2mS03TPXTUNqq/0qc84EJAYP0tdLEc7z2sB2+2gjvjWQPnSaDtWzSr2QkcSCOSzS9kd9pUSCpoe5YURWIFMCELdw68NC+xBPye0zpLVnmN2tmWyZE=
+  global:
+  - secure: hIZQzfFOVm9MjxueEEYDfDETg6MpDJEfpinu+iAA0STVIqZaq85AIA8l7hc9AgqRrtz0PUPZAdLwYw0E8mYPaffXkPKRNAEUt4IlWJLMjOCJiZHo67oOWxop7p28dnD2c9dYqD4FKPnzJd40nM0yXWTcBsxqe7miBF+0em7Unh3JAF6z15yqWpTSA2M/noFuxN6IShkhp8EO4bt5j3dHBoqBEkizO6QeYIFLIoIkCdlFsujd5lMX3Ec1ydewkBIW7G1L8+IisBD0PhPv3LhqcyHpsTBgdTkxhdpCIeRw/6wll6z0QRcxkJDxrkTBfZWgZR5QkH09zj7UrPxckCpGwNtVJKXzbLvTZkWagpEH/fW1GW+I5E4UAS9AHvhbhViz1pJnKbmwLVfCvh4uO8odqjVhCTswLTHEx4k1aeLRvLPvscWBumatiGDtge+KKvBmAwdeH9nn7ej0mGmMh9vK6MVdLljBArc4HBkFtIxfT8Os1uWnFIbV8IBhSeVpMUwDoqRJsN0sKFiwaP0IKYcL7EuCaLZ/axCJ4AR6YAWKO2u8ynZsP4u/Y615dSXhRRDcAN1hJcSFURhM6K2qFo+nt43bwsH+A4zpMJF0gP0+0+LtGvtFB6e62+MAeWRb/McNSzXiktL422ATq5NVuU9Oi6zT1qbDgwCQDZo1YmeQQwc=
+notifications:
+  slack:
+    secure: Bsdbc77V1ygNT3ngOXs2lXQ8NT1Lp/D8UXcaEKj9yV7q7g0sljJh9/6LvuUjWTYRqmHoGLDrsThgEQuayhqAeGIoH2KF871L2Rwm2RUg4FmX6x865YOL2UjxXIbmig3itgR4EByxSr6uWMCcBMHPkzP6tPmtPo0Sp/vw0Tn8UBXk7jHSAYHSN6jHR1l22Ask4kZVhhX6eLYQ26A1VafzycoaQIq/vt9sB+JXHd226d+SleAys4qg5X593yGNtAWFR7y9L9LCtOJZS4t1iB/LS8K20/k8giXEjBkMODJT8RVY69EGwLNvt8045HtRYcE/peLucgKFi0V5J9e7pq0YuM9gL7oJJ8LCX3Dy2ZUOOAYcmhK+jIYSl/LCgqU+/JkqVVuJ7G1AUAIiwQ/Xa0ryQjLSLedC153gmnkdc8mgOYoqxdzH8wS4dSgjOc3gkNprN4OqfuXAn5WUBBV5zpkdgome/l7dItbniEneN7sCl/bVsbhxh+5jmITxbMUlRJmyg9oLGL+w9ai2+pPupWW6eFfCTbEM/U+XzbhtPC0oBkwKMfx5T9IWTbrMpPuVU4RvI3QhRCERHlZvLrrJwE4MouQO8xQcD1l/yw5vZjYDAUlprc0zJJqkKVZpnjnb5nVx6MfUjJkpSXuafqcBi5ZeHOX3tCOjdhjRiVmbARncjgs=

@@ -30,7 +30,7 @@ If you are in some country other than England, you're going to have to do some s
 
 1. If you prefer to have bits of potatoe skin left in your mashed potatoes, don't peel them. Otherwise, peel and cut 3 Lbs of potatoes into about 1 inch cubes. Don't cut potatoes with hate in your heart, cut thinking pure thoughts or you'll end up cutting yourself and bleeding all over everything and dying and going straight down to Oracle.
 
-2. Preheat your oven to 425. Pour ~8 cups of water to into your oversized pot and bring it to a roiling boil. 
+2. Preheat your oven to 425. Pour ~8 cups of water to into your oversized pot and bring it to a roiling boil.
 
 <img width="300" height="400" src="DS-aV05WkAAfTjd.jpg?raw=true">
 

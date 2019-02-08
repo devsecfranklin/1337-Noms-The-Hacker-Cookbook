@@ -21,7 +21,7 @@ see also "The Hotel Room Gourmet" here... http://deviating.net/nom/
 
 ## Instructions
 
-1. Bring your water bath up to 126.5 degrees Fahrenheit (52.5 decrees Celsius). 
+1. Bring your water bath up to 126.5 degrees Fahrenheit (52.5 decrees Celsius).
 2. Remove steak from butcher's packaging and, while still cold, apply heat (either Searzall or via stove top cast iron with high smoke point oil) to sear all sides (this is known as the "pre-sear" method).
 3. Place pre-seared (but still uncooked) steak into heavy duty ziploc bag, along with a pinch of french grey sea salt, one pinch of cracked black pepper, one pinch of ground black pepper, two bay leaves, and three squirts of liquid aminos.  (optional: a small drizzle of your oil can go in the bag, mostly to help with heat transfer and eliminating air pockets).
 4. Use the "sous vide water immersion technique" to remove air from the bag... slowly lower the bagged food into your water bath, letting the pressure of the water force the air out through the top of the bag.  once the air is out of the bag, carefully seal it just above the water line.

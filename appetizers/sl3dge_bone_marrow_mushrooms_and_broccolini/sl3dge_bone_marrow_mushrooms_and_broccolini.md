@@ -1,6 +1,6 @@
 # Bone Marrow Mushroom with Roasted Brocolini. @BitSledge
- 
-Incredibly savory dish consisting of crisp baby broccoly and mushrooms roasted in bone marrow. 
+
+Incredibly savory dish consisting of crisp baby broccoly and mushrooms roasted in bone marrow.
 Use 12 inch cast iron skillet if available.
 
 ## Ingredients:
@@ -18,9 +18,9 @@ Use 12 inch cast iron skillet if available.
 - 2 Tbspns Marsala Wine
 - 2 Tbspn Butter
 
-## Optional Ingredients: 
+## Optional Ingredients:
 
-- Crushed Red Pepper 
+- Crushed Red Pepper
 - Fresh Parmesan
 - Soy Sauce
 - 2 Limes
@@ -40,7 +40,7 @@ Use 12 inch cast iron skillet if available.
 11. stir around and let it cook for a bit untill everything is soft yet the peppers are still somewhat crisp, and most of the marrow is liquified.
 12. Sprinkle red chili flakes if desired.
 13. Arrange brocoli in the mix to make it look nice.
-14. Drizzle with some lime juice, and a tiny bit of soy sauce. 
+14. Drizzle with some lime juice, and a tiny bit of soy sauce.
 
 
 

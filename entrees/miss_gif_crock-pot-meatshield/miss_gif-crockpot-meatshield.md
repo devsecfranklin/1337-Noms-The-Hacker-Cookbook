@@ -1,10 +1,12 @@
 # Miss Gif's Crock Pot Meatshield^H^H^H^H^H^hloaf
+
 Author: @miss_gif
 
 In honor of our favorite anime loving, pink mohawk wearing, haxor of the frozen north, I present - the Crock Pot Meatshield...er loaf...Meatloaf...
 Pretty simple and tasty dinner entre that can be made ahead of time and frozen, until your ready to cook it while you are at work...
 
 ## Ingredients
+
 - 2 eggs (beaten like a red headed step child)
 - 1/2 cup organic non gmo pasture fed free range milk
 - 2/3 cup wonder bread crumbs...you figure out how to get them
@@ -15,6 +17,7 @@ Pretty simple and tasty dinner entre that can be made ahead of time and frozen, 
 - Catsup...or BBQ sauce...or Ketchup for the rest of you folks...
 
 ## Instructions
+
 1. Label freezer bags with cooking directions and date.
 2. Mix all the things, together, and place into freezer safe bags.
 3. Place in freezer.
@@ -23,4 +26,5 @@ Pretty simple and tasty dinner entre that can be made ahead of time and frozen, 
 
 
 ## Obligatory Meme Reference
+
 https://pbs.twimg.com/profile_images/611339636141649920/alBSIgct_400x400.jpg

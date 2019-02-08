@@ -1,7 +1,9 @@
 # Dual Core's Macaulay
+
 **Serving Size:** 1, **Calories:** > 9000
 
 ## Ingredients
+
 - 2 tsp Sugar
 - Mint
 - Fresh pineapple juice
@@ -9,6 +11,7 @@
 - Vodka
 
 ## Recipe
+
 1. Cut lime into eights
 2. Muddle sugar, some mint, and two 1/8 wedges of lime together in a shaker
 3. Add ice to shaker
@@ -18,4 +21,5 @@
 7. Pour shaker contents into pint glass, drink with straw
 
 ## Greetz
+
 Shouts out to RoadSec and Casa do Mancha where I first had this drink in São Paulo.

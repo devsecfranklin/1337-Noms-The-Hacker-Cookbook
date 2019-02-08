@@ -1,8 +1,10 @@
 # Monster Chicken Burrito (Extra Hot)
 
+
 A quick way to get a large meal ready with the least amount of effort.
 
 ## Ingredients
+
 - 1/2 Can Pinto Beans/ Black Beans
 - 1 Boneless Chicken Breast
 - 3 Tablespoon Sriracha Sauce
@@ -18,9 +20,11 @@ A quick way to get a large meal ready with the least amount of effort.
 
 ## Preparation
 
+
 The preparation is pretty straightforward. Wash/Drain your chicken then add in salt, generous amounts of Oldbay seasoning (2 fistful) , red chilli powder and mix them well. Then add in half lemon and a 4 tablespoons of white vinegar. Keep it overnight. _Poking some holes into the chicken helps too_
 
 ## Instructions
+
 
 1. Season with Pepper heavily and then microwave the chicken breast for 8-11 minutes (Depending on the power of your microwave), most large microwaves cook it around 8.45 minutes; also let it rest for 4 minutes in the microwave. Use a spoon and blast the chicken to thin shreds.
 

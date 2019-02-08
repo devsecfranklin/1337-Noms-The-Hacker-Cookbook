@@ -11,7 +11,7 @@ Simple Vegan tarter sauce. Quick and easy.
 
 ## Instructions
 
-1. Mix all 
+1. Mix all
 2. Done
 
 ## Notes

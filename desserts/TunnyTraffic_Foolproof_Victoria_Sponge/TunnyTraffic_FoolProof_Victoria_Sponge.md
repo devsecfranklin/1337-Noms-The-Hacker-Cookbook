@@ -21,7 +21,7 @@ For the decoration:
 
 ## Equipment
 
-- 20cm high-sided cake tin (if using sandwich tins split between two 20cm tins and skip the cutting in step 13) 
+- 20cm high-sided cake tin (if using sandwich tins split between two 20cm tins and skip the cutting in step 13)
 - Large mixing bowl
 - A spoon
 - An electric hand whisk while make life easier but if you can do this by hand too

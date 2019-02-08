@@ -1,11 +1,12 @@
 # 1337-Noms-The-Hacker-Cookbook
+
 [![Build Status](https://travis-ci.org/Nocsetse/1337-Noms-The-Hacker-Cookbook.svg?branch=master)](https://travis-ci.org/Nocsetse/1337-Noms-The-Hacker-Cookbook) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ![hacked](https://github.com/Nocsetse/1337-Noms-The-Hacker-Cookbook/blob/master/hacked.jpeg)
 
 This is a collaborative effort. The goal is to collect recipes for an eclectic mix of dishes from around the hacker community. Tell us about your favorite recipe or something you like to make with your own unique twist. Feel free to include a recommendation for booze pairing.
 
-General questions should be directed to [@mzbat](https://twitter.com/mzbat) or [@iheartmalware](https://twitter.com/iheartmalware). 
+General questions should be directed to [@mzbat](https://twitter.com/mzbat) or [@iheartmalware](https://twitter.com/iheartmalware).
 
 We can't promise that all submissions will be included in the final printed book. We do plan to leave this repo up indefinitely. We intend to give any proceeds to a charitable cause.
 
@@ -21,14 +22,14 @@ NOTE: You are releasing the rights to your work under the [included LICENSE](htt
 
 ## Who You Are
 
-* Include how you’d like to be credited/identified in your .md file. 
+* Include how you’d like to be credited/identified in your .md file.
 * Be sure you add your details to the end of the [credits.md](https://github.com/Nocsetse/1337-Noms-The-Hacker-Cookbook/blob/master/credits.md) file.
 
 ## Name of dish
 
-* Just like it sounds, we have to call the dish something. 
+* Just like it sounds, we have to call the dish something.
     * Choose a category (also OK to add a new category)
-    * Create a folder to hold your files. 
+    * Create a folder to hold your files.
     * Name it something like "myname_dishname"
 
 ## Ingredients
@@ -39,7 +40,7 @@ NOTE: You are releasing the rights to your work under the [included LICENSE](htt
     * "myname_dishname.md"
 * Set of steps that explain how to create your dish go in your .md file.
 
-## Photos 
+## Photos
 
 * Instructional and/or completed dish should be uploaded to your sub-folder in the repository.
 
@@ -47,11 +48,10 @@ NOTE: You are releasing the rights to your work under the [included LICENSE](htt
 
 * Temperature
 * Serving tips
-* Beer, wine or drink pairings. 
-* Anything that gives it the finishing touch. 
+* Beer, wine or drink pairings.
+* Anything that gives it the finishing touch.
 
 ## How do I get a copy of the book?
 
 * Browse to book directory and follow the instructions! (Tl;dr, cd book/, ./makebook.sh)
 * Try to use the #hackercookbook hashtag when tweeting about recipes and such. This is so we can find things later.
-

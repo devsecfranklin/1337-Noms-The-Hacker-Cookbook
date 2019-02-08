@@ -1,8 +1,10 @@
 # Elegin's Balsamic Tempeh
 
+
 This is the template to view your awesome recipe. If you view it as raw, you can see the markup for it and use this as a template
 
 ## Ingredients
+
 
 -1 package of tempeh (8oz)
 -1/2 cup of balsamic vinegar (125mL)
@@ -12,19 +14,21 @@ This is the template to view your awesome recipe. If you view it as raw, you can
 
 ## Instructions
 
+
 1. Cut tempheh in to desired shape
-2. In baking dish add all ingredients 
+2. In baking dish add all ingredients
 3. Add tempeh and let marinade in fridge for a 2 to 12 hours. Toss tempeh a few times.
 4. Preheat oven to 350C (180C)
 5. Bake covered for 20 minutes
 6. Remove cover, flip tempeh, and cook for 30 minutes
 7. Remove from oven and let set to absorbe marinade
 
-Depending on baking dish size it is usually easier to double the recipe. Use this as protien replacement in dish where flavor profile fits or have as snacks. 
+Depending on baking dish size it is usually easier to double the recipe. Use this as protien replacement in dish where flavor profile fits or have as snacks.
 
 ## Notes
-- you can get away with 2 hours of marinating but longer can be better if time permits. I have personally not been able to differentiate between like 6 and 12 hours.  I usually prep this in morning and put it in fridge. 
-- might want make sure the dish is at roomish temperature before putting in oven. 
+
+- you can get away with 2 hours of marinating but longer can be better if time permits. I have personally not been able to differentiate between like 6 and 12 hours.  I usually prep this in morning and put it in fridge.
+- might want make sure the dish is at roomish temperature before putting in oven.
 - clean dish sooner than later
 
 

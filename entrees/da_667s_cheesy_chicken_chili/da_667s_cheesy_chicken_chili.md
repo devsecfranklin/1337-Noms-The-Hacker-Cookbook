@@ -19,5 +19,5 @@ A quick crock pot meal, because lord knows you don't have time to cook.
 ## Instructions
 
 1. Open the cans of beans and drain them, then dump the chicken, salsa, cream of chicken, and beans into the crock pot. Mix the ingredients if you're feeling fancy, if not, just let it go 4 hours on high or 8 hours on low.
-2. When ready to serve, serve into a bowl, top with shredded cheese. You can also crush up tortilla chips (like you would saltine crackers) to top the chili. Pairs well with hot sauce. 
+2. When ready to serve, serve into a bowl, top with shredded cheese. You can also crush up tortilla chips (like you would saltine crackers) to top the chili. Pairs well with hot sauce.
 3. Serves about 2-3 people, refrigerates fairly well (will be really thick)

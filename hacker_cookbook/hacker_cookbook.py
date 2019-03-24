@@ -12,7 +12,7 @@ from datetime import datetime
 
 from flask_misaka import Misaka, markdown
 
-app = Flask(__name__, static_url_path='/static')
+app = Flask(__name__,  static_url_path='/static')
 Misaka(app)
 
 tree = {}
@@ -41,7 +41,6 @@ def get_sections(path):
 @app.route('/')
 def index():
   sections = get_sections('/app/hacker_cookbook/templates')
-  print ('DEBUG: ' + markdown(content))
   return render_template("index.html", html=markdown(content), sections=sections)
 
 def make_tree(path):
@@ -60,6 +59,16 @@ def make_tree(path):
           tree['children'].append(dict(name=fn))
   return tree
   
+@app.route('/display/<section>/<recipe>')
+def load_page(section, recipe):
+  my_recipe = CURR_DIR + '/templates/' + section + '/' + recipe + '/' + recipe + '.md'
+  my_content=""
+  with open(my_recipe, "r") as f:
+    my_content = f.read()
+  sections = get_sections('/app/hacker_cookbook/templates')
+  print ('DEBUG: ' + markdown(my_content))
+  return render_template("index.html", html=markdown(my_content), sections=sections)
+
 @app.route('/<section>')
 def list_recipes(section):
   sections = get_sections('/app/hacker_cookbook/templates')
@@ -71,4 +80,4 @@ def list_recipes(section):
     return render_template('404.html'), 404
   
 if __name__ == "__main__":
-  app.run(host="0.0.0.0",debug=True)
+  app.run(host="0.0.0.0",debug=False)

@@ -1,6 +1,6 @@
 # 1337-Noms-The-Hacker-Cookbook
 
-![hacked](/static/images/hacked.jpeg "hacked")
+![hacked](/static/images/Hacker1-1.jpg "hacked")
 
 * [Guidelines for Submission](https://github.com/Nocsetse/1337-Noms-The-Hacker-Cookbook/blob/master/README.md)
 * [Generate PDF Copy of the Cookbook](https://github.com/Nocsetse/1337-Noms-The-Hacker-Cookbook/blob/master/book/README.md)

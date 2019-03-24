@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Path: {{ section }}</title>
+</head>
+<body>
+<h1>{{ section }}</h1>
+<ul>
+{%- for item in tree.children recursive %}
+<li><a href="{{ item.name }}">{{ item.name }}</a>
+
+{%- endfor %}
+</ul>
+</body>
+</html>

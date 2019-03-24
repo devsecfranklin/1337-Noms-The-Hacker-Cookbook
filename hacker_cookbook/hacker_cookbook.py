@@ -2,12 +2,9 @@
 """
   hacker_cookbook application
 
-  :copyright: (c) by 
+  :copyright: (c) 2019 by @theDevilsVoice
   :license: CCC 1.0
 """
-
-# app.py
-
 from flask import Flask, request, jsonify, render_template, redirect, render_template_string
 import os
 import json
@@ -15,7 +12,7 @@ from datetime import datetime
 
 from flask_misaka import Misaka, markdown
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 Misaka(app)
 
 tree = {}
@@ -23,7 +20,7 @@ subfolders = {}
 
 CURR_DIR = os.path.dirname(os.path.realpath(__file__))
 content = ""
-with open('README.md', "r") as f:
+with open(CURR_DIR + '/templates/README.md', "r") as f:
   content = f.read()
 
 def get_sections(path):
@@ -44,7 +41,7 @@ def get_sections(path):
 @app.route('/')
 def index():
   sections = get_sections('/app/hacker_cookbook/templates')
-  print ('DEBUG: ' + str(sections))
+  print ('DEBUG: ' + markdown(content))
   return render_template("index.html", html=markdown(content), sections=sections)
 
 def make_tree(path):
@@ -61,18 +58,15 @@ def make_tree(path):
           tree['children'].append(make_tree(fn))
         else:
           tree['children'].append(dict(name=fn))
-  
   return tree
-
-
   
 @app.route('/<section>')
 def list_recipes(section):
+  sections = get_sections('/app/hacker_cookbook/templates')
   my_section = CURR_DIR + "/templates/" + section
-  # check if section exist
   if os.path.isdir(my_section):
     tree = make_tree(my_section)
-    return render_template("sub.html", section=section, tree=tree )
+    return render_template("sub.html", section=section, tree=tree, sections=sections )
   else:
     return render_template('404.html'), 404
   

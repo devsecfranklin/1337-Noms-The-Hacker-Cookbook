@@ -1,2 +1,4 @@
 *.swp
 *.pdf
+
+__pycache__

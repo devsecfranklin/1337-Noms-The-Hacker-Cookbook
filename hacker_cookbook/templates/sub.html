@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Path: {{ section }}</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block content %}
 <h1>{{ section }}</h1>
 <ul>
 {%- for item in tree.children recursive %}
-<li><a href="{{ item.name }}">{{ item.name }}</a>
-
+{%- set my_list = item.name.split('/') %}
+<li><a href="{{ my_list[5] }}">{{ my_list[5] }}</a>
 {%- endfor %}
 </ul>
-</body>
-</html>
+{% endblock %}

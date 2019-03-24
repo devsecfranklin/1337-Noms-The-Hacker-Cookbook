@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/frank.css') }}">
+  <meta name="author" content="@theDevilsVoice" />
+  {% if title %}
+    <title>{{ title }}</title>
+  {% else %}
+    <title>Page Not Found</title>
+  {% endif %}
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+{% block body %}
+<center>
+<h1>404 PAGE NOT FOUND</h1>
+<p><a href="{{ url_for('index') }}"><b>GO HOME</b></a> <a href="{{ url_for('index') }}"><b>GO HOME</b></a> <a href="{{ url_for('index') }}"><b>GO HOME</b></a> <a href="{{ url_for('index') }}"><b>GO HOME</b></a> <a href="{{ url_for('index') }}"><b>GO HOME</b></a></p>
+<img src="/static/images/pirate.jpeg">
+<p><a href="{{ url_for('index') }}"><b>GO HOME</b></a> <a href="{{ url_for('index') }}"><b>GO HOME</b></a> <a href="{{ url_for('index') }}"><b>GO HOME</b></a> <a href="{{ url_for('index') }}"><b>GO HOME</b></a> <a href="{{ url_for('index') }}"><b>GO HOME</b></a></p>
+<h1>404 PAGE NOT FOUND</h1>
+</center>
+{% endblock %}
+</html>

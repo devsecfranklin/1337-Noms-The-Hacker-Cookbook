@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ section }}</h1>
+<ul>
+{%- for item in tree.children recursive %}
+{%- set my_list = item.name.split('/') %}
+<li><a href="{{ url_for('load_page', section=my_list[4], recipe=my_list[5]) }}">{{ my_list[5] }}</a>
+{%- endfor %}
+</ul>
+{% endblock %}

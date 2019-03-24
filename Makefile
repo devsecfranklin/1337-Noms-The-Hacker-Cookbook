@@ -32,6 +32,16 @@ ifneq (,$(wildcard ./hacker_cookbook.pdf))
 endif
 ifneq (,$(wildcard ${BUILD_DIR}.old))
 	rm -rf ${BUILD_DIR}.old
+	rm -rf .tox
+	rm -rf venv
+	rm -rf .pytest_cache
+	rm -rf .coverage
+	rm -rf *.egg-info
+	rm -rf build
+	rm -rf dist
+	rm -rf htmlcov
+	find . -name '*.pyc' | xargs rm -rf
+	find . -name '__pycache__' | xargs rm -rf
 	
 endif
 ifneq (,$(wildcard ${BUILD_DIR}))
@@ -46,3 +56,7 @@ lint: ## check the Markdown files for issues
 	find . -name '*.md' | xargs /usr/local/bin/mdl
 
 #find . -name '*.md' | xargs /var/lib/gems/2.3.0/gems/mdl-0.4.0/bin/mdl
+local-dev: ## test application locally
+	python3 -m compileall .
+	docker-compose up --build hacker_cookbook
+	@docker-compose run hacker_cookbook /bin/bash

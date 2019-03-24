@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title>Hacker Cookbook</title>
+</head>
+<body>
+<a href="{{ url_for('index') }}"><b>Home</b></a>
+{%- for item in sections.children recursive %}
+<a href="{{ url_for('list_recipes', section=item) }}">{{item}}</a>
+{%- endfor %}
+<hr>
+{% block content %}{% endblock %}
+</body>
+</html>

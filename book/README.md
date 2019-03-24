@@ -1,6 +1,10 @@
-# How To Generate the Cookbook
+# How To Generate PDF Copy of the Cookbook
 
 [![Build Status](https://travis-ci.org/DEAD10C5/1337-Noms-The-Hacker-Cookbook.svg?branch=master)](https://travis-ci.org/DEAD10C5/1337-Noms-The-Hacker-Cookbook)
+
+* Fork this repository
+* Create a clone of your fork
+* From the top level of your clone directory type "make book"
 
 ## mdcheckr
 
@@ -25,4 +29,3 @@ Go through the output and address the formatting issues.
 * To omit MD files from the book, edit the exclude list in the file "book/makebook.py"
 * Run the makebook.sh script to generate the PDF.
 * The md2pdf tool is still python2
-

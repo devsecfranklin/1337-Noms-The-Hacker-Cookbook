@@ -20,7 +20,7 @@ help:
 
 book: clean ## Generate a PDF copy of the Hacker Cookbook
 	@echo "\033[1;33mGenerating PDF cookbook...hang tight!\033[0m"
-	book/makebook.sh
+	makebookbook/makebook.sh
 
 clean: ## clean up the book build
 	@echo "\033[1;32mRenaming stale build dir and backing up last build.\033[0m"

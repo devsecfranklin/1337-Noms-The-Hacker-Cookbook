@@ -64,7 +64,7 @@ function debian {
   #/usr/bin/python3 -m venv ${BUILD_DIR}
   if [ ! -f "./makebook.py" ] 
   then
-    /usr/bin/python3 "${SRC_DIR}"/book/makebook.py 
+    /usr/bin/python3 "${SRC_DIR}"/makebook/makebook.py 
   else 
     /usr/bin/python3 makebook.py
   fi
@@ -85,9 +85,9 @@ function debian {
   # shellcheck source=/tmp/cookbook
   . /tmp/cookbook/bin/activate
   # https://pypi.python.org/pypi/Markdown2PDF/0.1.3
-  if [ -f "${SRC_DIR}/book/requirements.txt" ]
+  if [ -f "${SRC_DIR}/makebook/requirements.txt" ]
   then
-    pip3 install -r "${SRC_DIR}"/book/requirements.txt
+    pip3 install -r "${SRC_DIR}"/makebook/requirements.txt
   elif [ -f "${SRC_DIR}/requirements.txt" ]
   then
     pip3 install -r "${SRC_DIR}"/requirements.txt
@@ -108,7 +108,7 @@ function debian {
     mkdir -p "${BUILD_DIR}"/lib/python"$PYV"/site-packages/markdown2pdf/themes
     # what is this stupid missing parens
     find /tmp/cookbook/lib/python3.5/site-packages/markdown2pdf/ -type f -exec sed -i 's/print css_file/print (css_file)/g' {} \;
-    cp "${SRC_DIR}"/book/frank.css "${BUILD_DIR}"/lib/python"$PYV"/site-packages/markdown2pdf/themes
+    cp "${SRC_DIR}"/makebook/frank.css "${BUILD_DIR}"/lib/python"$PYV"/site-packages/markdown2pdf/themes
     "${BUILD_DIR}"/bin/md2pdf "${BUILD_DIR}"/output.md --theme frank
     #md2pdf ${BUILD_DIR}/output.md --theme ${BASE_DIR}/style.css
     #md2pdf output.md --theme=path_to_style.css

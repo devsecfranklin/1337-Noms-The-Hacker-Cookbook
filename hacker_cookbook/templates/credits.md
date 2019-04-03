@@ -30,3 +30,4 @@
 * [@benheise](https://twitter.com/benheise) - English-style Bangers and Mash
 * [@wimzkl](https://twitter.com/wimzkl) - Caramelized Onion and Mushroom Stuffin'
 * @BitSledge - Sticky Pork Belly and Bone Marrow Mushrooms
+* @pandero - Sausage balls

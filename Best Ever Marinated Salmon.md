@@ -5,7 +5,7 @@
 - whole salmon fillet (whatever size you want)
 - 1/2 cup soy sauce (something good like Shoyu)
 - 3-4 green onions cut into 1 inch pieces
-- dash or 2 of seasame oil
+- dash or 2 of sesame oil
 - 4 slices ginger root
 - 1/4 cup honey
 - 1 T lime juice (more if you like)

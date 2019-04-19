@@ -21,3 +21,7 @@
 3. Whisk together all the dressing ingredients.
 4. In a large serving bowl, toss together all the ingredients and add dressing.
 5. This dish is a crowd pleaser even for folks who don't like brussel sprouts.
+
+Enjoy!
+
+Robin Carnahan

@@ -53,5 +53,5 @@ NOTE: You are releasing the rights to your work under the [included LICENSE](htt
 
 ## How do I get a copy of the book?
 
-* Browse to book directory and follow the instructions! (Tl;dr, cd book/, ./makebook.sh)
+* type "make docker" to generate a PDF
 * Try to use the #hackercookbook hashtag when tweeting about recipes and such. This is so we can find things later.

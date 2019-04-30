@@ -16,7 +16,7 @@ import os
 
 #exclude_list = ['template.md', 'credits.md']
 exclude_list = ['template.md', 'README.md']
-rootDir = '..'
+rootDir = '/app/hacker_cookbook/templates'
 if not os.path.exists('/tmp/cookbook'):
   os.makedirs('/tmp/cookbook')
 outfile = open('/tmp/cookbook/output.md', 'w')

@@ -1,4 +1,4 @@
-.PHONY: book build
+.PHONY: book build docker
 
 REQS := requirements.txt
 BUILD_DIR := /tmp/cookbook
@@ -20,10 +20,6 @@ help:
 
 book: clean ## Generate a PDF copy of the Hacker Cookbook
 	@echo "\033[1;33mGenerating PDF cookbook...hang tight!\033[0m"
-	makebook/makebook.sh
-
-clean: ## clean up the book build
-	@echo "\033[1;32mRenaming stale build dir and backing up last build.\033[0m"
 ifneq (,$(wildcard ./hacker_cookbook_old.pdf))
 	rm hacker_cookbook_old.pdf
 endif
@@ -31,6 +27,15 @@ ifneq (,$(wildcard ./hacker_cookbook.pdf))
 	mv hacker_cookbook.pdf hacker_cookbook_old.pdf
 endif
 ifneq (,$(wildcard ${BUILD_DIR}.old))
+endif
+ifneq (,$(wildcard ${BUILD_DIR}))
+	mv ${BUILD_DIR} ${BUILD_DIR}.old
+endif
+	/usr/local/bin/python3.7 makebook/makebook.py
+	makebook/makebook2.sh
+
+clean: ## clean up the book build
+	@echo "\033[1;32mRenaming stale build dir and backing up last build.\033[0m"
 	rm -rf ${BUILD_DIR}.old
 	rm -rf .tox
 	rm -rf venv
@@ -42,11 +47,6 @@ ifneq (,$(wildcard ${BUILD_DIR}.old))
 	rm -rf htmlcov
 	find . -name '*.pyc' | xargs rm -rf
 	find . -name '__pycache__' | xargs rm -rf
-	
-endif
-ifneq (,$(wildcard ${BUILD_DIR}))
-	mv ${BUILD_DIR} ${BUILD_DIR}.old
-endif
 
 lint: ## check the Markdown files for issues
 	if [ ! command -v mdl ]; then \
@@ -56,7 +56,7 @@ lint: ## check the Markdown files for issues
 	find . -name '*.md' | xargs /usr/local/bin/mdl
 
 #find . -name '*.md' | xargs /var/lib/gems/2.3.0/gems/mdl-0.4.0/bin/mdl
-local-dev: ## test application locally
+docker: ## test application locally
 	python3 -m compileall .
-	docker-compose up --build hacker_cookbook
-	@docker-compose run hacker_cookbook /bin/bash
+	docker-compose -f docker/docker-compose.yml build hacker_cookbook
+	@docker-compose -f docker/docker-compose.yml run hacker_cookbook /bin/bash

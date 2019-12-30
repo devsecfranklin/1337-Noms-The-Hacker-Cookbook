@@ -17,17 +17,17 @@
 * [@jmarler](https://github.com/jmarler) - Marler's Quick Migas
 * [@aaron_the_king](https://github.com/Metruption) - Chicken Parm Nachos, Hashbrownpatty Bacon Sandwich, Dishwasher Salmon, and Tea Tasting Can
 * [@hardwaterhacker](https://twitter.com/hardwaterhacker) - Grilled Cedar Plank Salmon, Crispy Parmesan Walleye, Smoked Whitefish
-* [@MattW](https://twitter.com/_Nips_) - Whiskey Cranberry Brussel Sprouts
+* [@dis0wn](https://twitter.com/dis0wn_) Matt Wagenknecht - Whiskey Cranberry Brussel Sprouts, Two-Cheese Bacon Cauliflower Potato Soup
 * [@travelar](https://twitter.com/erikburgess_) - Southwest Pork Chops
 * @rahlquist Slow Cooker Chorizo Black Bean Stew
 * @wireheadlance - Fried chicken and gravy recipe
 * @TailPufft - Tons of desserts and cookies
 * [@moonbas3](https://twitter.com/moonbas3) - Ribs, Pot Roast, "New" Fashioned
-* @deviantollam - Sous vide Steak
+* [@deviantollam](https://twitter.com/deviantollam) - Sous vide Steak
 * @Wishperactual's Peppernuts
 * [@aaronsteimle](https://twitter.com/aaronsteimle)
 * [@TunnyTraffic](https://twitter.com/tunnytraffic) - Foolproof Victoria Sponge
 * [@benheise](https://twitter.com/benheise) - English-style Bangers and Mash
 * [@wimzkl](https://twitter.com/wimzkl) - Caramelized Onion and Mushroom Stuffin'
 * @BitSledge - Sticky Pork Belly and Bone Marrow Mushrooms
-* @pandero - Sausage balls
+* [@panadero](https://twitter.com/panadero) - Sausage balls

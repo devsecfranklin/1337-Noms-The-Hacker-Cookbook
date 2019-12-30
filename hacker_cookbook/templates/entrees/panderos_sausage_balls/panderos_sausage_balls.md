@@ -1,4 +1,4 @@
-# Pandero's Sausage Balls
+# Panadero's Sausage Balls
 
 ## Ingredients
 

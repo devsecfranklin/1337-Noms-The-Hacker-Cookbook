@@ -1,4 +1,4 @@
-.PHONY: book build docker
+.PHONY: docker python
 
 REQS := requirements.txt
 BUILD_DIR := /tmp/cookbook

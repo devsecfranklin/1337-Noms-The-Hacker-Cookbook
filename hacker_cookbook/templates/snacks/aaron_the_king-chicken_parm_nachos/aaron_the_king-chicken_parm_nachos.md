@@ -1,11 +1,8 @@
 # Chicken Parm Nachos
 
-
 Turn your leftover chicken parm into an exciting midnight snack!
 
 I'm a college student. To give me credit you can link my github https://github.com/Metruption or my twitter @aaron_the_king or both
-
-
 
 ## Ingredients
 
@@ -13,13 +10,12 @@ I'm a college student. To give me credit you can link my github https://github.c
 * Shredded Cheese of your choice, one handful per layer
 * Tortilla chips, half a handful per layer
 * (optional) Various 'fun enhancers' including but not limited to:
-    * Ground Beef, three pinches per layer
-    * Sliced Olives, one pinch per layer
-    * Diced Bell Pepper, two pinches per layer
-    * Salsa, three teaspoons per layer
+  * Ground Beef, three pinches per layer
+  * Sliced Olives, one pinch per layer
+  * Diced Bell Pepper, two pinches per layer
+  * Salsa, three teaspoons per layer
 
 ## Instructions
-
 
 1. Arrange your chips on top of the chicken parm so that it is completely covered
 2. Sprinkle your shredded cheese over the tortilla chips so that there's an even distribution

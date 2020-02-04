@@ -39,9 +39,9 @@
 
 ## Serving
 
-
 Best part:
-1. Cut a wedge
+
+1. Cut a wedge.
 2. Place on a rather size-able plate (NOT PAPER!)
 3. Drizzle a ring of White Rum or Citrus vodka (or your favorite citrusy moonshine? around the wedge in a circle.
 4. Light her up. Serve to guests.

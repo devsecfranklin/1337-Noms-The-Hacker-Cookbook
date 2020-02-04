@@ -1,6 +1,5 @@
 # TailPufft's Cream Cheese Roll Out Cookies with Orange
 
-
 ## Cookies
 
 - 1 cup butter - close to room tempterature
@@ -25,7 +24,12 @@
 ## Directions
 
 A. Pre-heat oven to 350
-1. Cream together butter and sugar. Don't rush the ccreaming together of the butter and sugar step, otherwise the pastry gods will find you and they will punish you. Whisk in cream cheese. Whisk in eggs. Add all the other wet stuff. Add in the orange zest too. You now have a bucket o' orange smelling buttery wet stuff.
+1. Cream together butter and sugar. Don't rush the creaming together of the butter and sugar step, otherwise the 
+pastry gods will find you and they will punish you.
+Whisk in cream cheese. Whisk in eggs.
+Add all the other wet stuff.
+Add in the orange zest too.
+You now have a bucket o' orange smelling buttery wet stuff
 2. Mix all the dry stuff seperately.
 3. Slowly incorporate the dry mixture into the wet mixture. Go ahead and curse a bit for not doing this in a larger sized bowl and go find a larger bowl. I'll wait.
 B. Do not do this in your Kitchenaid mixer as 5 cups of flour is too much for it and I will not bring you Kleenex for your tears when you fry your Kitchenaid motor. (at most, mix up to 3 cups of flour in the wet mixture using the paddle kitchenaid attachment, but then mix the last two cups of flour in by hand.)

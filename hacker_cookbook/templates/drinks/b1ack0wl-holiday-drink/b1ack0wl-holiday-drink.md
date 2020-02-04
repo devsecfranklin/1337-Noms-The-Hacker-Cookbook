@@ -26,7 +26,6 @@
 
 ## Recipe
 
-
 - Mix all of the dry ingredients first
 - Boil some water
 - Take out a deep saucepan (Enough to hold to liquid ingredients without spilling.)
@@ -47,7 +46,6 @@
 - Repeat the above step but for cinnamon powder.
 - Add sprinkles!! :D
 - Enjoy!
-
 
 ```
 

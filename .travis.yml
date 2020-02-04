@@ -1,6 +1,10 @@
+---
+sudo: required
+dist: xenial   # required for Python >= 3.7  
 language: python
 python:
-  - '3.4'
+  - 3.6
+  - 3.7
 addons:
   apt:
     packages:
@@ -10,7 +14,10 @@ addons:
     - aspell
     - aspell-en
 before_install:
-- sudo apt-get update -qq
+  - sudo apt-get update -qq
+  - gem install mdl --no-ri --no-rdoc
+install: 
+  - python3 -m pip install tox  
 script:
 - rm -rf ./output
 - rm -rf ./cache
@@ -19,7 +26,12 @@ script:
 - chmod +x mdcheckr
 - sudo cp mdcheckr /usr/local/bin
 - /usr/local/bin/mdcheckr -v
-sudo: required
+# show the PWD on remote
+- echo "test dir `pwd`"
+# run tox testing during CI, could also "make test"
+#- cd python && tox
+# test to validate the markdown files in this repo
+#- mdl -c .mdlrc ./hacker_cookbook/templates
 env:
   global:
   - secure: hIZQzfFOVm9MjxueEEYDfDETg6MpDJEfpinu+iAA0STVIqZaq85AIA8l7hc9AgqRrtz0PUPZAdLwYw0E8mYPaffXkPKRNAEUt4IlWJLMjOCJiZHo67oOWxop7p28dnD2c9dYqD4FKPnzJd40nM0yXWTcBsxqe7miBF+0em7Unh3JAF6z15yqWpTSA2M/noFuxN6IShkhp8EO4bt5j3dHBoqBEkizO6QeYIFLIoIkCdlFsujd5lMX3Ec1ydewkBIW7G1L8+IisBD0PhPv3LhqcyHpsTBgdTkxhdpCIeRw/6wll6z0QRcxkJDxrkTBfZWgZR5QkH09zj7UrPxckCpGwNtVJKXzbLvTZkWagpEH/fW1GW+I5E4UAS9AHvhbhViz1pJnKbmwLVfCvh4uO8odqjVhCTswLTHEx4k1aeLRvLPvscWBumatiGDtge+KKvBmAwdeH9nn7ej0mGmMh9vK6MVdLljBArc4HBkFtIxfT8Os1uWnFIbV8IBhSeVpMUwDoqRJsN0sKFiwaP0IKYcL7EuCaLZ/axCJ4AR6YAWKO2u8ynZsP4u/Y615dSXhRRDcAN1hJcSFURhM6K2qFo+nt43bwsH+A4zpMJF0gP0+0+LtGvtFB6e62+MAeWRb/McNSzXiktL422ATq5NVuU9Oi6zT1qbDgwCQDZo1YmeQQwc=

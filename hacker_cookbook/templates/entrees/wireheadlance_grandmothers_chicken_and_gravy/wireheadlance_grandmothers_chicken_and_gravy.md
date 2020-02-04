@@ -1,10 +1,8 @@
 # wireheadlance's "Little Grandma's Famous Fried Chicken and Gravy"
 
-
 This is a recipe from wireheadlance's grandmother for fried chicken and gravy!
 
 ## Instructions
-
 
 1. “Select whatever parts you want & salt & pepper. Have about 1/2 inch of oil in frying pan & hot (she always used her electric skillet).
 2. Roll chicken in flower & place skin-side down in hot fat.
@@ -18,5 +16,3 @@ Mother always cut up her down chickens - she liked the boney pieces like the rib
 Mother usually fried her chicken in her electric skillet, set at about 260-275, covered, with it vented just to let a little steam escape. Seems to me that she started it a little higher & then turned down the temp when she turned the pieces over.
 
 Gravy for pork steaks was made in the same manner, except she let the drippings & the flour brown in the grease until it looked like it was starting to scorch & then added the milk…that gave it a nice, rich brown color.
-
-

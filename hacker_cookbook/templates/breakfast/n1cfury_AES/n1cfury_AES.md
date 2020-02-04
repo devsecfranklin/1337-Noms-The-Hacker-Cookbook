@@ -1,13 +1,12 @@
-#n1cfury's AES (Avocado, Eggs, Sriracha)
-
+# n1cfury's AES (Avocado, Eggs, Sriracha)
 
 Being on a tight budget in between jobs and wanting to get in the habit of eating breakfast I wanted to come up with an easy and filling breakfast.  This meal takes minimal effort and will keep you satisfied until lunch.
 
-##Resources
+## Resources
 
 A [small cast-iron skillet](https://www.amazon.com/Lodge-L3SK3-Skillet-Pre-Seasoned-6-5-inch/dp/B00063RWT8/ref=sr_1_1?ie=UTF8&qid=1487463235&sr=8-1&keywords=small+cast+iron+skillet)
 
-##Ingredients
+## Ingredients
 
 2 eggs
 1 ripe Avocado
@@ -16,11 +15,11 @@ Sriracha
 Sea Salt
 Black Pepper
 
-##Preparation
+## Preparation
 
 If you have refrigerated the Avocado, make sure you take it out the night before.  It's not a deal breaker, but it will work better if its already at room temperature.  Before you start cooking, slice the Avocado in half the long way and 'unscrew' it maintaining the half with the pit.  Inside the half without the pit, dice it up in the skin so it is easier to spread.  Unless you're really hungry, save the half with the pit for later and put it in the fridge.  YES, LEAVE THE SEED INSIDE.  Trust me.
 
-##Instructions
+## Instructions
 
 Turn on the stove at low heat.  If you have a gas stove, the flame should be barely visible.  Put a few drops of olive oil on the skillet to coat the bottom and run it along the inside taking account for the surface area of the egg.  Once it warms up, add a small amount of the sea salt and pepper to the skillet, enough to where the pepper will slightly sizzle.  After this crack open two eggs and pour into the skillet adding a bit more salt and pepper to the top of the egg.
 

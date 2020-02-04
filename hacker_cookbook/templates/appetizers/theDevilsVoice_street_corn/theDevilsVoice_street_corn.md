@@ -17,11 +17,9 @@ Mexican food on Taco Tuesday.
 - Tortilla Chips
 - Serrano Chiles, diced
 
-
 ## Instructions
 
-1. In a large skillet or wok, heat up about 1/3 cup of olive oil.
-2. heat the corn in the hot oil until it starts to turn brown, stirring occasionaly so it doesn't stick.
-3. Dump the corn into a bowl with the rest of the ingredients and stir.
-4. Eat it with chips like a dip or put it on your tacos. Optionally spice it up with Serrano or other chile & spices.
-
+- In a large skillet or wok, heat up about 1/3 cup of olive oil.
+- heat the corn in the hot oil until it starts to turn brown, stirring occasionaly so it doesn't stick.
+- Dump the corn into a bowl with the rest of the ingredients and stir.
+- Eat it with chips like a dip or put it on your tacos. Optionally spice it up with Serrano or other chile & spices.

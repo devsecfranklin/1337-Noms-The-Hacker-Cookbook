@@ -1,4 +1,5 @@
-Keto Marbled Turtle Cheesecake
+# Keto Marbled Turtle Cheesecake
+
 sl3dge in partnership with TheKetoBaker
 
 Some tips for keeping a cheesecake from cracking on top: Don’t open the oven, and don’t over bake it! Opening the oven will cause a draft and in turn cause irregularities in the temperature, which makes the cheesecake crack. Over baking will dry it out and also make it crack.
@@ -10,21 +11,23 @@ Per Slice-
 5g Net Carbs
 50g Fat
 10g Protein
- 
+
 Recipe: Makes 12 Slices
 
-Ingredients:
+## Ingredients
 
 ***You will need a 9″ Springform pan***
 
-crust-
+### crust
+
 6 Tbsp of Butter
 1/3 Cup of Swerve
 2 Cups of Almond Flour
 3 Tbsp of Cocoa Baking Powder
 (A very small) Pinch of Salt
 
-Filling- 
+### Filling
+
 4 Eggs
 1 Cup of Swerve
 1 Tsp of Vanilla Extract
@@ -32,7 +35,8 @@ Filling-
 1/3 Cup of Sour Cream
 2 Tbsp of Cocoa Baking Powder
 
-Caramel- 
+### Caramel
+
 4 Tbsp of Butter
 1 Tbsp of Coconut Oil
 4 Tbsp of Heavy Cream
@@ -41,14 +45,16 @@ Caramel-
 A Pinch of Salt
 1 Cup Pecans, roughly chopped
 
-Recipe:
+## Recipe
 
 1. Crust- Preheat oven to 375 Degrees
 2. Combine all ingredients well (I just used my hands to mix it because it’s easier than using a mixer or hand mixer)
 3. Press the mix firmly into the bottom of your springform pan.
 4. Bake for 8 minutes then let cool
 
-Filling- Preheat oven to 350 Degrees, lightly grease the sides of your springform pan and place on baking sheet
+### Filling Directions
+
+Preheat oven to 350 Degrees, lightly grease the sides of your springform pan and place on baking sheet
 
 1. Beat the cream cheese until it is nice and fluffy (about 3 minutes)
 2. Beat in the sweetener, sour cream, and vanilla. Mix for about 3 minutes.
@@ -59,7 +65,9 @@ Filling- Preheat oven to 350 Degrees, lightly grease the sides of your springfor
 7. Run a knife around the inside of the rim to loosen the cake, but let it cool for a while before removing the rim!
 8. Cool the cake for 1-2 hours on a wire rack.
 
-Caramel- Make sure to consistently whisk your caramel throughout the cooking process so it doesn’t burn!
+### Caramel Directions
+
+Make sure to consistently whisk your caramel throughout the cooking process so it doesn’t burn!
 
 1. Melt the butter in a small pan on medium heat and cook until it is golden brown. Add in the coconut oil and stir well.
 2. Add in the heavy cream and stir until it is combined. lower the heat and simmer for about 1 minute.

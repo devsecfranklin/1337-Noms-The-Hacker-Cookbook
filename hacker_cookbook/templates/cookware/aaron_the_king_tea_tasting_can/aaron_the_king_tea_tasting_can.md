@@ -4,7 +4,6 @@ Make loose leaf tea without a fancy teacup or teapot!
 
 This hardware hack is for those times when you want to make tea but you have no teapot. One common solution is a tea tasting cup, which is a cup that lets you brew proper tea in a cup and then remove the leaves afterwards.
 
-
 ## Supplies
 
 * Soda can
@@ -17,7 +16,7 @@ This hardware hack is for those times when you want to make tea but you have no 
 2. Remove the lid of the soda can using the can opener
 3. Poke many holes in the soda can with regular spacing using your sharp pokey thing
 
-## Crafting Tips n' Tricks!
+## Crafting Tips n' Tricks
 
 * If you aren't make sure to have proper adult supervision before doing this.
 * Poke holes with discretion. Don't stab yourself.
@@ -32,7 +31,7 @@ This hardware hack is for those times when you want to make tea but you have no 
 5. Wait until the tea is brewed to your preference
 6. Lift the TTC straight upwards out of your mug
 
-## Brewing Tips n' Tricks!
+## Brewing Tips n' Tricks
 
 * When lifting the TTC out of your mug don't go too fast. Otherwise the tea will gush out of the holes and shoot past the sides of your mug.
 * Use the same amount of leaves and water each time for more consitent brews. Overflowing the cup slightly might feel messy but it ensures you always have the same amount of water.

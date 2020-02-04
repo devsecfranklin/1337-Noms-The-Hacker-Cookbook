@@ -12,5 +12,3 @@
 2. Combine until it forms a nice dough ball.
 3. Pull off and roll into ~1" diameter balls and place on cookie sheet.
 4. Cook for 20 minutes at 300 degrees F.
-
-

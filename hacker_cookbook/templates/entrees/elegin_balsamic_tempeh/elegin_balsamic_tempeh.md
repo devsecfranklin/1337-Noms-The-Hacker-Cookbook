@@ -1,10 +1,8 @@
 # Elegin's Balsamic Tempeh
 
-
 This is the template to view your awesome recipe. If you view it as raw, you can see the markup for it and use this as a template
 
 ## Ingredients
-
 
 -1 package of tempeh (8oz)
 -1/2 cup of balsamic vinegar (125mL)
@@ -14,14 +12,13 @@ This is the template to view your awesome recipe. If you view it as raw, you can
 
 ## Instructions
 
-
-1. Cut tempheh in to desired shape
-2. In baking dish add all ingredients
-3. Add tempeh and let marinade in fridge for a 2 to 12 hours. Toss tempeh a few times.
-4. Preheat oven to 350C (180C)
-5. Bake covered for 20 minutes
-6. Remove cover, flip tempeh, and cook for 30 minutes
-7. Remove from oven and let set to absorbe marinade
+- Cut tempheh in to desired shape
+- In baking dish add all ingredients
+- Add tempeh and let marinade in fridge for a 2 to 12 hours. Toss tempeh a few times.
+- Preheat oven to 350C (180C)
+- Bake covered for 20 minutes
+- Remove cover, flip tempeh, and cook for 30 minutes
+- Remove from oven and let set to absorbe marinade
 
 Depending on baking dish size it is usually easier to double the recipe. Use this as protien replacement in dish where flavor profile fits or have as snacks.
 
@@ -31,12 +28,9 @@ Depending on baking dish size it is usually easier to double the recipe. Use thi
 - might want make sure the dish is at roomish temperature before putting in oven.
 - clean dish sooner than later
 
-
 Quick prep and only oven time for cooking. For a quick meal add some quinoa or wild rice with a vegetable of choice.
-
 
 ![alt text](https://github.com/elegin/1337-Noms-The-Hacker-Cookbook/blob/master/entrees/elegin_balsamic_tempeh/1.jpg )
 ![alt text](https://github.com/elegin/1337-Noms-The-Hacker-Cookbook/blob/master/entrees/elegin_balsamic_tempeh/2.jpg )
 ![alt text](https://github.com/elegin/1337-Noms-The-Hacker-Cookbook/blob/master/entrees/elegin_balsamic_tempeh/3.jpg )
 ![alt text](https://github.com/elegin/1337-Noms-The-Hacker-Cookbook/blob/master/entrees/elegin_balsamic_tempeh/4.jpg )
-

@@ -17,6 +17,3 @@ Simple Vegan tarter sauce. Quick and easy.
 ## Notes
 
 This is never made like this..EVER. Grab a bowl. Use a spoon and dump in what you think will be good and mix. It will be. I eyeball this every time. Every time it is good.
-
-
-

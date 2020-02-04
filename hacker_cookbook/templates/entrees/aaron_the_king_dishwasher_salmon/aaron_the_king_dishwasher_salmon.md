@@ -1,4 +1,4 @@
-## Dishwasher Salmon
+# Dishwasher Salmon
 
 Poached salmon done with your dishes!
 

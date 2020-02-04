@@ -2,7 +2,6 @@
 
 ![hacked](https://www.bitsmasher.net/tmp/hacked.jpeg)
 
-
 This is a collaborative effort. The goal is to collect recipes for an eclectic mix of dishes from around the hacker community. Tell us about your favorite recipe or something you like to make with your own unique twist. Feel free to include a recommendation for booze pairing.
 
 General questions should be directed to [@mzbat](https://twitter.com/mzbat) or [@iheartmalware](https://twitter.com/iheartmalware).
@@ -40,35 +39,35 @@ NOTE: You are releasing the rights to your work under the [included LICENSE](htt
 
 ## Who You Are
 
-* Include how you’d like to be credited/identified in your .md file.
-* Be sure you add your details to the end of the [credits.md](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/credits.md) file.
+- Include how you’d like to be credited/identified in your .md file.
+- Be sure you add your details to the end of the [credits.md](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/credits.md) file.
 
 ## Name of dish
 
-* Just like it sounds, we have to call the dish something.
-    * Choose a category (also OK to add a new category)
-    * Create a folder to hold your files.
-    * Name it something like "myname_dishname"
+- Just like it sounds, we have to call the dish something.
+  - Choose a category (also OK to add a new category)
+  - Create a folder to hold your files.
+  - Name it something like "myname_dishname"
 
 ## Ingredients
 
-* Please include Metric and English wherever possible
-    * [Conversion to/from English/Metric Measurements](http://www.sciencemadesimple.com/volume_conversion.php)
-* Make a file with the same format as the parent folder, but with the .md extension
-    * "myname_dishname.md"
-* Set of steps that explain how to create your dish go in your .md file.
+- Please include Metric and English wherever possible
+  - [Conversion to/from English/Metric Measurements](http://www.sciencemadesimple.com/volume_conversion.php)
+- Make a file with the same format as the parent folder, but with the .md extension
+  - "myname_dishname.md"
+- Set of steps that explain how to create your dish go in your .md file.
 
 ## Photos
 
-* Instructional and/or completed dish should be uploaded to your sub-folder in the repository.
+- Instructional and/or completed dish should be uploaded to your sub-folder in the repository.
 
 ## How should the Dish Be served?
 
-* Temperature
-* Serving tips
-* Beer, wine or drink pairings
-* Anything that gives it the finishing touch
+- Temperature
+- Serving tips
+- Beer, wine or drink pairings
+- Anything that gives it the finishing touch
 
-## How do I get a copy of the book?
+## How do I get a copy of the book
 
-* You're looking at it!
+- You're looking at it!

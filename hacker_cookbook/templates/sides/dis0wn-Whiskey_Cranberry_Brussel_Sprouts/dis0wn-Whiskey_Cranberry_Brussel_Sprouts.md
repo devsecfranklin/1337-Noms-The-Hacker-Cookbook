@@ -1,8 +1,8 @@
 # dis0wn - Whiskey Cranberry Brussel Sprouts
 
-![](brusselsprouts.jpg)
+![brussel_sprouts](/templates/sides/dis0wn-Whiskey_Cranberry_Brussel_Sprouts/brusselsprouts.jpg)
 
-This is one of my wife's favorite sides and even if you hate brussel sprouts, this might be your opportunity the change your mind. Feeds 5-6
+This is one of my wife's favorite sides and even if you hate brussel sprouts, this might be your opportunity to change your mind. Feeds 5-6
 
 ## Ingredients
 
@@ -20,18 +20,18 @@ Prepare your brussel sprouts depending on the option you picked above:
 
 ### Frozen (quick option)
 
-a. Nuke 'em as directed on the package.
-b. Melt helf the butter in frying pan or wok
-c. Increase heat to Medium and add sprouts. Too much heat will burn the butter.
-d. Let them brown a little on the outside then proceed to step 2.
+- Nuke 'em as directed on the package.
+- Melt helf the butter in frying pan or wok
+- Increase heat to Medium and add sprouts. Too much heat will burn the butter.
+- Let them brown a little on the outside then proceed to step 2.
 
 ### Fresh (tasty option)
 
-a. Cut sprouts in half and place them on a baking sheet with cut side up. Cover with foil for easy cleanup. 
-b. Drizzle olive oil over each and sprinkle with a light layer of salt.
-c. Bake @ 400F for 20-30 min. Add more time (~10min) if you like them crispy!
-d. Melt half the butter in a frying pan or wok on Low-Medium heat. Too much heat will burn the butter. 
-e. Add the sprouts and proceed to Step 2.
+- Cut sprouts in half and place them on a baking sheet with cut side up. Cover with foil for easy cleanup. 
+- Drizzle olive oil over each and sprinkle with a light layer of salt.
+- Bake @ 400F for 20-30 min. Add more time (~10min) if you like them crispy!
+- Melt half the butter in a frying pan or wok on Low-Medium heat. Too much heat will burn the butter. 
+- Add the sprouts and proceed to Step 2.
 
 1. Add brown sugar, dried cranberries, and remaining 2 tbps of butter.
 2. Stir on Low-Medium heat until all the brown sugar has disolved.

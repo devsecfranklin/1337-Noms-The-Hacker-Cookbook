@@ -6,7 +6,6 @@ Why is it called a Baked Gringo? It's full of white cheese, mild Spanish chilies
 
 ## Ingredients
 
-
 - 20 to 24 slices of thinly sliced smoked ham
 - 2 pounds of Monterrey Jack (block form)
 - 3 small cans of whole green chilies or fresh roasted, skinned, and deseeded Anaheim chilies (fresh takes longer but is worth it)
@@ -14,7 +13,6 @@ Why is it called a Baked Gringo? It's full of white cheese, mild Spanish chilies
 - 3 cups of finely shredded cheddar cheese (sharp or mild)
 
 ## Instructions
-
 
 1. Preheat oven to 350 degrees Fahrenheit
 2. Cut the cheese blocks into 1/2 to 3/4 inch rectangular slices

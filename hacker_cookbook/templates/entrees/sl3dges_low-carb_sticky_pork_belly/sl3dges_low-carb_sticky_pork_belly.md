@@ -1,13 +1,16 @@
-Low Carb Sticky Pork Belly and "Rice"
+# Low Carb Sticky Pork Belly and "Rice"
 
-7g Net Carbs
-86g Fat
-17g Protein
-Recipe: Makes 6 servings
+- 7g Net Carbs
+- 86g Fat
+- 17g Protein
+
+## Recipe:
+
+Makes 6 servings
 
 *You will need an oiled sautée pan, at a medium heat*
 
-Pork Belly Ingredients:
+## Pork Belly Ingredients
 
 1-2 lbs Pork Belly
 1 Medium Red onion, chopped
@@ -24,8 +27,7 @@ Pork Belly Ingredients:
 1 Cup Green Onion Greens (decorative)
 Cilantro (to taste and decorative)
 
-
-Pork Belly Recipe:
+## Pork Belly Recipe
 
 1. Par-cook the pork belly in the pan, stirring and flipping occasionally.
 2. After 5 minutes, add in the italian seasoning, ginger, garlic, water chestnuts, and onions.
@@ -33,7 +35,4 @@ Pork Belly Recipe:
 4. After 15 minutes, add in the beef broth, rice vinegar, tamari sauce, chinese five spice, and sweetener of choice.
 5. Simmer the mix until the sauce reduces down to the desired consistency, or until it is similar to the consistency of syrup. ***make sure to taste it before it is finished. If it is too salty, add a little more sweetener. If it’s too sweet, add a little more tamari***
 
-
-
-
- Can also be found on theketobaker.com
+Can also be found on theketobaker.com

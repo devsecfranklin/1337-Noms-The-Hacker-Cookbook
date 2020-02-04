@@ -1,6 +1,6 @@
 # dis0wn's Two-Cheese Bacon Potato and Cauliflower Soup
 
-My variation of a traditional Irish soup. Serve with a hearty bread to dip. 
+My variation of a traditional Irish soup. Serve with a hearty bread to dip.
 ![](dis0wn-TCBPCsoup.png)
 
 ## Ingredients
@@ -26,8 +26,8 @@ My variation of a traditional Irish soup. Serve with a hearty bread to dip.
 5. Remove from heat and stir in cheddar cheese and half of the feta. Stir until melted. 
 6. Ladel into a bowl for serving. Sprinkle tarragon over the top. Place a small amount of feta in the middle and sprinkle bacon over the top. 
 
-
 ## Roasted Garlic
+
 1. Pre-heat oven to 375F
 2. Cut just the top off the garlic bulb. 
 3. Place bulb on a small sheet of aluminum foil and drizzle olive oil over the top. Try to let it soak into the middle of the bulb.

@@ -15,13 +15,11 @@ Another super simple quick dish..just chop..add to pot..and drink till done.
 - 2 servings of rice pasta (use your best judgement)
 - 1 package of cubed tofu (baked the tofu and add to near end or just dump it in at beginning dealers choice)
 
-
 ## Instructions
 
 1. Add all ingredients to pot
 2. Cook on medium till simmer then reduce to low until veggies are soft
 3. Dig around and remove ginger
 4. Eat
-
 
 Change up any part of dish. Nice and easy dish. Chopping and waiting.

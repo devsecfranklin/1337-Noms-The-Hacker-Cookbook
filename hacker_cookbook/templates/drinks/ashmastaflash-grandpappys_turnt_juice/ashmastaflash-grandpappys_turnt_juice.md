@@ -2,7 +2,6 @@
 
 ## A cocktail inspired by October in Southeast Tennessee.
 
-
 There's a chill in the air.  The smell of the season's first blaze in the
 fireplace is on the breeze.  Winter is coming to the Appalachian foothills.
 Put down the axe and pack some cherry blend into your burl wood pipe.  Let's
@@ -15,10 +14,12 @@ for you.
 ![Grandpappy's Turnt Juice](ashmastaflash-grandpappys_turnt_juice.jpg)
 
 Tools:
+
 * Martini shaker
 * Mason jar
 
 Ingredients:
+
 * Woodford Reserve bourbon
 * Woodford Reserve cherries
 * Dolin dry vermouth

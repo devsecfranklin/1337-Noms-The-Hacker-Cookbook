@@ -1,4 +1,4 @@
-# Moonbas3's "Instant" Mississippi Pot Roast #
+# Moonbas3's "Instant" Mississippi Pot Roast
 
 ![Moonbas3 "Instant" Mississippi Pot Roast](https://i.imgur.com/C9hp4Wk.jpg)
 

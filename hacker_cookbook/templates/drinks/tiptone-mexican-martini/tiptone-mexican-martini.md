@@ -19,4 +19,4 @@
 4. Strain into cocktail glasses and garnish with olive(s)*
 5. Enjoy
 
-\* mrstiptone insists this should be jalapeno stuffed olives
+**mrstiptone insists this should be jalapeno stuffed olives**

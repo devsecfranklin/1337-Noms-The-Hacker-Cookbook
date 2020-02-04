@@ -10,13 +10,11 @@ Making Old and New Fashioned's is fun for an aspiring amateur bartender. You get
 
 The only difference between this and a traditional Old Fashioned is the addition of the amaretto. Some people also use 1 tsp of wild flower honey instead of the sugar cube, but I enjoy proper muddling.
 
-
 ## Required Equipment
 
 * Muddler
 * Whiskey Glass
 * Big Ol' Ice Cubes (optional)
-
 
 ## Ingredients
 
@@ -27,7 +25,6 @@ The only difference between this and a traditional Old Fashioned is the addition
 * Orange Round
 * Sugar Cube
 * Seltzer Water
-
 
 ## Directions
 

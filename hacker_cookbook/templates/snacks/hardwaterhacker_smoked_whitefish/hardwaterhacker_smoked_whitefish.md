@@ -1,18 +1,17 @@
 # @hardwaterhackers Smoked Whitefish
 
-
 This brine works great for lake whitefish, tullibee (aka cisco), and other similar oily white meat fish.  It even works great for northern pike.
 
 ## Ingredients
 
-6-8 whitefish fillets, skin on<br>
-1 c (180 g) brown sugar, packed<br>
-1 c (300 g) Morton pickling salt<br>
-1/8 c (14 g) coarse ground black pepper<br>
-1/4 c (39 g) granulated garlic powder<br>
-8 bay leaves<br>
-2 Tbsp (14 g) onion powder<br>
-1 gallon (3.8 L) water<br>
+- 6-8 whitefish fillets, skin on
+- 1 c (180 g) brown sugar, packed
+- 1 c (300 g) Morton pickling salt
+- 1/8 c (14 g) coarse ground black pepper
+- 1/4 c (39 g) granulated garlic powder
+- 8 bay leaves
+- 2 Tbsp (14 g) onion powder
+- 1 gallon (3.8 L) water
 
 ## Preparation
 

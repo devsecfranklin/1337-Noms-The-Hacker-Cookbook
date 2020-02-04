@@ -1,7 +1,6 @@
-# Moonbas3 St. Louis Style Barbecue Ribs #
+# Moonbas3 St. Louis Style Barbecue Ribs
 
-
-![Moonbas3 St. Louis Style Barbecue Ribs](https://i.imgur.com/cnVmd7g.jpg)
+[Moonbas3 St. Louis Style Barbecue Ribs](https://i.imgur.com/cnVmd7g.jpg)
 
 ## Required Equipment
 
@@ -17,9 +16,7 @@ Because of the dimensions of the ribs and the locations of their meat, it is dif
 
 Rub makes the world go round, sauce finishes the journey.
 
-
-#### Rub ####
-
+### Rub
 
 * 1 cup firmly packed, dark-preferred, brown sugar
 * 1 cup white sugar
@@ -31,9 +28,7 @@ Rub makes the world go round, sauce finishes the journey.
 * 2 tbsp onion powder
 * sliced and diced rosemary sprigs (1-2)
 
-
-#### Sauce ####
-
+### Sauce
 
 * 1 cup ketchup
 * 3 tbsp dark brown sugar
@@ -47,12 +42,9 @@ Rub makes the world go round, sauce finishes the journey.
 * 1/4 tsp cayenne pepper (more if you like spice)
 * (optional) 1/2 cup of water, if going to heat or like a bit less sticky sauce.
 
-
 ## Directions
 
-
-#### Making the rub ####
-
+### Making the rub
 
 1. Put all ingredients into a bowl and mix thoroughly.
 2. Pat dry the ribs.
@@ -61,17 +53,14 @@ Rub makes the world go round, sauce finishes the journey.
 5. Repeat step 3 and step 4 again.
 6. (Optional) Put aside in refrigerator for 2-16 hours depending on if you can cook today.
 
-
-#### Making the Sauce ####
-
+### Making the Sauce
 
 1. Put ketchup in measuring cup.
 2. Put the rest of the ingredients on top of the ketchsup.
 3. Mix thoroughly.
 4. Add salt to taste.
 
-#### Cooking the Ribs ####
-
+### Cooking the Ribs
 
 0. Realize you will be smoking for about 5-6 hours, so plan wood and charcoal accordingly.
   1.  I use a 50/50 mix of lump charcoal and hickory or cherry wood when doing ribs. I have a big green egg-style smoker, so I fill up the charcoal basin ~75%.

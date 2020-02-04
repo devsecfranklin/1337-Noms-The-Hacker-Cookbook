@@ -18,8 +18,6 @@ Can be a healthy alt for a taco's and a quick prep meal.
 
 ## Instructions
 
-
-
 1. Add avocado to bowl and mash it
 2. Add juice from 1 lime to mashed avocado
 3. Add Drain and rinse chickpeas to bowl and mix
@@ -29,6 +27,3 @@ Can be a healthy alt for a taco's and a quick prep meal.
 7. Boom vegan sour cream. Adjust lemon,vinegar, and salt to taste
 8. Get bowl crumble taco shells in bowl and add everying to it.
 9. EAT!
-
-
-

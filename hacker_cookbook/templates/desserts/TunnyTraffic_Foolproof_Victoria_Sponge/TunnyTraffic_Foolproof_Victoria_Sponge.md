@@ -7,6 +7,7 @@ This is a light sponge that is impossible (E&EO) to get too wrong. Use it as a b
 Weights for some ingredients are not listed here, check the Instructions
 
 For the cake:
+
 - 4 eggs
 - Caster sugar
 - Unsalted butter
@@ -14,10 +15,10 @@ For the cake:
 - 1 teaspoon of vanilla extract
 
 For the decoration:
+
 - Strawberry jam
 - 150g icing sugar
 - 75g unsalted butter - at room temperature to make it easier to work
-
 
 ## Equipment
 
@@ -28,34 +29,33 @@ For the decoration:
 - An oven
 - Wire cooling rack
 
-
 ## Instructions
 
 For the cake:
 
 1. Pre-heat the oven to 180C/350F
 2. Either line the tin with parchment paper or to save having to do complex geometry get a little butter on your fingers, grease the tin, drop in a spoonful of flour and shake it around until the inside if covered. Tip out and discard any loose flour.
-2. Weigh the eggs and set aside.
-2. Weigh out the same amount of butter, sugar, and flour as the eggs.
-3. In the mixing bowl beat the butter until it is smooth and creamy
-4. Into the butter beat the sugar
-5. Add the eggs one at a time, beating into the creamed sugar. You can use the electric hand whisk on a slow setting to work the eggs into the mix.
-6. Sift the flour and beat into the mixture one spoonful at a time making sure there are no lumps.
-7. Beat in the vanilla extract.
-8. Check the consistency of the cake mix, it should drop smoothly off a spoon. If it looks a little too thick add some milk to loosen to mixture.
-9. Spoon the mixture into the tin. Allow to settle and bang the bottom of the tin on the work surface to knock out any bubbles.
-10. Bake for 25-30 minutes until either the top of the cake springs back when pushed gently or a skewer/knife comes out clean.
-11. Tip out onto the wire rack to cool.
+3. Weigh the eggs and set aside.
+4. Weigh out the same amount of butter, sugar, and flour as the eggs.
+5. In the mixing bowl beat the butter until it is smooth and creamy
+6. Into the butter beat the sugar
+7. Add the eggs one at a time, beating into the creamed sugar. You can use the electric hand whisk on a slow setting to work the eggs into the mix.
+8. Sift the flour and beat into the mixture one spoonful at a time making sure there are no lumps.
+9. Beat in the vanilla extract.
+10. Check the consistency of the cake mix, it should drop smoothly off a spoon. If it looks a little too thick add some milk to loosen to mixture.
+11. Spoon the mixture into the tin. Allow to settle and bang the bottom of the tin on the work surface to knock out any bubbles.
+12. Bake for 25-30 minutes until either the top of the cake springs back when pushed gently or a skewer/knife comes out clean.
+13. Tip out onto the wire rack to cool.
 
 Decoration:
 
-12. Beat the icing sugar into the butter to make a buttercream
-13. When the sponge has cooled down sit it on its side and cut it half with a bread knife. If you try this when it's warm it'll break apart.
-14. On the bottom half spoon on the strawberry jam and spread with a knife until it is even.
-15. On the top half spoon on the buttercream and spread until even.
-16. Gently flip the top half and reassemble the cake. Push it down a little to glue the halves together
-17. Sift some icing sugar over the top.
-18. Serve with tea.
+1. Beat the icing sugar into the butter to make a buttercream
+2. When the sponge has cooled down sit it on its side and cut it half with a bread knife. If you try this when it's warm it'll break apart.
+3. On the bottom half spoon on the strawberry jam and spread with a knife until it is even.
+4. On the top half spoon on the buttercream and spread until even.
+5. Gently flip the top half and reassemble the cake. Push it down a little to glue the halves together
+6. Sift some icing sugar over the top.
+7. Serve with tea.
 
 ## Variants
 

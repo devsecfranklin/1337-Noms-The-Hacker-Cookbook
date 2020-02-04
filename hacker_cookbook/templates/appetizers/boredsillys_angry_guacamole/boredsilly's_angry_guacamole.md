@@ -6,9 +6,7 @@ I get a lot of compliments with this and I believe that's due to the process I'v
 
 Serves 8 to 10
 
-
 ## Ingredients
-
 
 - 6 large ripe avocados
 - 4 large bunches of cilantro or 6 smaller bunches
@@ -18,9 +16,7 @@ Serves 8 to 10
 - Sea salt
 - Garlic powder
 
-
 ## Preparation Tips and Tricks: [*Read this section first*]
-
 
 **Cilantro**: Hate destemming cilantro like I do?  **BEFORE** you wash it, use a fork to rake down the length of the bunch from the base toward the end. It will pull off the leaves and only some of the stems.  You only then have to process a few stems.  You don't wash the leaves first or those little bastards will stick to everything.  I then throw the destemmed cilantro leaves in a colander and wash them at the end. Remember, the stems are bitter so remove as many as possible for the best flavor.
 
@@ -36,9 +32,7 @@ Serves 8 to 10
 
 **Keep it from turning gray**: If you need to wait a couple hours before serving, store the finished product in an airtight container(s) with no room for air and refrigerate.  The lime juice will help slow the graying and some say the avocado pits help as well.  You can then dish it in a bowl when the time comes to serve it.
 
-
 ## Instructions
-
 
 1. Process the cilantro, onion(s), and chilies as described above and place them in a bowl.
 2. Cut the avocados in half, remove the pits, and scoop out the flesh into the bowl

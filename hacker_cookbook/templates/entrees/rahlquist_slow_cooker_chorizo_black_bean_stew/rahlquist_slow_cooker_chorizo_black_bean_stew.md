@@ -1,4 +1,4 @@
-## Rahlquist's Slow Cooker Chorizo Black Bean Stew
+# Rahlquist's Slow Cooker Chorizo Black Bean Stew
 
 A large batch (about 6 quart) of thick, hearty, protein rich, low carb stew
 

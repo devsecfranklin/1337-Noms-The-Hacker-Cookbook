@@ -26,7 +26,6 @@ A nice pick-me-up mocha-ish treat. Versatile. I suggest using the strongest most
 
 Optional = 1 Cup chopped Nuts of your choice (be mindful of those with nut allergies)
 
-
 ## Instructions
 
 1. Preheat Oven to 350 Degrees Fahrenheit (177 Celsius)
@@ -43,6 +42,3 @@ Optional = 1 Cup chopped Nuts of your choice (be mindful of those with nut aller
 2. Add Sugar & Vanilla, stirring until smooth consistency.
 3. Pour over the warmed cooked brownies. Optionally adding chopped Nuts.
 4. Enjoy.
-
-
-

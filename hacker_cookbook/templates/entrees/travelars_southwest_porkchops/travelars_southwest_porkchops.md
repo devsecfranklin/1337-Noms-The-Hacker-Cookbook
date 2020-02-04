@@ -2,8 +2,7 @@
 
 A tasty meal with little prep time. I looked at a number of similar recipes and took what I liked about them and began to experiment. This is what I came up with.
 
-## Ingredients:
-
+## Ingredients
 
 * 4-6 thick-cut pork chops
 * 1 teaspoon ground cumin

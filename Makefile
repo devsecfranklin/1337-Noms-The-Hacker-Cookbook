@@ -49,11 +49,11 @@ clean: ## clean up the book build
 	find . -name '__pycache__' | xargs rm -rf
 
 lint: ## check the Markdown files for issues
-	if [ ! command -v mdl ]; then \
+	if [ ! `command -v mdl` ]; then \
 		echo "gem: --no-document" >> ~/.gemrc;\
-		sudo gem install mdl;\
+		gem install mdl;\
 	fi
-	find . -name '*.md' | xargs /usr/local/bin/mdl
+	find ./hacker_cookbook/templates -name '*.md' | xargs /usr/local/bin/mdl
 
 #find . -name '*.md' | xargs /var/lib/gems/2.3.0/gems/mdl-0.4.0/bin/mdl
 docker: ## test application locally

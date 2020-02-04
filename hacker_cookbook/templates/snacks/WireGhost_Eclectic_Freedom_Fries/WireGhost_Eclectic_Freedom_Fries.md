@@ -27,4 +27,4 @@ Makes a very diverse and healthy snack.
 * Top with Sour Cream, Melted Cheddar and Bacon Bits to taste.
 * Take 2nd length of aluminum foil and fold just as similarly into a triangle hat.
 * Wear this hat.
-    * (Optional: Play loudly the Grateful Dead US Blues)
+  * (Optional: Play loudly the Grateful Dead US Blues)

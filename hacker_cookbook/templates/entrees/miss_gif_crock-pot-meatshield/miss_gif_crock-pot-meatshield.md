@@ -24,7 +24,6 @@ Pretty simple and tasty dinner entre that can be made ahead of time and frozen, 
 4. On Cooking day, put frozen meatloaf in crockpot, cover with ketchup or BBQ sauce (use as little or as much as you want).
 5. Cook on low for 8-10 hours (Our frozen meatloaf was ready in 8 hours)
 
-
 ## Obligatory Meme Reference
 
 https://pbs.twimg.com/profile_images/611339636141649920/alBSIgct_400x400.jpg

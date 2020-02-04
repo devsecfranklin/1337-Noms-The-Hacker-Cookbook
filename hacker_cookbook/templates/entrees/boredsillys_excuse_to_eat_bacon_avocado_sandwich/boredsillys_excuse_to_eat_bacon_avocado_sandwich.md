@@ -6,7 +6,6 @@ My wife used to crave avocado sandwiches while she was pregnant but they were to
 
 ## Ingredients
 
-
 - Bacon
 - Cracked black pepper
 - 1 ripe avocado
@@ -18,7 +17,6 @@ My wife used to crave avocado sandwiches while she was pregnant but they were to
 - Salt (optional)
 
 ## Instructions
-
 
 1. Crack the black pepper over several slices of bacon (at least 2) and cook until crispy.
 2. Mix the hot sauce into the mayonnaise and spread evenly over both slices of bread.

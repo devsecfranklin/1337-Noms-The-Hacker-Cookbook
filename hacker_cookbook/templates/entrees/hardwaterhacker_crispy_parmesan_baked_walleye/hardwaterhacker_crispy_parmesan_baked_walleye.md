@@ -1,24 +1,23 @@
-#@hardwaterhacker's Crispy Parmesan Baked Walleye
-
+# @hardwaterhacker's Crispy Parmesan Baked Walleye
 
 This recipe works great for walleye, crappie/sunfish/bluegill (a.k.a. bream), northern pike, or any other similar freshwater, non-oily white meat fish.
 
 Serves: 2-4
 
-##Ingredients
+## Ingredients
 
-2 lbs. (.9 kg) walleye fillets<br>
-2 cups (300 g) panko bread crumbs<br>
-1 packet dry Italian dressing mix (I use Good Seasons)<br>
-1/4 cup (38 g) garlic powder<br>
-Pinch of kosher salt<br>
-Fresh ground black pepper to taste<br>
-2 Tbsp (30 mL) butter<br>
-2 egg whites<br>
-1/2 cup (120 mL) skim milk<br>
-1/2 cup (45 g) finely-grated quality parmesan cheese<br>
+- 2 lbs. (.9 kg) walleye fillets
+- 2 cups (300 g) panko bread crumbs
+- 1 packet dry Italian dressing mix (I use Good Seasons)
+- 1/4 cup (38 g) garlic powder
+- Pinch of kosher salt
+- Fresh ground black pepper to taste
+- 2 Tbsp (30 mL) butter
+- 2 egg whites
+- 1/2 cup (120 mL) skim milk
+- 1/2 cup (45 g) finely-grated quality parmesan cheese
 
-##Preparation
+## Preparation
 
 Preheat oven to 450 degrees F (232 C)
 

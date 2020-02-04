@@ -1,4 +1,4 @@
-# Moonbas3's New Fashioned #
+# Moonbas3's New Fashioned
 
 ![Moonbas3 New Fashioned](https://i.imgur.com/HqXth1P.jpg)
 
@@ -12,19 +12,19 @@ The only difference between this and a traditional Old Fashioned is the addition
 
 ## Required Equipment
 
-* Muddler
-* Whiskey Glass
-* Big Ol' Ice Cubes (optional)
+- Muddler
+- Whiskey Glass
+- Big Ol' Ice Cubes (optional)
 
 ## Ingredients
 
-* 3oz (1 shots) of Wild Roses Bourbon
-* 1oz Amaretto
-* 2 dashes of Angostura Bitters
-* Big Ol' Ice Ball
-* Orange Round
-* Sugar Cube
-* Seltzer Water
+- 3oz (1 shots) of Wild Roses Bourbon
+- 1oz Amaretto
+- 2 dashes of Angostura Bitters
+- Big Ol' Ice Ball
+- Orange Round
+- Sugar Cube
+- Seltzer Water
 
 ## Directions
 

@@ -13,6 +13,7 @@ pip install -rmakebook/requirements.txt; \
 /app/makebook/makebook2.sh;\
 #pip install --upgrade pip
 sed -i -e 's/stretch/buster/g' /etc/apt/sources.list;\
+apt-get install dialog apt-utils -y;\
 apt update -y && apt autoremove -y;\
 apt install -y apt-utils && apt install -y ruby-full
 

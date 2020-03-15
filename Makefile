@@ -51,8 +51,8 @@ clean: ## clean up the book build
 lint: ## check the Markdown files for issues
 	if [ ! `command -v mdl` ]; then \
 		echo "gem: --no-document" >> ~/.gemrc;\
-		sudo echo "gem: --no-document" >> ~/.gemrc;\
-		sudo gem install mdl;\
+		echo "gem: --no-document" >> ~/.gemrc;\
+		gem install mdl;\
 	fi
 	find ./hacker_cookbook/templates -name '*.md' | xargs /usr/local/bin/mdl
 

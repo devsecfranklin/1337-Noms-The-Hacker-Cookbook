@@ -31,7 +31,7 @@ endif
 ifneq (,$(wildcard ${BUILD_DIR}))
 	mv ${BUILD_DIR} ${BUILD_DIR}.old
 endif
-	/usr/local/bin/python3.7 makebook/makebook.py
+	/usr/local/bin/python3 makebook/makebook.py
 	makebook/makebook2.sh
 
 clean: ## clean up the book build
@@ -50,6 +50,7 @@ clean: ## clean up the book build
 
 lint: ## check the Markdown files for issues
 	if [ ! `command -v mdl` ]; then \
+		echo "gem: --no-document" >> ~/.gemrc;\
 		echo "gem: --no-document" >> ~/.gemrc;\
 		gem install mdl;\
 	fi

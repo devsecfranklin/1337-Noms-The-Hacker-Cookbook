@@ -1,6 +1,6 @@
 # Moonbas3 St. Louis Style Barbecue Ribs
 
-[Moonbas3 St. Louis Style Barbecue Ribs](/hacker_cookbook/templates/entrees/moonbas3_bbq_ribs/moonbas3_bbq_ribs_cooking.jpg)
+[Moonbas3 St. Louis Style Barbecue Ribs](/blob/master/hacker_cookbook/templates/entrees/moonbas3_bbq_ribs/moonbas3_bbq_ribs_cooking.jpg)
 
 ## Required Equipment
 

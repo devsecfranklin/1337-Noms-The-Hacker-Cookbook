@@ -2,7 +2,7 @@
 
 Jangajji (장아찌) or pickled vegetables is a type of banchan (side dish) made by pickling vegetables.
 
-![Jangajji](hacker_cookbook/templates/side/thedevilsvoice_jangajji/jangajji.jpg)
+![Jangajji](https://github.com/Nocsetse/1337-Noms-The-Hacker-Cookbook/blob/master/hacker_cookbook/templates/side/thedevilsvoice_jangajji/jangajji.jpg)
 
 ## Ingredients
 
@@ -45,4 +45,5 @@ Jangajji (장아찌) or pickled vegetables is a type of banchan (side dish) made
 3. When boiling starts, count to ten and remove from heat.
 4. Pour the liquid into the jar submerging the vegetables.
 5. Close the lid and leave on counter for 24 hours. Then put into refridgerator to cool.
-6. Serve with white rice, a fried egg, and some gochujang sauce.
+
+Serve with white rice, a fried egg, and some gochujang sauce.

@@ -1,0 +1,7 @@
+pandoc
+markdown
+gunicorn
+flask
+tox
+Flask-Misaka
+sphinx_rtd_theme

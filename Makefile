@@ -1,7 +1,7 @@
 .PHONY: docker python
 
-REQS := requirements.txt
-BUILD_DIR := /tmp/cookbook
+REQS := python/requirements.txt
+REQS_TEST := python/requirements.txt
 
 define PRINT_HELP_PYSCRIPT
 import re, sys
@@ -48,6 +48,12 @@ clean: ## clean up the book build
 	find . -name '*.pyc' | xargs rm -rf
 	find . -name '__pycache__' | xargs rm -rf
 
+docker: ## test application locally
+	$(MAKE) print-status MSG="Building with docker-compose"
+	@if [ -f /.dockerenv ]; then echo "Don't run make docker inside docker container" && exit 1; fi
+	docker-compose -f docker/docker-compose.yml build hacker_cookbook
+	@docker-compose -f docker/docker-compose.yml run hacker_cookbook /bin/bash
+
 lint: ## check the Markdown files for issues
 	if [ ! `command -v mdl` ]; then \
 		echo "gem: --no-document" >> ~/.gemrc;\
@@ -56,8 +62,21 @@ lint: ## check the Markdown files for issues
 	fi
 	find ./hacker_cookbook/templates -name '*.md' | xargs /usr/local/bin/mdl
 
-#find . -name '*.md' | xargs /var/lib/gems/2.3.0/gems/mdl-0.4.0/bin/mdl
-docker: ## test application locally
-	python3 -m compileall .
-	docker-compose -f docker/docker-compose.yml build hacker_cookbook
-	@docker-compose -f docker/docker-compose.yml run hacker_cookbook /bin/bash
+print-status:
+	@:$(call check_defined, MSG, Message to print)
+	@echo "$(BLUE)$(MSG)$(NC)"
+
+python: ## setup python stuff
+	if [ ! -f /.dockerenv ]; then $(MAKE) print-status MSG="Run make python inside docker container" && exit 1; fi
+	$(MAKE) print-status MSG="Set up the Python environment"
+	if [ -f '$(REQS)' ]; then python -m pip install -r$(REQS); fi
+
+sphinx: python ## Generate Sphinx cookbook
+	$(MAKE) print-status MSG="Building cookbook with Sphinx"
+	#sphinx-quickstart
+	cd recipes && make html
+
+test: python ## run tests in container
+	@if [ ! -f /.dockerenv ]; then $(MAKE) print-status MSG="Run make test inside docker container" && exit 1; fi
+	$(MAKE) print-status MSG="Testing"
+	if [ -f '$(REQS_TEST)' ]; then python -m pip install -r$(REQS_TEST); fi

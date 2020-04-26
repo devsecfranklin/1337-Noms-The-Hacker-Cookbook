@@ -1,4 +1,4 @@
-FROM python:3.7.3-stretch
+FROM python:3.8.1-buster
 
 ADD . /app
 WORKDIR /app
@@ -13,8 +13,8 @@ pip install -rmakebook/requirements.txt; \
 /app/makebook/makebook2.sh;\
 #pip install --upgrade pip
 sed -i -e 's/stretch/buster/g' /etc/apt/sources.list;\
-apt-get install dialog apt-utils -y;\
-apt update -y && apt autoremove -y;\
-apt install -y apt-utils && apt install -y ruby-full
+apt install -y dialog apt-utils;\
+apt update -y && apt -y autoremove;\
+apt install -y ruby-full pandoc
 
 CMD ["python", "hacker_cookbook/hacker_cookbook.py"]

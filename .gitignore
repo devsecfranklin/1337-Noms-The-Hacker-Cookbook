@@ -38,3 +38,5 @@ nosetests.xml
 coverage.xml
 *,cover
 .hypothesis/
+
+recipes/_build

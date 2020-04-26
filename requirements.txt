@@ -1,6 +1,0 @@
-pandoc
-markdown
-gunicorn
-flask
-tox
-Flask-Misaka

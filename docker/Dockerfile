@@ -6,15 +6,16 @@ WORKDIR /app
 #USER thedevilsvoice:thedevilsvoice
 RUN \
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367;\
-apt-get -y update; \
-pip install -rrequirements.txt; \
+DEBIAN_FRONTEND=noninteractive apt update; \
+DEBIAN_FRONTEND=noninteractive apt install -y apt-utils;\
+DEBIAN_FRONTEND=noninteractive apt upgrade -y; \
+DEBIAN_FRONTEND=noninteractive apt -y autoremove;\
+DEBIAN_FRONTEND=noninteractive apt install -y ruby-full pandoc
+
+RUN \ 
+pip install -rpython/requirements.txt; \
 pip install -rmakebook/requirements.txt; \
-/usr/local/bin/python3.7 makebook/makebook.py; \
-/app/makebook/makebook2.sh;\
-#pip install --upgrade pip
-sed -i -e 's/stretch/buster/g' /etc/apt/sources.list;\
-apt install -y dialog apt-utils;\
-apt update -y && apt -y autoremove;\
-apt install -y ruby-full pandoc
+/usr/local/bin/python3.8 makebook/makebook.py; \
+/app/makebook/makebook2.sh
 
 CMD ["python", "hacker_cookbook/hacker_cookbook.py"]

@@ -27,3 +27,11 @@ Tips n’ Tricks
 --------------
 
 -  Please don’t put ketchup on it.
+
+.. image:: images/aaron_the_king_hashbrownpatty_bacon_sandwich_0.jpg
+
+.. image:: images/aaron_the_king_hashbrownpatty_bacon_sandwich_1.jpg
+
+.. image:: images/aaron_the_king_hashbrownpatty_bacon_sandwich_2.jpg
+
+.. image:: images/aaron_the_king_hashbrownpatty_bacon_sandwich_3.jpg

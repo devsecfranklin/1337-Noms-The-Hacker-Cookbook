@@ -8,11 +8,20 @@ Welcome to Hacker CookBook
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    :caption: Contents:
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: appetizers
-
+   appetizers/README
+   appetizers/_section
    appetizers/Ajn_point_reyes_brussels_sprout_salad/Ajn_point_reyes_brussels_sprout_salad
+   appetizers/boredsillys_angry_guacamole
+   appetizers/diff_asian_chicken_wings
+   appetizers/sl3dge_bone_marrow_mushrooms_and_broccolini
+   appetizers/theDevilsVoice_street_corn
+   appetizers/v3rtig0_Mashed_Potato_Croquettes
+
+   breakfast/README
+   breakfast/_section
+   breakfast/aaron_the_king_hashbrownpatty_bacon_sandwich
+   breakfast/Marler_quick_migas
+   breakfast/n1cfury_AES

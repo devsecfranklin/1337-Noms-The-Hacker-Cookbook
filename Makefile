@@ -1,7 +1,8 @@
 .PHONY: docker python
 
 REQS := python/requirements.txt
-REQS_TEST := python/requirements.txt
+REQS_SPHINX := python/requirements-sphinx.txt
+REQS_TEST := python/requirements-test.txt
 
 define PRINT_HELP_PYSCRIPT
 import re, sys
@@ -17,22 +18,6 @@ export PRINT_HELP_PYSCRIPT
 
 help: 
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
-
-book: clean ## Generate a PDF copy of the Hacker Cookbook
-	@echo "\033[1;33mGenerating PDF cookbook...hang tight!\033[0m"
-ifneq (,$(wildcard ./hacker_cookbook_old.pdf))
-	rm hacker_cookbook_old.pdf
-endif
-ifneq (,$(wildcard ./hacker_cookbook.pdf))
-	mv hacker_cookbook.pdf hacker_cookbook_old.pdf
-endif
-ifneq (,$(wildcard ${BUILD_DIR}.old))
-endif
-ifneq (,$(wildcard ${BUILD_DIR}))
-	mv ${BUILD_DIR} ${BUILD_DIR}.old
-endif
-	/usr/local/bin/python3 makebook/makebook.py
-	makebook/makebook2.sh
 
 clean: ## clean up the book build
 	@echo "\033[1;32mRenaming stale build dir and backing up last build.\033[0m"
@@ -73,6 +58,7 @@ python: ## setup python stuff
 
 sphinx: python ## Generate Sphinx cookbook
 	$(MAKE) print-status MSG="Building cookbook with Sphinx"
+	if [ -f '$(REQS_SPHINX)' ]; then python -m pip install -r$(REQS_SPHINX); fi
 	#sphinx-quickstart
 	cd recipes && make html
 

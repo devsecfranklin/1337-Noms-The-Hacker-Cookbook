@@ -1,1 +1,1 @@
-web: gunicorn --chdir hacker_cookbook hacker_cookbook:app
+web: gunicorn --chdir python/hacker_cookbook hacker_cookbook:app

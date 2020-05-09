@@ -14,8 +14,6 @@ DEBIAN_FRONTEND=noninteractive apt install -y ruby-full pandoc
 
 RUN \ 
 pip install -rpython/requirements.txt; \
-pip install -rmakebook/requirements.txt; \
-/usr/local/bin/python3.8 makebook/makebook.py; \
-/app/makebook/makebook2.sh
+pip install -rpython/requirements-sphinx.txt
 
 CMD ["python", "hacker_cookbook/hacker_cookbook.py"]

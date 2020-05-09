@@ -40,3 +40,15 @@ Tips n Tricks
    would be boring. We’re making nachos!
 -  After you’ve finished your nachos just pick up the chicken parm and
    eat it with your hands.
+
+.. images:: ../images/aaron_the_king-chicken_parm_nachos_0.jpg
+
+.. images:: ../images/aaron_the_king-chicken_parm_nachos_1.jpg
+
+.. images:: ../images/aaron_the_king-chicken_parm_nachos_2.jpg
+
+.. images:: ../images/aaron_the_king-chicken_parm_nachos_3.jpg
+
+.. images:: ../images/aaron_the_king-chicken_parm_nachos_4.jpg
+
+.. images:: ../images/aaron_the_king-chicken_parm_nachos_5.jpg

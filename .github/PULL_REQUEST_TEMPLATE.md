@@ -1,40 +1,17 @@
-* What changes are you proposing?  (Describe below):
+# Your name's awesome recipe here
 
+This is the template to view your awesome recipe.
+Replace this text with your description.
 
+## Ingredients
 
+- 1 Part of love
+- Dash of hacking
+- Well, more than a dash
+- replace these steps with your steps
 
+## Instructions
 
-
-
-* If you have issues you can reach out to  [Frank](https://github.com/theDevilsVoice)
-
-** NOTE: You are releasing the rights to your work [under the included LICENSE](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/LICENSE)
-
-** Who You Are
-
-Include how you’d like to be credited/identified in your .md file. Include a way for us to contact you if needed.
-
-** Name of dish
-
-Just like it sounds, we have to call the dish something.
-
-** Ingredients
-
-Please include Metric and English wherever possible
-
-[Conversion to/from English/Metric Measurements](http://www.sciencemadesimple.com/volume_conversion.php)
-
-** Detailed preparation instructions
-
-Set of steps that explain how to create your dish.
-
-** Photos
-
-Instructional and/or completed dish should be uploaded to your sub-folder in the repository.
-
-** How should the Dish Be served?
-
-Temperature, serving tips, anything that gives it the finishing touch.
-
-
-** Don't forget to add your name/handle to the [bottom of the credits file](https://github.com/theDevilsVoice/1337-Noms-The-Hacker-Cookbook/blob/master/credits.md)
+1. This is how you make your awesome thing awesome. This usually starts with a number 1
+2. This is the second part that tells you how to do the thing. Cook it, mix it, dance with it? Who knows
+3. Three steps to awesomeness. Have more? Then keep on typing!

@@ -1,7 +1,7 @@
 dis0wn - Whiskey Cranberry Brussel Sprouts
 ==========================================
 
-.. figure:: /templates/sides/dis0wn-Whiskey_Cranberry_Brussel_Sprouts/brusselsprouts.jpg
+.. figure:: images/dis0wn-Whiskey_Cranberry_Brussel_Sprouts.jpg
    :alt: brussel_sprouts
 
    brussel_sprouts

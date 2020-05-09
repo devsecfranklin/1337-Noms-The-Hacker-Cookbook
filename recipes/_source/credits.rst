@@ -9,7 +9,7 @@ Credits
 -  @da_667 - Crock Pot Cheesey Chicken Chili (Dinner)
 -  @iHeartMalware - Crock Pot Pulled Pork (Entrees), THE Purple Drink
    (drinks)
--  `Ajn <https://github.com/x41x41x90>`__
+-  ``Ajn <https://github.com/x41x41x90>``\ \_\_
 -  [@v3rtig0 (Russ Rogers)](https://twitter.com/v3rtig0)
 -  @timstrazz aka diff - diff’s Asian Chicken Wings
 -  @boredsilly

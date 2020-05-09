@@ -25,3 +25,27 @@ Welcome to Hacker CookBook
    breakfast/aaron_the_king_hashbrownpatty_bacon_sandwich
    breakfast/Marler_quick_migas
    breakfast/n1cfury_AES
+
+   cookware/README
+   cookware/_section
+   cookware/aaron_the_king_tea_tasting_can.rst
+
+   sauces/README
+   sauces/_section
+   sauces/elegin_vegan_tarter_sauce.rst
+   sauces/iHeartMalware_buffalo_sauce.rst
+   sauces/jcase_LowCarb_Alabama_white_BBQ_sauce.rst
+   sauces/jcase_LowCarb_NorthCarolina_BBQ_sauce.rst
+
+   sides/README
+   sides/_section
+   sides/dis0wn-Whiskey_Cranberry_Brussel_Sprouts
+   sides/iHeartMalware_fermented_cranberry_relish
+   sides/iHeartMalware_fermented_sauerkraut
+   sides/thedevilsvoice_jangajji
+   
+   snacks/README
+   snacks/_section
+   snacks/aaron_the_king-chicken_parm_nachos
+   snacks/hardwaterhacker_smoked_whitefish
+   snacks/WireGhost_Eclectic_Freedom_Fries

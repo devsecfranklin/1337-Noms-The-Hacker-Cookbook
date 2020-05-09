@@ -14,6 +14,8 @@ DEBIAN_FRONTEND=noninteractive apt install -y ruby-full pandoc
 
 RUN \ 
 pip install -rpython/requirements.txt; \
-pip install -rpython/requirements-sphinx.txt
+pip install -rpython/requirements-sphinx.txt; \
+DEBIAN_FRONTEND=noninteractive apt install -y  texlive-latex-extra
 
+# Run the Flask app locally on port 5000
 CMD ["python", "hacker_cookbook/hacker_cookbook.py"]

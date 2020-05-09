@@ -48,17 +48,17 @@ temperature for another 1-2 hours. Monitor fillets for desired moisture
 content. I prefer my smoked whitefish a little drier. Decrease total
 cooking time if a higher moisture content is desired.
 
-.. figure:: https://github.com/hardwaterhacker/1337-Noms-The-Hacker-Cookbook/blob/master/snacks/hardwaterhacker_smoked_whitefish/whitefish_brine.jpg
+.. figure:: ../images/hardwaterhacker_smoked_whitefish-whitefish_brine.jpg
    :alt: Whitefish in brine
 
    whitefish in brine
 
-.. figure:: https://github.com/hardwaterhacker/1337-Noms-The-Hacker-Cookbook/blob/master/snacks/hardwaterhacker_smoked_whitefish/whitefish_in_smoker.jpg
+.. figure:: ../images/hardwaterhacker_smoked_whitefish-whitefish_in_smoker.jpg
    :alt: Whitefish in smoker
 
    whitefish in smoker
 
-.. figure:: https://github.com/hardwaterhacker/1337-Noms-The-Hacker-Cookbook/blob/master/snacks/hardwaterhacker_smoked_whitefish/smoked_whitefish.jpg
+.. figure:: ../images/hardwaterhacker_smoked_whitefish-smoked_whitefish.jpg
    :alt: Smoked whitefish
 
    smoked whitefish

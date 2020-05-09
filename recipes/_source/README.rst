@@ -1,15 +1,13 @@
 1337-Noms-The-Hacker-Cookbook
 =============================
 
-.. figure:: /static/images/Hacker1-1.jpg
+.. figure:: Hacker1-1.jpg
    :alt: hacked
 
    hacked
 
 -  `Guidelines for
    Submission <https://github.com/Nocsetse/1337-Noms-The-Hacker-Cookbook/blob/master/README.md>`__
--  `Generate PDF Copy of the
-   Cookbook <https://github.com/Nocsetse/1337-Noms-The-Hacker-Cookbook/blob/master/makebook/README.md>`__
 
 --------------
 

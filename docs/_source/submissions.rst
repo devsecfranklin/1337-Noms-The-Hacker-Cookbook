@@ -1,0 +1,80 @@
+===========
+Submissions
+===========
+
+1. Fork this repository. Create a subdirectory for your recipe. Try to make the name of the subdirectory match the name of your recipe.
+2. Include a .md document in your sub dir [Github Markdown Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) You can use the [template file](https://github.com/Nocsetse/1337-Noms-The-Hacker-Cookbook/blob/master/template.md) as a guide to help you in your effort. There is a [markdown tutorial here](http://www.markdowntutorial.com/)
+3. Please include one or two pictures of the preparation or completed dish you think would be helpful. Keep it tasteful, save all that goatse stuff for your next lemon party.
+4. Don't forget to add your name/handle to the bottom of the [credits file](https://github.com/Nocsetse/1337-Noms-The-Hacker-Cookbook/blob/master/credits.md)
+5. Do a pull request against this repo and we will merge your stuff in. Reach out to [@theDevilsVoice](https://twitter.com/thedevilsvoice) if you need technical help.
+
+NOTE: You are releasing the rights to your work under the [included LICENSE](https://github.com/Nocsetse/1337-Noms-The-Hacker-Cookbook/blob/master/license.md)
+
+**************
+Ways to Submit
+**************
+
+Create an Issue
+===============
+
+This is going to be the preferred path for most users. 
+
+1. Please find the "issues" tab in the main page of the repo. 
+2. Click the green "New Issues" button.
+3. Click the green "Get Started" button to add your recipe.
+
+Use the guide below when deciding what to include in your submission.
+
+Create a Pull Request
+=====================
+
+This path is for folks familiar with GitHub.
+
+1. Fork the repository.
+2. Clone your fork.
+3. Make a new branch in your fork. 
+4. Make changes, commit, and push.
+
+Be sure you add your details to the end of the credits.md_ file.
+
+.. _credits.md: https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/blob/master/recipes/_source/credits.rst
+
+It's that simple! 
+
+******************************
+What to Put in Your Submission
+******************************
+
+Use this guide when deciding what to include in your submission. Do include 
+how you’d like to be credited/identified in your .md file. 
+
+
+Name of Dish
+============
+
+* Just like it sounds, we have to call the dish something.
+    * Choose a category (also OK to add a new category)
+    * Create a folder to hold your files.
+    * Name it something like "myname_dishname"
+
+Ingredients
+===========
+
+* Please include Metric and English wherever possible
+    * [Conversion to/from English/Metric Measurements](http://www.sciencemadesimple.com/volume_conversion.php)
+* Make a file with the same format as the parent folder, but with the .md extension
+    * "myname_dishname.md"
+* Set of steps that explain how to create your dish go in your .md file.
+
+Photos
+======
+
+* Instructional and/or completed dish should be uploaded to your sub-folder in the repository.
+
+How should the Dish Be served?
+==============================
+
+* Temperature
+* Serving tips
+* Beer, wine or drink pairings.
+* Anything that gives it the finishing touch.

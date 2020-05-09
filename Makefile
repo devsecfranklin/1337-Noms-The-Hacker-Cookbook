@@ -1,4 +1,4 @@
-.PHONY: docker python
+.PHONY: docker docs python
 
 REQS := python/requirements.txt
 REQS_SPHINX := python/requirements-sphinx.txt
@@ -39,13 +39,9 @@ docker: ## test application locally
 	docker-compose -f docker/docker-compose.yml build hacker_cookbook
 	@docker-compose -f docker/docker-compose.yml run hacker_cookbook /bin/bash
 
-lint: ## check the Markdown files for issues
-	if [ ! `command -v mdl` ]; then \
-		echo "gem: --no-document" >> ~/.gemrc;\
-		echo "gem: --no-document" >> ~/.gemrc;\
-		gem install mdl;\
-	fi
-	find ./hacker_cookbook/templates -name '*.md' | xargs /usr/local/bin/mdl
+docs: python ## Generate documentation
+	#sphinx-quickstart
+	cd docs && make html
 
 print-status:
 	@:$(call check_defined, MSG, Message to print)

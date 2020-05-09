@@ -15,3 +15,4 @@ Welcome to The Hacker Cookbook
 
    _source/introduction
    _source/submissions
+   _source/web_app

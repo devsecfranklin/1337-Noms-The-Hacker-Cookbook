@@ -1,1 +1,1 @@
-<?php header( 'Location: hacker_cookbook/templates/index.html' ) ;  ?>
+<?php header( 'Location: python/hacker_cookbook/templates/index.html' ) ;  ?>

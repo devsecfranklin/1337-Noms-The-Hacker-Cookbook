@@ -1,4 +1,4 @@
-FROM python:3.7.3-stretch
+FROM python:3.8.1-buster
 
 ADD . /app
 WORKDIR /app
@@ -6,15 +6,16 @@ WORKDIR /app
 #USER thedevilsvoice:thedevilsvoice
 RUN \
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367;\
-apt-get -y update; \
-pip install -rrequirements.txt; \
-pip install -rmakebook/requirements.txt; \
-/usr/local/bin/python3.7 makebook/makebook.py; \
-/app/makebook/makebook2.sh;\
-#pip install --upgrade pip
-sed -i -e 's/stretch/buster/g' /etc/apt/sources.list;\
-apt-get install dialog apt-utils -y;\
-apt update -y && apt autoremove -y;\
-apt install -y apt-utils && apt install -y ruby-full
+DEBIAN_FRONTEND=noninteractive apt update; \
+DEBIAN_FRONTEND=noninteractive apt install -y apt-utils;\
+DEBIAN_FRONTEND=noninteractive apt upgrade -y; \
+DEBIAN_FRONTEND=noninteractive apt -y autoremove;\
+DEBIAN_FRONTEND=noninteractive apt install -y ruby-full pandoc
 
+RUN \ 
+pip install -rpython/requirements.txt; \
+pip install -rpython/requirements-sphinx.txt; \
+DEBIAN_FRONTEND=noninteractive apt install -y  texlive-latex-extra
+
+# Run the Flask app locally on port 5000
 CMD ["python", "hacker_cookbook/hacker_cookbook.py"]

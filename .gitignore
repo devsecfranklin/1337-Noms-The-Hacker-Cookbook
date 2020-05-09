@@ -40,4 +40,5 @@ coverage.xml
 .hypothesis/
 
 recipes/_build
+docs/_build
 .vscode

@@ -13,7 +13,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'homelab'
+project = 'Hacker Cookbook'
 copyright = '2020, @theDevilsVoice'
 author = '@theDevilsVoice'
 

@@ -39,10 +39,6 @@ docker: ## test application locally
 	docker-compose -f docker/docker-compose.yml build hacker_cookbook
 	@docker-compose -f docker/docker-compose.yml run hacker_cookbook /bin/bash
 
-docs: python ## Generate documentation
-	#sphinx-quickstart
-	cd docs && make html
-
 print-status:
 	@:$(call check_defined, MSG, Message to print)
 	@echo "$(BLUE)$(MSG)$(NC)"
@@ -51,12 +47,6 @@ python: ## setup python stuff
 	if [ ! -f /.dockerenv ]; then $(MAKE) print-status MSG="Run make python inside docker container" && exit 1; fi
 	$(MAKE) print-status MSG="Set up the Python environment"
 	if [ -f '$(REQS)' ]; then python -m pip install -r$(REQS); fi
-
-sphinx: python ## Generate Sphinx cookbook
-	$(MAKE) print-status MSG="Building cookbook with Sphinx"
-	if [ -f '$(REQS_SPHINX)' ]; then python -m pip install -r$(REQS_SPHINX); fi
-	#sphinx-quickstart
-	cd recipes && make html
 
 test: python ## run tests in container
 	@if [ ! -f /.dockerenv ]; then $(MAKE) print-status MSG="Run make test inside docker container" && exit 1; fi

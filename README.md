@@ -6,6 +6,4 @@
 
 ![hacked](https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/blob/master/docs/images/hacked.jpeg)
 
-[See the documentation on ReadTheDocs.io](https://1337-noms-the-hacker-cookbook.readthedocs.io/)
-
-If you still need help you can reach out to [@mzbat](https://twitter.com/mzbat) or [@iheartmalware](https://twitter.com/iheartmalware).
+If you still need help you can reach out to [@thedevilsvoice](https://twitter.com/thedevilsvoice) or [@iheartmalware](https://twitter.com/iheartmalware).

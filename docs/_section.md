@@ -1,5 +1,4 @@
-1337-Noms-The-Hacker-Cookbook
-=============================
+# 1337-Noms-The-Hacker-Cookbook
 
 ![hacked](https://www.bitsmasher.net/tmp/hacked.jpeg)
 
@@ -9,16 +8,15 @@ your favorite recipe or something you like to make with your own unique
 twist. Feel free to include a recommendation for booze pairing.
 
 General questions should be directed to
-\[\@mzbat\](<https://twitter.com/mzbat>) or
-\[\@iheartmalware\](<https://twitter.com/iheartmalware>).
+[@thedevilsvoice](https://twitter.com/thedevilsvoice) or
+[@iheartmalware](https://twitter.com/iheartmalware).
 
 We can't promise that all submissions will be included in the final
 printed book. We do plan to leave this repo up indefinitely. We intend
 to give proceeds from any sales of printed book to [Electronic Frontier
 Foundation](https://supporters.eff.org/shop).
 
-Table of Contents
-=================
+## Table of Contents
 
 <div id="toc_container">
 <ul class="toc">

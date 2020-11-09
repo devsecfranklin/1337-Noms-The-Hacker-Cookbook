@@ -1,8 +1,6 @@
 .PHONY: docker docs python
 
 REQS := python/requirements.txt
-REQS_SPHINX := python/requirements-sphinx.txt
-REQS_TEST := python/requirements-test.txt
 
 define PRINT_HELP_PYSCRIPT
 import re, sys
@@ -22,14 +20,7 @@ help:
 clean: ## clean up the book build
 	@echo "\033[1;32mRenaming stale build dir and backing up last build.\033[0m"
 	rm -rf ${BUILD_DIR}.old
-	rm -rf .tox
-	rm -rf venv
-	rm -rf .pytest_cache
-	rm -rf .coverage
-	rm -rf *.egg-info
-	rm -rf build
-	rm -rf dist
-	rm -rf htmlcov
+	rm -rf docs/_build
 	find . -name '*.pyc' | xargs rm -rf
 	find . -name '__pycache__' | xargs rm -rf
 
@@ -51,14 +42,3 @@ python: ## setup python stuff
 	if [ ! -f /.dockerenv ]; then $(MAKE) print-status MSG="Run make python inside docker container" && exit 1; fi
 	$(MAKE) print-status MSG="Set up the Python environment"
 	if [ -f '$(REQS)' ]; then python -m pip install -r$(REQS); fi
-
-sphinx: python ## Generate Sphinx cookbook
-	$(MAKE) print-status MSG="Building cookbook with Sphinx"
-	if [ -f '$(REQS_SPHINX)' ]; then python -m pip install -r$(REQS_SPHINX); fi
-	#sphinx-quickstart
-	cd recipes && make html
-
-test: python ## run tests in container
-	@if [ ! -f /.dockerenv ]; then $(MAKE) print-status MSG="Run make test inside docker container" && exit 1; fi
-	$(MAKE) print-status MSG="Testing"
-	if [ -f '$(REQS_TEST)' ]; then python -m pip install -r$(REQS_TEST); fi

@@ -1,6 +1,6 @@
 .PHONY: docker docs python
 
-REQS := python/requirements.txt
+REQS := requirements.txt
 
 define PRINT_HELP_PYSCRIPT
 import re, sys
@@ -20,7 +20,7 @@ help:
 clean: ## clean up the book build
 	@echo "\033[1;32mRenaming stale build dir and backing up last build.\033[0m"
 	rm -rf ${BUILD_DIR}.old
-	rm -rf docs/_build
+	rm -rf recipes/_build
 	find . -name '*.pyc' | xargs rm -rf
 	find . -name '__pycache__' | xargs rm -rf
 

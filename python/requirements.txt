@@ -1,5 +1,4 @@
 pandoc
 markdown
-gunicorn
-flask
-Flask-Misaka
+sphinx
+sphinx_rtd_theme

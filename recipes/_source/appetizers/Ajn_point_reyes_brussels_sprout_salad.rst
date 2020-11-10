@@ -8,7 +8,7 @@ the chance. Here goes…
 Ingredients
 -----------
 
--  1/3-1/2lb uncooked, untrimmed Brussels sprouts
+-  1/3-1/2 lb uncooked, untrimmed Brussels sprouts
 -  1 tbsp+ high quality olive oil
 -  1 tbsp maple syrup
 -  1 tbsp grainy mustard

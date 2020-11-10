@@ -4,8 +4,10 @@ Credits
 - [@mzbat](https://twitter.com/mzbat) - Organizing the project
 - [@iHeartMalware](https://twitter.com/iheartmalware) - Organizing the
    project
-- [@TheDevilsVoice](https://twitter.com/TheDevilsVoice) - Organizing
-   the project
+- [@TheDevilsVoice](https://twitter.com/TheDevilsVoice)
+  - Organizing the project
+  - Street Corn
+  - Jangajji
 - @da_667 - Crock Pot Cheesey Chicken Chili (Dinner)
 - @iHeartMalware - Crock Pot Pulled Pork (Entrees), THE Purple Drink
    (drinks)
@@ -20,9 +22,11 @@ Credits
 - [@dualcoremusic](https://twitter.com/dualcoremusic) - Drink all the
    booze, Hack all the things!
 - [@jmarler](https://github.com/jmarler) - Marler’s Quick Migas
-- [@aaron_the_king](https://github.com/Metruption) - Chicken Parm
-   Nachos, Hashbrownpatty Bacon Sandwich, Dishwasher Salmon, and Tea
-   Tasting Can
+- @aaron_the_king 
+  - Chicken Parm Nachos
+  - Hashbrownpatty Bacon Sandwich
+  - Dishwasher Salmon
+  - Tea Tasting Can
 - [@hardwaterhacker](https://twitter.com/hardwaterhacker) - Grilled
    Cedar Plank Salmon, Crispy Parmesan Walleye, Smoked Whitefish
 - [@dis0wn](https://twitter.com/dis0wn_) Matt Wagenknecht - Whiskey Cranberry Brussel Sprouts, Two-Cheese Bacon Cauliflower Potato Soup
@@ -42,4 +46,3 @@ Credits
    Bone Marrow Mushrooms
 - [@panadero](https://twitter.com/panadero) - Sausage balls
 - @tiptone - Mexican Martini
-- [@theDevilsVoice](https://twitter.com/thedevilsvoice) - Jangajji

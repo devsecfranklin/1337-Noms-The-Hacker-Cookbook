@@ -3,9 +3,6 @@ Chicken Parm Nachos
 
 Turn your leftover chicken parm into an exciting midnight snack!
 
-I’m a college student. To give me credit you can link my github
-https://github.com/Metruption or my twitter @aaron_the_king or both
-
 Ingredients
 -----------
 

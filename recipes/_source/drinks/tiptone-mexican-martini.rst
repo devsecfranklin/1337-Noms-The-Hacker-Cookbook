@@ -26,5 +26,3 @@ Recipe
 5. Enjoy
 
 **mrstiptone insists this should be jalapeno stuffed olives**
-
-

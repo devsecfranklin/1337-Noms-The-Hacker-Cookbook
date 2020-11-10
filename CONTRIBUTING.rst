@@ -23,7 +23,7 @@ Submissions
 
 You are releasing the rights to your work under the `included LICENSE`_ .
 
-.. _`included LICENSE`: https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/blob/master/LICENSE.md)
+.. _`included LICENSE`: https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/blob/master/LICENSE.md
 
 **************
 Ways to Submit

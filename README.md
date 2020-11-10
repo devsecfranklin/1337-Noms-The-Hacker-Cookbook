@@ -3,7 +3,7 @@
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/Nocsetse/1337-Noms-The-Hacker-Cookbook.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Nocsetse/1337-Noms-The-Hacker-Cookbook/alerts/)
 
-![hacked](https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/blob/master/recipes/images/hacked.jpeg)
+![hacked](https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/blob/master/recipes/images/hacked.jpg)
 
 [Click here to learn how to add your recipe to this project!](https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/blob/master/CONTRIBUTING.rst)
 

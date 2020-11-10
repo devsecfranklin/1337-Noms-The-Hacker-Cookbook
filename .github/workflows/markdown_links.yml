@@ -1,5 +1,3 @@
-# https://github.com/marketplace/actions/markdown-link-check
-# https://github.com/tcort/markdown-link-check
 name: Check Markdown links
 
 on: push
@@ -13,6 +11,5 @@ jobs:
       with:
         use-quiet-mode: 'no'
         use-verbose-mode: 'yes'
-        #config-file: 'mlc_config.json'
         folder-path: 'recipes/_source'
         max-depth: 2

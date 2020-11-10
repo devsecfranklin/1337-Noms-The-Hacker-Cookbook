@@ -7,15 +7,17 @@ Welcome to Hacker CookBook
 ==========================
 
 .. toctree::
-   :maxdepth: 2
+   :numbered:
+   :maxdepth: 3
    :caption: Contents:
+
+   _source/credits
 
 .. toctree::
    :maxdepth: 2
    :numbered:
    :caption: appetizers
 
-   _source/appetizers/README
    _source/appetizers/_section
    _source/appetizers/Ajn_point_reyes_brussels_sprout_salad
    _source/appetizers/boredsillys_angry_guacamole
@@ -29,7 +31,6 @@ Welcome to Hacker CookBook
    :numbered:
    :caption: breakfast 
 
-   _source/breakfast/README
    _source/breakfast/_section
    _source/breakfast/aaron_the_king_hashbrownpatty_bacon_sandwich
    _source/breakfast/Marler_quick_migas
@@ -40,7 +41,6 @@ Welcome to Hacker CookBook
    :numbered:
    :caption: cookware
 
-   _source/cookware/README
    _source/cookware/_section
    _source/cookware/aaron_the_king_tea_tasting_can
 
@@ -49,7 +49,6 @@ Welcome to Hacker CookBook
    :numbered:
    :caption: desserts
 
-   _source/desserts/README
    _source/desserts/_section
    _source/desserts/Breaking_Bad_Blackhat_Brownies
    _source/desserts/keto_marbled_turtle_cheesecake
@@ -65,7 +64,6 @@ Welcome to Hacker CookBook
    :numbered:
    :caption: drinks
 
-   _source/drinks/README
    _source/drinks/_section
    _source/drinks/ashmastaflash-grandpappys_turnt_juice
    _source/drinks/b1ack0wl-holiday-drink
@@ -84,7 +82,6 @@ Welcome to Hacker CookBook
    :numbered:
    :caption: entrees
 
-   entrees/README
    entrees/_section
    entrees/0xrnair_monster_chicken_burrito
    entrees/aaron_the_king_dishwasher_salmon
@@ -105,7 +102,7 @@ Welcome to Hacker CookBook
    entrees/miss_gif_crock-pot-meatshield
    entrees/moonbas3_bbq_ribs
    entrees/moonbas3_mississippi_pot_roast
-   entrees/panaderos_sausage_balls.rst
+   entrees/panaderos_sausage_balls
    entrees/rahlquist_slow_cooker_chorizo_black_bean_stew
    entrees/sl3dges_low-carb_sticky_pork_belly
    entrees/slufs_seared_tuna_pasta
@@ -118,19 +115,17 @@ Welcome to Hacker CookBook
    :numbered:
    :caption: sauces 
 
-   _source/sauces/README
    _source/sauces/_section
-   _source/sauces/elegin_vegan_tarter_sauce.rst
-   _source/sauces/iHeartMalware_buffalo_sauce.rst
-   _source/sauces/jcase_LowCarb_Alabama_white_BBQ_sauce.rst
-   _source/sauces/jcase_LowCarb_NorthCarolina_BBQ_sauce.rst
+   _source/sauces/elegin_vegan_tarter_sauce
+   _source/sauces/iHeartMalware_buffalo_sauce
+   _source/sauces/jcase_LowCarb_Alabama_white_BBQ_sauce
+   _source/sauces/jcase_LowCarb_NorthCarolina_BBQ_sauce
 
 .. toctree::
    :maxdepth: 2
    :numbered:
    :caption: sides
 
-   _source/sides/README
    _source/sides/_section
    _source/sides/dis0wn-Whiskey_Cranberry_Brussel_Sprouts
    _source/sides/iHeartMalware_fermented_cranberry_relish
@@ -142,7 +137,6 @@ Welcome to Hacker CookBook
    :numbered:
    :caption: snacks
 
-   _source/snacks/README
    _source/snacks/_section
    _source/snacks/aaron_the_king-chicken_parm_nachos
    _source/snacks/hardwaterhacker_smoked_whitefish

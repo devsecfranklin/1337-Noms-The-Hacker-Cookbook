@@ -2,7 +2,7 @@ Credits
 =======
 
 - [@mzbat](https://twitter.com/mzbat) - Organizing the project
-- [@iHeartMalware](https://twitter.com/iheartmalware) 
+- [@iHeartMalware](https://twitter.com/iheartmalware)
   - Organizing the project
   - Crock Pot Pulled Pork (Entrees)
   - THE Purple Drink (drinks)

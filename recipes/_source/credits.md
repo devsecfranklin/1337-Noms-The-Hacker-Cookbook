@@ -2,15 +2,15 @@ Credits
 =======
 
 - [@mzbat](https://twitter.com/mzbat) - Organizing the project
-- [@iHeartMalware](https://twitter.com/iheartmalware) - Organizing the
-   project
+- [@iHeartMalware](https://twitter.com/iheartmalware) 
+  - Organizing the project
+  - Crock Pot Pulled Pork (Entrees)
+  - THE Purple Drink (drinks)
 - [@TheDevilsVoice](https://twitter.com/TheDevilsVoice)
   - Organizing the project
   - Street Corn
   - Jangajji
 - @da_667 - Crock Pot Cheesey Chicken Chili (Dinner)
-- @iHeartMalware - Crock Pot Pulled Pork (Entrees), THE Purple Drink
-   (drinks)
 - ``Ajn <https://github.com/x41x41x90>``\ \_\_
 - [@v3rtig0 (Russ Rogers)](https://twitter.com/v3rtig0)
 - @timstrazz aka diff - diff’s Asian Chicken Wings
@@ -19,17 +19,20 @@ Credits
 - @b1ack0wl - Holiday drink
 - @n1c_Fury - AES-Avocado Eggs Sriracha
 - @Wireghost - Eclectic Freedom Fries
-- [@dualcoremusic](https://twitter.com/dualcoremusic) - Drink all the
-   booze, Hack all the things!
+- [@dualcoremusic](https://twitter.com/dualcoremusic) - Drink all the booze, Hack all the things!
 - [@jmarler](https://github.com/jmarler) - Marler’s Quick Migas
-- @aaron_the_king 
+- @aaron_the_king
   - Chicken Parm Nachos
   - Hashbrownpatty Bacon Sandwich
   - Dishwasher Salmon
   - Tea Tasting Can
-- [@hardwaterhacker](https://twitter.com/hardwaterhacker) - Grilled
-   Cedar Plank Salmon, Crispy Parmesan Walleye, Smoked Whitefish
-- [@dis0wn](https://twitter.com/dis0wn_) Matt Wagenknecht - Whiskey Cranberry Brussel Sprouts, Two-Cheese Bacon Cauliflower Potato Soup
+- [@hardwaterhacker](https://twitter.com/hardwaterhacker)
+  - Grilled Cedar Plank Salmon
+  - Crispy Parmesan Walleye
+  - Smoked Whitefish
+- [@dis0wn](https://twitter.com/dis0wn_) Matt Wagenknecht
+  - Whiskey Cranberry Brussel Sprouts
+  - Two-Cheese Bacon Cauliflower Potato Soup
 - [@travelar](https://twitter.com/erikburgess_) - Southwest Pork Chops
 - @rahlquist Slow Cooker Chorizo Black Bean Stew
 - @wireheadlance - Fried chicken and gravy recipe
@@ -40,9 +43,9 @@ Credits
 - [@aaronsteimle](https://twitter.com/aaronsteimle)
 - [@TunnyTraffic](https://twitter.com/tunnytraffic) - Foolproof Victoria Sponge
 - [@benheise](https://twitter.com/benheise) - English-style Bangers and Mash
-- [@wimzkl](https://twitter.com/wimzkl) - Caramelized Onion and
-   Mushroom Stuffin’
-- [@BitSledge](https://twitter.com/bitsledge) - Sticky Pork Belly and
-   Bone Marrow Mushrooms
+- [@wimzkl](https://twitter.com/wimzkl) - Caramelized Onion and Mushroom Stuffin’
+- [@BitSledge](https://twitter.com/bitsledge)
+  - Sticky Pork Belly
+  - Bone Marrow Mushrooms
 - [@panadero](https://twitter.com/panadero) - Sausage balls
 - @tiptone - Mexican Martini

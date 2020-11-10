@@ -20,11 +20,13 @@ help:
 book: python ## Generate documentation
 	@if [ ! -f /.dockerenv ]; then $(MAKE) print-status MSG="***> Run make docs inside docker container <***" && exit 1; fi
 	$(MAKE) print-status MSG="Building HTML docs"
-	cd docs && make html && cd -
+	cd recipes && make html && cd -
 	$(MAKE) print-status MSG="Building LaTeX docs"
-	cd docs && make latexpdf && cd -
+	cd recipes && \
+	sphinx-build -b latex -d _build/doctrees . _build/xetex && cd _build/xetex; xelatex *.tex && \
+	cd -
 	$(MAKE) print-status MSG="Building EPUB docs"
-	cd docs && make epub && cd -
+	cd recipes && make epub && cd -
 
 clean: ## clean up the book build
 	@echo "\033[1;32mRenaming stale build dir and backing up last build.\033[0m"

@@ -1,7 +1,7 @@
 1337-Noms-The-Hacker-Cookbook
 =============================
 
-.. figure:: https://www.bitsmasher.net/tmp/hacked.jpeg
+.. figure:: https://www.bitsmasher.net/tmp/hacked.jpg
    :alt: hacked
 
    hacked

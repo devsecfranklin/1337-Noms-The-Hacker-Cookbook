@@ -98,3 +98,24 @@ html_theme = 'sphinx_rtd_theme'
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
+
+# -- Options for LaTeX output --------------------------------------------------
+
+# The paper size ('letter' or 'a4').
+latex_paper_size = 'letter'
+
+# The font size ('10pt', '11pt' or '12pt').
+latex_font_size = '10pt'
+
+latex_elements = {
+    'inputenc': '',
+    'utf8extra': '',
+    'papersize':'letterpaper',
+    'preamble': '''
+
+\\usepackage{fontspec}
+\\setsansfont{FreeSans}
+\\setromanfont{FreeSans}
+\\setmonofont{DejaVu Sans Mono}
+''',
+}

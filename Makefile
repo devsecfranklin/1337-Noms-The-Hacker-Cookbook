@@ -17,6 +17,15 @@ export PRINT_HELP_PYSCRIPT
 help: 
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
+book: python ## Generate documentation
+	@if [ ! -f /.dockerenv ]; then $(MAKE) print-status MSG="***> Run make docs inside docker container <***" && exit 1; fi
+	$(MAKE) print-status MSG="Building HTML docs"
+	cd docs && make html && cd -
+	$(MAKE) print-status MSG="Building LaTeX docs"
+	cd docs && make latexpdf && cd -
+	$(MAKE) print-status MSG="Building EPUB docs"
+	cd docs && make epub && cd -
+
 clean: ## clean up the book build
 	@echo "\033[1;32mRenaming stale build dir and backing up last build.\033[0m"
 	rm -rf ${BUILD_DIR}.old
@@ -29,10 +38,6 @@ docker: ## test application locally
 	@if [ -f /.dockerenv ]; then echo "Don't run make docker inside docker container" && exit 1; fi
 	docker-compose -f docker/docker-compose.yml build hacker_cookbook
 	@docker-compose -f docker/docker-compose.yml run hacker_cookbook /bin/bash
-
-docs: python ## Generate documentation
-	#sphinx-quickstart
-	cd docs && make html
 
 print-status:
 	@:$(call check_defined, MSG, Message to print)

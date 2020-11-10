@@ -23,14 +23,16 @@ Submissions
 
 You are releasing the rights to your work under the `included LICENSE`_ .
 
-.. _`included LICENSE`: https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/blob/master/license.md)
+.. _`included LICENSE`: https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/blob/master/LICENSE.md)
 
 **************
 Ways to Submit
 **************
 
-Create an Issue
-===============
+There are two main ways to add your recipe to this repository.
+
+Option One: Create an Issue
+===========================
 
 This is going to be the preferred path for most users. 
 
@@ -42,8 +44,8 @@ This is going to be the preferred path for most users.
 
 Use the guide below when deciding what to include in your submission.
 
-Create a Pull Request
-=====================
+Option Two: Create a Pull Request
+=================================
 
 This path is for folks familiar with GitHub.
 

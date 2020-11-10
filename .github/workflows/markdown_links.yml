@@ -1,0 +1,18 @@
+# https://github.com/marketplace/actions/markdown-link-check
+# https://github.com/tcort/markdown-link-check
+name: Check Markdown links
+
+on: push
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'no'
+        use-verbose-mode: 'yes'
+        #config-file: 'mlc_config.json'
+        folder-path: 'recipes/_source'
+        max-depth: 2

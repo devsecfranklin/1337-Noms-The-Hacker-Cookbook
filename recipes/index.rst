@@ -29,7 +29,7 @@ Welcome to Hacker CookBook
 .. toctree::
    :maxdepth: 2
    :numbered:
-   :caption: breakfast 
+   :caption: breakfast
 
    _source/breakfast/_section
    _source/breakfast/aaron_the_king_hashbrownpatty_bacon_sandwich
@@ -82,38 +82,38 @@ Welcome to Hacker CookBook
    :numbered:
    :caption: entrees
 
-   entrees/_section
-   entrees/0xrnair_monster_chicken_burrito
-   entrees/aaron_the_king_dishwasher_salmon
-   entrees/BenHeise_Bangers_and_Mash
-   entrees/boredsillys_baked_gringo
-   entrees/boredsillys_excuse_to_eat_bacon_avocado_sandwich
-   entrees/da_667s_cheesy_chicken_chili
-   entrees/deviant_ollam_sous_vide_steak
-   entrees/dis0wn-TwoCheese_Bacon_Potato_and_Cauliflower_Soup
-   entrees/Dual_Core-Mom-s_Spaghetti
-   entrees/elegin_balsamic_tempeh
-   entrees/elegin_cauliflower_steaks
-   entrees/elegin_chickpea_tacos
-   entrees/elegin_one_pot_thai_peanut
-   entrees/hardwaterhacker_crispy_parmesan_baked_walleye
-   entrees/hardwaterhacker_grilled_cedar_plank_salmon
-   entrees/iHeartMalware_NC_Pulled_Pork
-   entrees/miss_gif_crock-pot-meatshield
-   entrees/moonbas3_bbq_ribs
-   entrees/moonbas3_mississippi_pot_roast
-   entrees/panaderos_sausage_balls
-   entrees/rahlquist_slow_cooker_chorizo_black_bean_stew
-   entrees/sl3dges_low-carb_sticky_pork_belly
-   entrees/slufs_seared_tuna_pasta
-   entrees/travelars_southwest_porkchops
-   entrees/wimzkl_caramelized-onion-mushroom-stuffin
-   entrees/wireheadlance_grandmothers_chicken_and_gravy
+   _source/entrees/_section
+   _source/entrees/0xrnair_monster_chicken_burrito
+   _source/entrees/aaron_the_king_dishwasher_salmon
+   _source/entrees/BenHeise_Bangers_and_Mash
+   _source/entrees/boredsillys_baked_gringo
+   _source/entrees/boredsillys_excuse_to_eat_bacon_avocado_sandwich
+   _source/entrees/da_667s_cheesy_chicken_chili
+   _source/entrees/deviant_ollam_sous_vide_steak
+   _source/entrees/dis0wn-TwoCheese_Bacon_Potato_and_Cauliflower_Soup
+   _source/entrees/Dual_Core-Mom-s_Spaghetti
+   _source/entrees/elegin_balsamic_tempeh
+   _source/entrees/elegin_cauliflower_steaks
+   _source/entrees/elegin_chickpea_tacos
+   _source/entrees/elegin_one_pot_thai_peanut
+   _source/entrees/hardwaterhacker_crispy_parmesan_baked_walleye
+   _source/entrees/hardwaterhacker_grilled_cedar_plank_salmon
+   _source/entrees/iHeartMalware_NC_Pulled_Pork
+   _source/entrees/miss_gif_crock-pot-meatshield
+   _source/entrees/moonbas3_bbq_ribs
+   _source/entrees/moonbas3_mississippi_pot_roast
+   _source/entrees/panaderos_sausage_balls
+   _source/entrees/rahlquist_slow_cooker_chorizo_black_bean_stew
+   _source/entrees/sl3dges_low-carb_sticky_pork_belly
+   _source/entrees/slufs_seared_tuna_pasta
+   _source/entrees/travelars_southwest_porkchops
+   _source/entrees/wimzkl_caramelized-onion-mushroom-stuffin
+   _source/entrees/wireheadlance_grandmothers_chicken_and_gravy
 
 .. toctree::
    :maxdepth: 2
    :numbered:
-   :caption: sauces 
+   :caption: sauces
 
    _source/sauces/_section
    _source/sauces/elegin_vegan_tarter_sauce

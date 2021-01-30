@@ -1,6 +1,9 @@
 .PHONY: docker docs python
 
 REQS := requirements.txt
+# Used for colorizing output of echo messages
+BLUE := "\\033[1\;36m"
+NC := "\\033[0m" # No color/default
 
 define PRINT_HELP_PYSCRIPT
 import re, sys
@@ -14,7 +17,7 @@ endef
 
 export PRINT_HELP_PYSCRIPT
 
-help: 
+help:
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
 book: python ## Generate documentation

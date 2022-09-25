@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: markdownlint-cli
-      uses: nosborn/github-action-markdown-cli@v2.0.0
+      uses: nosborn/github-action-markdown-cli@v3.2.0
       with:
         files: .
         config_file: ".markdownlint.json"

@@ -1,9 +1,12 @@
-FROM python:3.11.0-buster
+# syntax=docker/dockerfile:1
+
+FROM python:3.11-slim-bullseye
+
+LABEL org.opencontainers.image.authors="Franklin D <devsecfranklin@duck.com>"
 
 ADD . /app
 WORKDIR /app
 
-#USER thedevilsvoice:thedevilsvoice
 RUN \
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367;\
 DEBIAN_FRONTEND=noninteractive apt update; \

@@ -1,4 +1,4 @@
 .DS_Store
 *.swp
 *.pdf
-recipes/_build
+_build/

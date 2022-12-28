@@ -1,3 +1,7 @@
+#!/bin/bash 
+
+# Author:  devsecfranklin@duck.com
+
 FILES=*.rst
 for f in $FILES
 do

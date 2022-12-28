@@ -1,0 +1,16 @@
+{
+    // See http://go.microsoft.com/fwlink/?LinkId=827846
+    // for the documentation about the extensions.json format
+    "recommendations": [
+        // Python Auto DocStrings
+        "njpwerner.autodocstring",
+        // Prettier code formatter
+        "esbenp.prettier-vscode",
+        // Python Support
+        "ms-python.python",
+        // you big cyberpunk, you
+        "Endormi.2077-theme",
+        // Github
+        "GitHub.vscode-pull-request-github",
+    ]
+}

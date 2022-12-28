@@ -1,7 +1,6 @@
 Credits
 =======
 
-- [@mzbat](https://twitter.com/mzbat) - Organizing the project
 - [@iHeartMalware](https://twitter.com/iheartmalware)
   - Organizing the project
   - Crock Pot Pulled Pork (Entrees)
@@ -49,3 +48,5 @@ Credits
   - Bone Marrow Mushrooms
 - [@panadero](https://twitter.com/panadero) - Sausage balls
 - @tiptone - Mexican Martini
+- [leicynthia100](https://github.com/leicynthia100)
+

@@ -1,3 +1,7 @@
+#!/bin/bash 
+
+# Author:  devsecfranklin@duck.com
+
 for i in `ls -R *.md`; do
     readarray -d . -t strarr <<<  ${i}
     echo "the name is ${strarr[-2]}"

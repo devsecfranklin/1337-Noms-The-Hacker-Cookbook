@@ -1,6 +1,5 @@
 .PHONY: docker docs python
 
-REQS := requirements.txt
 # Used for colorizing output of echo messages
 BLUE := "\\033[1\;36m"
 NC := "\\033[0m" # No color/default
@@ -49,6 +48,11 @@ print-status:
 	@echo "$(BLUE)$(MSG)$(NC)"
 
 python: ## setup python stuff
-	if [ ! -f /.dockerenv ]; then $(MAKE) print-status MSG="Run make python inside docker container" && exit 1; fi
 	$(MAKE) print-status MSG="Set up the Python environment"
-	if [ -f '$(REQS)' ]; then python -m pip install -r$(REQS); fi
+
+	python3 -m venv _build
+	( \
+		source _build/bin/activate; \
+		_build/bin/python -m pip install --upgrade pip; \
+		_build/bin/python -m pip install -rrequirements.txt; \
+	)

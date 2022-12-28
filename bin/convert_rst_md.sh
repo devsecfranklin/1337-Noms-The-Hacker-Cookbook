@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-# Author:  devsecfranklin@duck.com
+# devsecfranklin@duck.com
 
 FILES=*.rst
 for f in $FILES

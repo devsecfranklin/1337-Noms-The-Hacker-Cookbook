@@ -1,4 +1,4 @@
-name: markdown
+name: Lint markdown
 on:
   - pull_request
 jobs:

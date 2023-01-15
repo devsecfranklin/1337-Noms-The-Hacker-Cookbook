@@ -4,6 +4,6 @@
 
 ![hacked](/recipes/images/hacked.jpg?raw=true)
 
-[Click here to learn how to add your recipe to this project!](/CONTRIBUTING.rst)
+[Click here to learn how to add your recipe to this project!](/admin/CONTRIBUTING.rst)
 
 If you still need help you can reach out to [@thedevilsvoice](https://twitter.com/thedevilsvoice) or [@iheartmalware](https://twitter.com/iheartmalware).

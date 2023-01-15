@@ -1,7 +1,6 @@
 name: markdown
 on:
-  pull_request:
-    branches: main
+  - pull_request
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,4 +10,4 @@ jobs:
       uses: nosborn/github-action-markdown-cli@v3.2.0
       with:
         files: .
-        config_file: ".markdownlint.json"
+        config_file: "admin/.markdownlint.json"

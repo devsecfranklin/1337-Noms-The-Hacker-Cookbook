@@ -2,7 +2,7 @@
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-![hacked](/recipes/images/hacked.jpg?raw=true)
+![hacked](/admin/images/hacked.jpg?raw=true)
 
 [Click here to learn how to add your recipe to this project!](/admin/CONTRIBUTING.rst)
 

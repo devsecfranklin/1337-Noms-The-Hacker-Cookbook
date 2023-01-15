@@ -16,13 +16,6 @@ jobs:
         uses: google-github-actions/setup-gcloud@v1
         with:
           install_components: 'gke-gcloud-auth-plugin'
-#      - name: "Connect to cluster"
-#        uses: google-github-actions/get-gke-credentials@v0
-#        with:
-#          cluster_name: ps-devsecops-gke
-#          location: us-central1-a
-#          project_id: '${{ secrets.PROJECT_ID }}'
-#          use_auth_provider: true
       - name: Use gcloud CLI
         run: |
-          curl --request POST --header "Content-Type:application/json" --header "Authorization: Bearer $(gcloud auth print-identity-token)" --data "{\"message\": \"Pull request number $PR_NUMBER by $GITHUB_ACTOR on repository $GITHUB_REPOSITORY\", \"pr_number\": \"$PR_NUMBER\", \"user\": \"$GITHUB_ACTOR\", \"repo\": \"$GITHUB_REPOSITORY\", \"ref\": \"$GITHUB_REF\", \"commit_sha\": \"$GITHUB_SHA\"}" https://us-central1-gcp-gcs-pso.cloudfunctions.net/cloudbot-franklin  
+          curl --request POST --header "Content-Type:application/json" --header "Authorization: Bearer $(gcloud auth print-identity-token)" --data "{\"message\": \"Pull request number $PR_NUMBER by $GITHUB_ACTOR on repository $GITHUB_REPOSITORY\", \"pr_number\": \"$PR_NUMBER\", \"user\": \"$GITHUB_ACTOR\", \"repo\": \"$GITHUB_REPOSITORY\", \"ref\": \"$GITHUB_REF\", \"commit_sha\": \"$GITHUB_SHA\"}" https://us-central1-gcp-gcs-pso.cloudfunctions.net/cloudbot-franklin

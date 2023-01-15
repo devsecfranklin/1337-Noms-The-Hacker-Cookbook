@@ -19,23 +19,17 @@ export PRINT_HELP_PYSCRIPT
 help:
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
-book: python ## Generate documentation
-	@if [ ! -f /.dockerenv ]; then $(MAKE) print-status MSG="***> Run make docs inside docker container <***" && exit 1; fi
-	$(MAKE) print-status MSG="Building HTML docs"
-	cd recipes && make html && cd -
-	$(MAKE) print-status MSG="Building LaTeX docs"
-	cd recipes && \
-	sphinx-build -b latex -d _build/doctrees . _build/xetex && cd _build/xetex; xelatex *.tex && \
-	cd -
-	$(MAKE) print-status MSG="Building EPUB docs"
-	cd recipes && make epub && cd -
-
-clean: ## clean up the book build
-	@echo "\033[1;32mRenaming stale build dir and backing up last build.\033[0m"
-	rm -rf ${BUILD_DIR}.old
-	rm -rf recipes/_build
-	find . -name '*.pyc' | xargs rm -rf
-	find . -name '__pycache__' | xargs rm -rf
+clean: ## clean up 
+	$(MAKE) print-status MSG="Doing a cleanup."
+	rm -rf _build *.egg-info
+	@find . -name '*.pyc' | xargs rm -rf
+	@find . -name '__pycache__' | xargs rm -rf
+	@for trash in _build; do \
+	if [ -f $$trash ] || [ -d $$trash ]; then \
+		echo "Removing $$trash" ;\
+		rm -rf $$trash ;\
+	fi ; \
+	done
 
 docker: ## test application locally
 	$(MAKE) print-status MSG="Building with docker-compose"

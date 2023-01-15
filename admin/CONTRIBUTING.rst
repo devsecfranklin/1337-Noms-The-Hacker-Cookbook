@@ -23,7 +23,7 @@ Submissions
 
 You are releasing the rights to your work under the `included LICENSE`_ .
 
-.. _`included LICENSE`: https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/blob/master/LICENSE.md
+.. _`included LICENSE`: https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/blob/main/LICENSE.md
 
 **************
 Ways to Submit
@@ -40,7 +40,7 @@ This is going to be the preferred path for most users.
 2. Click the green "New Issues" button.
 3. Click the green "Get Started" button to add your recipe.
 
-.. _`issues tab`: https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/issues
+.. _`issues tab`: https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/issues
 
 Use the guide below when deciding what to include in your submission.
 
@@ -60,7 +60,7 @@ be helpful. Keep it tasteful, save all that goatse stuff for your next lemon par
 Be sure you add your details to the end of the credits.md_ file. Reach out to 
 `@theDevilsVoice`_ if you need technical help.
 
-.. _credits.md: https://github.com/hotpeppersec/1337-Noms-The-Hacker-Cookbook/blob/master/recipes/_source/credits.rst
+.. _credits.md: https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/blob/main/CREDITS.md
 .. _`@theDevilsVoice`: https://twitter.com/thedevilsvoice
 
 It's that simple!

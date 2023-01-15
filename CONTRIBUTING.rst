@@ -8,9 +8,9 @@ us about your favorite recipe or something you like to make with
 your own unique twist. Feel free to include a recommendation for 
 booze pairing.
 
-General questions should be directed to `@mzbat`_ or `@iheartmalware`_ .
+General questions should be directed to `@iheartmalware`_ `@thedevilsvoice`_.
 
-.. _`@mzbat`: https://twitter.com/mzbat
+.. _`@thedevilsvoice`: https://twitter.com/thedevilsvoice
 .. _`@iheartmalware`: https://twitter.com/iheartmalwar
 
 We can't promise that all submissions will be included in the final 

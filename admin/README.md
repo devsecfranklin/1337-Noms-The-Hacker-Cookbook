@@ -7,4 +7,3 @@ Various maintenance tools.
 ### make docker
 
 Build a Docker container with the application.
-

@@ -56,6 +56,7 @@ AC_PROG_DVIBOOK
 
 AC_CONFIG_FILES([
   Makefile
+  cookbook/Makefile
   ]) # files to generate, one per line
 
 AC_OUTPUT

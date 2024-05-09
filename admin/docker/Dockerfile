@@ -2,7 +2,7 @@
 
 FROM python:3.11-slim-bullseye
 
-LABEL org.opencontainers.image.authors="Franklin D <devsecfranklin@duck.com>"
+LABEL org.opencontainers.image.authors="nilknarf <franklin@dead10c5.org>"
 LABEL org.opencontainers.image.source="https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook"
 LABEL org.opencontainers.image.description="Ye Olde Hacker Cookbook"
 LABEL org.opencontainers.image.licenses="CCC 1.0"

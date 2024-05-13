@@ -58,18 +58,35 @@ function path_setup() {
   else
     echo -e "${LRED}Did not find log dir: ${LCYAN}${RAW_OUTPUT}${NC}"
     LOGGING_DIR="."
-    RAW_OUTPUT="${LOGGING_DIR}/${RAW_OUTPUT}"                                                                      
-  fi                                                                                                               
+    RAW_OUTPUT="${LOGGING_DIR}/${RAW_OUTPUT}"
+  fi
 }
 
 function frontmatter() {
   cat ${CURRENT_DIR}/cookbook/frontmatter/header.tex \
-    ${CURRENT_DIR}/cookbook/frontmatter/frontmatter.tex
+    ${CURRENT_DIR}/cookbook/frontmatter/frontmatter.tex | tee -a "${TEX_OUTPUT}"
+}
+
+function mainmatter() {
+  cat ${CURRENT_DIR}/cookbook/mainmatter/mainmatter.tex | tee -a "${TEX_OUTPUT}"
+  for i in ${CATEGORIES[@]}; do
+    THESE_FILES=$(ls ../${i}/*.md)
+    for j in $THESE_FILES; do
+      echo "\markdownInput{../${j}}"
+    done
+  done
+}
+
+function backmatter() {
+  cat ${CURRENT_DIR}/cookbook/backmatter/backmatter.tex \
+    ${CURRENT_DIR}/cookbook/backmatter/end.tex | tee -a "${TEX_OUTPUT}"
 }
 
 function main() {
   path_setup
   frontmatter
+  mainmatter
+  backmatter
 }
 
 main "$@"

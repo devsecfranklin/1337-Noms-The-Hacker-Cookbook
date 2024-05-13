@@ -16,6 +16,8 @@ AC_CONFIG_COMMANDS([franklin-build],
 # Checks for programs.
 AC_PROG_CXX
 
+AC_PATH_PROG([SHFMT], [shfmt], [na])
+
 AM_PATH_PYTHON(3.9 ) # minimum version of Python
 PY39="python$PYTHON_VERSION" # define the python interpreter
 dnl LDFLAGS="$LDFLAGS -l$PY39"

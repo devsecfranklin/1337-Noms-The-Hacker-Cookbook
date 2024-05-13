@@ -7,9 +7,8 @@
 # v0.1 02/25/2022 Maintainer script
 
 FILES=*.rst
-for f in $FILES
-do
+for f in $FILES; do
   filename="${f%.*}"
   echo "Converting $f to $filename.md"
-  `pandoc $f -f rst -t markdown -o $filename.md`
+  $(pandoc $f -f rst -t markdown -o $filename.md)
 done

@@ -16,6 +16,7 @@ AC_CONFIG_COMMANDS([franklin-build],
 # Checks for programs.
 AC_PROG_CXX
 
+AC_PATH_PROG([PANDOC], [pandoc], [na])
 AC_PATH_PROG([SHFMT], [shfmt], [na])
 
 AM_PATH_PYTHON(3.9 ) # minimum version of Python

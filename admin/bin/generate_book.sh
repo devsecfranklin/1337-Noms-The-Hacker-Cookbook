@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-Set -euo pipefail
+set -euo pipefail
 #IFS=$'\n\t'
 
 #Black        0;30     Dark Gray     1;30
@@ -28,35 +28,48 @@ NC='\033[0m' # No Color
 # --- Some config Variables ----------------------------------------
 CATEGORIES=("APPETIZERS" "BREAKFAST" "COOKWARE" "DESSERTS" "DRINKS" "ENTREES" "SAUCES" "SIDES" "SNACKS")
 MY_DATE=$(date '+%Y-%m-%d-%H')
-RAW_OUTPUT="cookbook/hacker_cookbook.tex"
+RAW_OUTPUT="generate_cookbook_${MY_DATE}.txt" # log file name
+TEX_OUTPUT="cookbook/hacker_cookbook.tex"
 
+function path_setup() {
+  # path madness
+  CURRENT_DIR="${PWD}"
+  #echo -e "${LGREEN}Current dir: ${LCYAN}${CURRENT_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
+  PROG_DIR="$0"
 
-function header() {
-  
-  cat <<EOF > ${RAW_OUTPUT}
-% !TeX encoding = UTF-8
-% !TeX root = hacker_cookbook.tex
-% !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
+  SCRIPT_DIR=$(echo $PROG_DIR | sed 's|\(.*\)/.*|\1|')
+  #echo -e "${LGREEN}Found script dir: ${LCYAN}${SCRIPT_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
+  SUB_DIR=$(echo $SCRIPT_DIR | rev | cut -d'/' -f2- | rev)
+  #echo "Sub dir: $SUB_DIR"
+  if [ "$SUB_DIR" != "bin" ]; then
+    LOGGING_DIR="$CURRENT_DIR/$SUB_DIR/logs"
+    DATA_DIR="$CURRENT_DIR/$SUB_DIR/data"
+  else
+    LOGGING_DIR="$CURRENT_DIR/logs"
+    DATA_DIR="$CURRENT_DIR/data"
+  fi
 
-\include{preamble}
-\begin{document}
-
-EOF
+  if [ -d "${LOGGING_DIR}" ]; then
+    RAW_OUTPUT="${LOGGING_DIR}/${RAW_OUTPUT}"
+    echo -e "\n${LCYAN}------------------ Starting Backup Tool ------------------${NC}" | tee -a "${RAW_OUTPUT}"
+    echo -e "${LGREEN}Found log dir: ${LCYAN}${LOGGING_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
+    echo -e "${LGREEN}Log file path is: ${LCYAN}${RAW_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
+    echo -e "${LGREEN}LaTeX file path is: ${LCYAN}${TEX_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
+  else
+    echo -e "${LRED}Did not find log dir: ${LCYAN}${RAW_OUTPUT}${NC}"
+    LOGGING_DIR="."
+    RAW_OUTPUT="${LOGGING_DIR}/${RAW_OUTPUT}"                                                                      
+  fi                                                                                                               
 }
 
-function frontmatter(){
-  cat <<EOF > ${RAW_OUTPUT}
-% frontmatter: half title, title page, colophon (copyright page), epigraph, toc, preface, acknowledgements
-\tableofcontents
-\listoffigures
-\listoftables
-
-EOF
-
+function frontmatter() {
+  cat ${CURRENT_DIR}/cookbook/frontmatter/header.tex \
+    ${CURRENT_DIR}/cookbook/frontmatter/frontmatter.tex
 }
- 
+
 function main() {
-
+  path_setup
+  frontmatter
 }
 
 main "$@"

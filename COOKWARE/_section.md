@@ -1,3 +1,3 @@
 # Cookware
 
--   These are the things that are used for cooking
+- These are the things that are used for cooking

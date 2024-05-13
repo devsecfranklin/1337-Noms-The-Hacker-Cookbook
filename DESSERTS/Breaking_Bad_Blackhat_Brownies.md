@@ -7,28 +7,28 @@ prefer tastes better.
 
 ## Ingredients
 
--   1/2 Pound Butter Melted (choice of butter here is optional
+- 1/2 Pound Butter Melted (choice of butter here is optional
     salted/unsalted) Also please check and abide by State Laws if adding
     any "alternative" butter.
--   4 Tablespoons Dark Cocoa
--   1 Cup Water
--   2 Cups Flour
--   2 Cups Sugar
--   1 Teaspoon Baking Soda
--   1/2 Teaspoon Salt
--   1/2 Cup Buttermilk
--   2 Eggs
--   1 Teaspoon Vanila
--   2-4 Shots Espresso (as thick as possible, or just add less water if
+- 4 Tablespoons Dark Cocoa
+- 1 Cup Water
+- 2 Cups Flour
+- 2 Cups Sugar
+- 1 Teaspoon Baking Soda
+- 1/2 Teaspoon Salt
+- 1/2 Cup Buttermilk
+- 2 Eggs
+- 1 Teaspoon Vanila
+- 2-4 Shots Espresso (as thick as possible, or just add less water if
     over 4 shots)
 
 ## Frosting
 
--   ¼ Pound Butter (again, what butter you use is at your discretion)
--   4 Tablespoons Dark Cocoa
--   8 Tablespoons Buttermilk
--   1 Teaspoon Vanilla
--   1 Box Confectioners Sugar
+- ¼ Pound Butter (again, what butter you use is at your discretion)
+- 4 Tablespoons Dark Cocoa
+- 8 Tablespoons Buttermilk
+- 1 Teaspoon Vanilla
+- 1 Box Confectioners Sugar
 
 Optional = 1 Cup chopped Nuts of your choice (be mindful of those with
 nut allergies)

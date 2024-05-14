@@ -8,10 +8,10 @@ Turn your leftover chicken parm into an exciting midnight snack!
 - Shredded Cheese of your choice, one handful per layer
 - Tortilla chips, half a handful per layer
 - (optional) Various 'fun enhancers' including but not limited to:
- - Ground Beef, three pinches per layer
- - Sliced Olives, one pinch per layer
- - Diced Bell Pepper, two pinches per layer
- - Salsa, three teaspoons per layer
+- Ground Beef, three pinches per layer
+- Sliced Olives, one pinch per layer
+- Diced Bell Pepper, two pinches per layer
+- Salsa, three teaspoons per layer
 
 ## Instructions
 

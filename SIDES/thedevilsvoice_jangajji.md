@@ -16,12 +16,12 @@ made by pickling vegetables.
 - 2 medium white onion
 - 2 medium cucumber
 - several whole Cheongyang chili peppers
- - You can substitue or include serranos, ghost pepper, or whatever
+- You can substitue or include serranos, ghost pepper, or whatever
  your favorite peppers are.
 - Cucumber
 - optional:
- - radish
- - garlic cloves
+- radish
+- garlic cloves
 
 ### Infused Soy Sauce
 

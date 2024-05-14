@@ -18,8 +18,7 @@ Makes a very diverse and healthy snack.
 ## Directions
 
 - Skin the Potatoes, Parsnips & Carrots
-- Cut Potatoes, Parsnips & Carrots into French Frye sizes as best as
- possible.
+- Cut Potatoes, Parsnips & Carrots into French Frye sizes as best as possible.
 - Lightly oil (or brush) them with Olive Oil (or Vegetable Oil)
 - Place on flat baking sheet.
 - Dust the sheet evenly with 1 Tablespoon Sea Salt
@@ -27,7 +26,6 @@ Makes a very diverse and healthy snack.
 - Fold x1 2ft length aluminum foil sheet into a triangular hat.
 - Invert and fill with the baked veggies.
 - Top with Sour Cream, Melted Cheddar and Bacon Bits to taste.
-- Take 2nd length of aluminum foil and fold just as similarly into a
- triangle hat.
+- Take 2nd length of aluminum foil and fold just as similarly into a triangle hat.
 - Wear this hat.
- - (Optional: Play loudly the Grateful Dead US Blues)
+- Optional: Play loudly the Grateful Dead US Blues

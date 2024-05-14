@@ -4,15 +4,15 @@ Simple Vegan tarter sauce. Quick and easy.
 
 ## Ingredients
 
--   1/2 cup vegenaise (4oz)
--   1 tsp. vegan horseradish (5ml)
--   2 Tbsp. freshly squeezed lemon juice (30mL)
--   2 Tbsp. capers and some brine (30mL)
+- 1/2 cup vegenaise (4oz)
+- 1 tsp. vegan horseradish (5ml)
+- 2 Tbsp. freshly squeezed lemon juice (30mL)
+- 2 Tbsp. capers and some brine (30mL)
 
 ## Instructions
 
-1.  Mix all
-2.  Done
+1. Mix all
+2. Done
 
 ## Notes
 

@@ -1,5 +1,4 @@
-Mashed Potato Croquettes
-========================
+# Mashed Potato Croquettes
 
 Contributed by Russ Rogers a.k.a. \@v3rtig0
 
@@ -14,8 +13,7 @@ comfort food for hackers. Try them with a dip, for added punch.
 Mayo/Sriracha combination, honey mustard, or even ranch dressing are
 good options.
 
-Ingredients
------------
+## Ingredients
 
 - About 3-4 lbs of golden potatos
 - 4 Tbl salted butter
@@ -32,8 +30,7 @@ Ingredients
 
 Fryer with appropriate oil, heated to 350 degrees F, when needed.
 
-Making the potatoes
--------------------
+## Making the potatoes
 
 Wash and peel the potatoes. Dice them all into 1 inch squares or less.
 Rinse the potatoes briefly. Place the potatoes in a large pot of water,
@@ -51,8 +48,7 @@ Add garlic powder, salt, butter, sour cream, cheese, chives, black
 pepper, and liquid smoke to the pot, and mix well. Check the texture,
 and taste. Adjust the texture with milk, until fairly creamy.
 
-Spread the Potatoes
--------------------
+### Spread the Potatoes
 
 Spread the potatoes into a 9x13 pan (you can pre-grease with cooking
 spray if you want to make it a bit simpler to get the potato strips out,
@@ -66,8 +62,7 @@ long. Put back in the freezer for a couple of hours. Once completely
 frozen, you can pull the strips out, and place in a bowl to be used
 later.
 
-Prepare egg wash and bread crumbs
----------------------------------
+### Prepare egg wash and bread crumbs
 
 You'll likely need about 5-6 large eggs beaten with a couple of
 tablespoons of milk, for the wash.
@@ -77,16 +72,14 @@ For the breadcrumb mixture, I used the pre-made crumbs from the store
 bacon (already cooked). Mix well. Leave the bacon out for a vegetarian
 option.
 
-Prepare the croquettes
-----------------------
+### Prepare the croquettes
 
 Take a strip of potatoes (still frozen) and roll in the egg bath. Then
 roll in the breadcrumb mixture until fully coated. Place in a pan to be
 re-frozen. Repeat this will all the strips, then return them to the
 freezer for another hour or so, to harden before frying.
 
-To cook
--------
+## To cook
 
 Heat your oil to about 350 degrees. You can check the temperature of the
 oil, if you don't have a thermometer, by putting the handle of a wooden
@@ -97,8 +90,7 @@ Cook 5 strips at a time, for about 1 1/2 to 2 minutes, until golden
 brown. Place on a pan with paper towels, to remove excess oil. They're
 ready to eat at this point.
 
-Suitable dips
--------------
+## Suitable dips
 
 These can be eaten with a number of dips, including marinara, honey
 mustard, ranch dressing, or a mix of sriracha with mayonaise. Pretty

@@ -16,29 +16,29 @@ Juice](images/ashmastaflash-grandpappys_turnt_juice.jpg)
 
 Tools:
 
--   Martini shaker
--   Mason jar
+- Martini shaker
+- Mason jar
 
 Ingredients:
 
--   Woodford Reserve bourbon
--   Woodford Reserve cherries
--   Dolin dry vermouth
--   Crushed ice
--   Unsulphured molasses
--   Angostura bitters
+- Woodford Reserve bourbon
+- Woodford Reserve cherries
+- Dolin dry vermouth
+- Crushed ice
+- Unsulphured molasses
+- Angostura bitters
 
 Directions:
 
-1.  Put a tablespoon of molasses into the shaker along with a handful of
-    crushed ice
-2.  Put a dash or two of bitters into the the shaker, along with a
-    splash of the Woodford reserve cherry juice. Drop in a cherry.
-3.  Put 3oz of bourbon and 1oz of dry vermouth into the shaker.
-4.  Cap the shaker and shake the hell out of it. It'll take some effort
-    to get the molasses to mix.
-5.  Strain out the turnt juice into the jar. Take the cherry out of the
-    shaker and drop it into the turnt juice.
+1. Put a tablespoon of molasses into the shaker along with a handful of
+ crushed ice
+2. Put a dash or two of bitters into the the shaker, along with a
+ splash of the Woodford reserve cherry juice. Drop in a cherry.
+3. Put 3oz of bourbon and 1oz of dry vermouth into the shaker.
+4. Cap the shaker and shake the hell out of it. It'll take some effort
+ to get the molasses to mix.
+5. Strain out the turnt juice into the jar. Take the cherry out of the
+ shaker and drop it into the turnt juice.
 
 Enjoy!
 

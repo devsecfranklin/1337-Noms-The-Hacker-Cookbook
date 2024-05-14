@@ -7,18 +7,18 @@ gravy!
 
 ## Instructions
 
-1.  "Select whatever parts you want & salt & pepper. Have about 1/2 inch
-    of oil in frying pan & hot (she always used her electric skillet).
-2.  Roll chicken in flower & place skin-side down in hot fat.
-3.  Don't cook too fast (med hot) & cook till nice & brown & then turn
-    over. Takes about 30-45 minutes., depends on the size of the fryer.
-    If it's a larger one, it takes longer. (Watch, it can burn easily).
-4.  When all is done & you want gravy, drain most of the fat off,
-    leaving about 1/4 c in the pan (save the crunches!) & add 1 T flour
-    & about 1 1/2 C milk & salt & pepper.
-5.  Cook till beginning to thicken - not too think now, as it sets it
-    thickens some. This gravy is also made at last minute before
-    serving"
+1. "Select whatever parts you want & salt & pepper. Have about 1/2 inch
+ of oil in frying pan & hot (she always used her electric skillet).
+2. Roll chicken in flower & place skin-side down in hot fat.
+3. Don't cook too fast (med hot) & cook till nice & brown & then turn
+ over. Takes about 30-45 minutes., depends on the size of the fryer.
+ If it's a larger one, it takes longer. (Watch, it can burn easily).
+4. When all is done & you want gravy, drain most of the fat off,
+ leaving about 1/4 c in the pan (save the crunches!) & add 1 T flour
+ & about 1 1/2 C milk & salt & pepper.
+5. Cook till beginning to thicken - not too think now, as it sets it
+ thickens some. This gravy is also made at last minute before
+ serving"
 
 ## Author Notes
 

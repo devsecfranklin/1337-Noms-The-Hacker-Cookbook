@@ -1,8 +1,8 @@
 # Low Carb Sticky Pork Belly and "Rice"
 
--   7g Net Carbs
--   86g Fat
--   17g Protein
+- 7g Net Carbs
+- 86g Fat
+- 17g Protein
 
 ![image](images/sl3dges_low-carb_sticky_pork_belly.jpg){.align-center}
 
@@ -23,18 +23,18 @@ and decorative)
 
 ## Pork Belly Recipe
 
-1.  Par-cook the pork belly in the pan, stirring and flipping
-    occasionally.
-2.  After 5 minutes, add in the italian seasoning, ginger, garlic, water
-    chestnuts, and onions.
-3.  Continue cooking the pork belly mix until the pork belly is browned
-    and crispy, approximately 15 minutes. **Stir occassionally**
-4.  After 15 minutes, add in the beef broth, rice vinegar, tamari sauce,
-    chinese five spice, and sweetener of choice.
-5.  Simmer the mix until the sauce reduces down to the desired
-    consistency, or until it is similar to the consistency of syrup.
-    **make sure to taste it before it is finished. If it is too salty,
-    add a little more sweetener. If it's too sweet, add a little more
-    tamari**
+1. Par-cook the pork belly in the pan, stirring and flipping
+ occasionally.
+2. After 5 minutes, add in the italian seasoning, ginger, garlic, water
+ chestnuts, and onions.
+3. Continue cooking the pork belly mix until the pork belly is browned
+ and crispy, approximately 15 minutes. **Stir occassionally**
+4. After 15 minutes, add in the beef broth, rice vinegar, tamari sauce,
+ chinese five spice, and sweetener of choice.
+5. Simmer the mix until the sauce reduces down to the desired
+ consistency, or until it is similar to the consistency of syrup.
+ **make sure to taste it before it is finished. If it is too salty,
+ add a little more sweetener. If it's too sweet, add a little more
+ tamari**
 
 Can also be found on theketobaker.com

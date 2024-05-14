@@ -2,24 +2,24 @@
 
 ## Cookies
 
--   1 cup butter - close to room tempterature
--   1 8 pz. package of cream cheese - room temperature
--   2 cups granulated sugar
--   2 eggs
--   4 tsp. frozen orange juice concentrate
--   Zest of 1 orange
--   1 tsp. vanilla extract
--   1 tsp. almond extract
--   2 tsp. baking powder
--   5 cups flour
--   Extra flour for dusting
+- 1 cup butter - close to room tempterature
+- 1 8 pz. package of cream cheese - room temperature
+- 2 cups granulated sugar
+- 2 eggs
+- 4 tsp. frozen orange juice concentrate
+- Zest of 1 orange
+- 1 tsp. vanilla extract
+- 1 tsp. almond extract
+- 2 tsp. baking powder
+- 5 cups flour
+- Extra flour for dusting
 
 ## Icing Recipe
 
--   1 cup powdered sugar
--   1 tbsp. milk
--   1 tbsp. light corn syrup
--   1 drop lemon juice
+- 1 cup powdered sugar
+- 1 tbsp. milk
+- 1 tbsp. light corn syrup
+- 1 drop lemon juice
 
 ## Directions
 
@@ -51,19 +51,19 @@ later, have at it. This dough freezes very well.
 
 ## Baking
 
-1.  Either grease cookie sheets or use parchment paper. Is the oven on?
-    Put the whiskey down and turn the oven on.
-2.  Keep an eye on these suckers as it is a pretty quick bake. I would
-    check them after 8 minutes, but usually take about 10 minutes for a
-    variety of sizes. We make little bats for Christmas. Christmas bats
-    take about 8 minutes. Very lightely golden at the edges means they
-    are done.
-3.  Enjoy watching various stages of cookies take over every single
-    horizontal surface of your house.
+1. Either grease cookie sheets or use parchment paper. Is the oven on?
+ Put the whiskey down and turn the oven on.
+2. Keep an eye on these suckers as it is a pretty quick bake. I would
+ check them after 8 minutes, but usually take about 10 minutes for a
+ variety of sizes. We make little bats for Christmas. Christmas bats
+ take about 8 minutes. Very lightely golden at the edges means they
+ are done.
+3. Enjoy watching various stages of cookies take over every single
+ horizontal surface of your house.
 
 ## Icing
 
-1.  Let the cookies cool, as putting icing on hot cookies will cause the
-    icing to make a mess.
-2.  Mix everything together, then put on cookies. Or just dip the
-    cookies in the icing.
+1. Let the cookies cool, as putting icing on hot cookies will cause the
+ icing to make a mess.
+2. Mix everything together, then put on cookies. Or just dip the
+ cookies in the icing.

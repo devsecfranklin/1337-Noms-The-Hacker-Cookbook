@@ -18,16 +18,16 @@ afterwards.
 1. Drain all liquid from the soda can
 2. Remove the lid of the soda can using the can opener
 3. Poke many holes in the soda can with regular spacing using your
-    sharp pokey thing
+ sharp pokey thing
 
 ## Crafting Tips n' Tricks
 
 - If you aren't make sure to have proper adult supervision before
-    doing this.
+ doing this.
 - Poke holes with discretion. Don't stab yourself.
 - Don't be afraid to take the can opener off the can a few times while
-    removing the lid. You'll probably get a cleaner cut if you do many
-    small twists and reposition the can opener more often.
+ removing the lid. You'll probably get a cleaner cut if you do many
+ small twists and reposition the can opener more often.
 
 ## How to Brew
 
@@ -41,8 +41,8 @@ afterwards.
 ## Brewing Tips n' Tricks
 
 - When lifting the TTC out of your mug don't go too fast. Otherwise
-    the tea will gush out of the holes and shoot past the sides of your
-    mug.
+ the tea will gush out of the holes and shoot past the sides of your
+ mug.
 - Use the same amount of leaves and water each time for more consitent
-    brews. Overflowing the cup slightly might feel messy but it ensures
-    you always have the same amount of water.
+ brews. Overflowing the cup slightly might feel messy but it ensures
+ you always have the same amount of water.

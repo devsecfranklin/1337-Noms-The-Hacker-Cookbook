@@ -19,25 +19,25 @@ long.
 
 ## Required Equipment
 
--   Instant Pot or Slow Cooker
+- Instant Pot or Slow Cooker
 
 ## Ingredients
 
--   3- to 4-pound boneless beef roast, your choice of cut, I use chuck.
--   1 stick (8 tbsp) unsalted butter
--   1 package au jus gravy mix
--   1 package dry ranch dressing mix, such as Hidden Valley
--   Pepperoncini peppers, number to your liking, and a little juice
--   Salt and freshly ground pepper, if desired (\~1 tbsp of each)
+- 3- to 4-pound boneless beef roast, your choice of cut, I use chuck.
+- 1 stick (8 tbsp) unsalted butter
+- 1 package au jus gravy mix
+- 1 package dry ranch dressing mix, such as Hidden Valley
+- Pepperoncini peppers, number to your liking, and a little juice
+- Salt and freshly ground pepper, if desired (\~1 tbsp of each)
 
 ## Directions
 
-1.  Slice pepperoncinis and remove stems (seeds optional) and throw in
-    instant pot with a splash of juice from the jar.
-2.  Put roast in instant pot
-3.  Add au jus gravy mix, ranch dressing mix, salt and pepper.
-4.  Switch Instant Pot to "Pressure" and set for 2 hours.
-    1.  Alternatively, set Slow Cooker to "high" and cook for 8 hours.
-5.  Do not remove until meat falls apart to the touch.
-6.  Optional - Toast some provolone cheese onto a hoagie roll and serve
-    "philly cheese steak style".
+1. Slice pepperoncinis and remove stems (seeds optional) and throw in
+ instant pot with a splash of juice from the jar.
+2. Put roast in instant pot
+3. Add au jus gravy mix, ranch dressing mix, salt and pepper.
+4. Switch Instant Pot to "Pressure" and set for 2 hours.
+ 1. Alternatively, set Slow Cooker to "high" and cook for 8 hours.
+5. Do not remove until meat falls apart to the touch.
+6. Optional - Toast some provolone cheese onto a hoagie roll and serve
+ "philly cheese steak style".

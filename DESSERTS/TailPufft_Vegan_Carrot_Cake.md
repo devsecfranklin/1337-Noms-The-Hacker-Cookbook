@@ -2,16 +2,16 @@
 
 ## Ingredients
 
--   3 cups flour
--   2 tsp. baking soda
--   1 tsp. salt
--   2 cups sugar
--   3 cups grated fresh carrots
--   1 tbsp. cinnamon
--   1 1/2 cups vegetable oil
--   1 cup chopped walnuts
--   1 cup pureed banana (or alternate egg substitue to replace the
-    equivelant of 4 eggs)
+- 3 cups flour
+- 2 tsp. baking soda
+- 1 tsp. salt
+- 2 cups sugar
+- 3 cups grated fresh carrots
+- 1 tbsp. cinnamon
+- 1 1/2 cups vegetable oil
+- 1 cup chopped walnuts
+- 1 cup pureed banana (or alternate egg substitue to replace the
+ equivelant of 4 eggs)
 
 ## Directions
 

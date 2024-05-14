@@ -6,22 +6,22 @@ pike.
 
 ## Ingredients
 
--   6-8 whitefish fillets, skin on
--   1 c (180 g) brown sugar, packed
--   1 c (300 g) Morton pickling salt
--   1/8 c (14 g) coarse ground black pepper
--   1/4 c (39 g) granulated garlic powder
--   8 bay leaves
--   2 Tbsp (14 g) onion powder
--   1 gallon (3.8 L) water
+- 6-8 whitefish fillets, skin on
+- 1 c (180 g) brown sugar, packed
+- 1 c (300 g) Morton pickling salt
+- 1/8 c (14 g) coarse ground black pepper
+- 1/4 c (39 g) granulated garlic powder
+- 8 bay leaves
+- 2 Tbsp (14 g) onion powder
+- 1 gallon (3.8 L) water
 
 ## Preparation
 
-1.  Rinse fillets well in cold water
-2.  Combine dry ingredients and 1 quart (950 mL) water in a mixing bowl.
-    Mix until salt and sugar are completely dissolved.
-3.  Add brine to a food grade container with remaining water. Mix well.
-4.  Add fillets to brine.
+1. Rinse fillets well in cold water
+2. Combine dry ingredients and 1 quart (950 mL) water in a mixing bowl.
+ Mix until salt and sugar are completely dissolved.
+3. Add brine to a food grade container with remaining water. Mix well.
+4. Add fillets to brine.
 
 Place brined fillets in refrigerator or cooler packed with ice for 16
 hours. A longer brine time will result in saltier fish. Thinner fillets

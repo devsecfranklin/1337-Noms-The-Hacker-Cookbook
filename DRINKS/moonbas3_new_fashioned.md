@@ -25,26 +25,26 @@ honey instead of the sugar cube, but I enjoy proper muddling.
 
 ## Required Equipment
 
--   Muddler
--   Whiskey Glass
--   Big Ol' Ice Cubes (optional)
+- Muddler
+- Whiskey Glass
+- Big Ol' Ice Cubes (optional)
 
 ## Ingredients
 
--   3oz (1 shots) of Wild Roses Bourbon
--   1oz Amaretto
--   2 dashes of Angostura Bitters
--   Big Ol' Ice Ball
--   Orange Round
--   Sugar Cube
--   Seltzer Water
+- 3oz (1 shots) of Wild Roses Bourbon
+- 1oz Amaretto
+- 2 dashes of Angostura Bitters
+- Big Ol' Ice Ball
+- Orange Round
+- Sugar Cube
+- Seltzer Water
 
 ## Directions
 
-1.  Put sugar cube into whiskey glass, add a splash of seltzer water,
-    and muddle until smooth.
-2.  Slice the orange round, put it and the big ol' ice ball into the
-    whiskey glass.
-3.  Add Bourbon, Amaretto and Bitters to the glass.
-4.  Stir stir stir, and serve.
-5.  (Optional) Add maraschino cherry.
+1. Put sugar cube into whiskey glass, add a splash of seltzer water,
+ and muddle until smooth.
+2. Slice the orange round, put it and the big ol' ice ball into the
+ whiskey glass.
+3. Add Bourbon, Amaretto and Bitters to the glass.
+4. Stir stir stir, and serve.
+5. (Optional) Add maraschino cherry.

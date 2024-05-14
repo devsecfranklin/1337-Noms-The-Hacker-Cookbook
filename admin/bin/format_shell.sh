@@ -12,3 +12,6 @@ IFS=$'\n\t'
 shfmt -i 2 -l -w ../bootstrap.sh
 shfmt -i 2 -l -w convert_rst_md.sh
 shfmt -i 2 -l -w generate_book.sh
+
+
+

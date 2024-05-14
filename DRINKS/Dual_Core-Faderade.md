@@ -5,13 +5,13 @@
 
 ## Ingredients
 
--   1 part Vodka
--   1 part RedBull Zero
--   1 part Gatorade
+- 1 part Vodka
+- 1 part RedBull Zero
+- 1 part Gatorade
 
 ## Recipe
 
-1.  Cut a hole in the box
-2.  Fill a 16oz glass with ice
-3.  Pour vodka, followed by RedBull Zero, followed by Gatorade
-4.  Stir and enjoy
+1. Cut a hole in the box
+2. Fill a 16oz glass with ice
+3. Pour vodka, followed by RedBull Zero, followed by Gatorade
+4. Stir and enjoy

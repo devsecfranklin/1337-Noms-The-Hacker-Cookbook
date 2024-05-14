@@ -43,7 +43,10 @@ Simple, hot, and tasty stuff to share with pals.
 
 ## How to make it
 
-### Croutons - if you choose to make the croutons yourself, it's easy, delicious, and pretty satisfying to do:
+### Croutons
+
+If you choose to make the croutons yourself, it's easy, delicious, and
+pretty satisfying to do:
 
 - Cut your favorite bread into very large crouton-sized chunks.
 - Toss them in a big mixing bowl with some olive oil, salt, and
@@ -53,7 +56,7 @@ Simple, hot, and tasty stuff to share with pals.
  golden, and crisp, 10 minutes or so.
 - When they're done, set them aside.
 
-### The Stuffin'
+### The Stuffin
 
 1. Melt the 6 tablespoons of butter in the large non-stick skillet over
  medium heat.

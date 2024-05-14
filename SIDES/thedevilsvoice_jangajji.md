@@ -36,16 +36,8 @@ made by pickling vegetables.
 
 1. Be sure you remember to sterilize the jar as described above.
 2. Cut your vegetables into bite-sized pieces.
-
-```{=html}
-<!-- -->
-```
-a. Cucumbers in round slices.
-b. Deseeding peppers can reduce heat.
-
-```{=html}
-<!-- -->
-```
+  1. Cucumbers in round slices.
+  2. Deseeding peppers can reduce heat.
 3. Toss the vegetables in a bowl to distribute evenly, then transfer
  into jar.
 4. Set these aside for now.

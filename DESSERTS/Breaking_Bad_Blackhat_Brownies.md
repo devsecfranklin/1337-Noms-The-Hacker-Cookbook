@@ -43,7 +43,7 @@ nut allergies)
 6. Add Buttermilk, Eggs & Vanilla. Stir Until smooth.
 7. Pour into a greased baking pan of suitable shape.
 
-## Making the Frosting:
+## Making the Frosting
 
 1. Add Cocoa & Buttermilk to Butter and bring to a boil in a medium sauce pan.
 2. Add Sugar & Vanilla, stirring until smooth consistency.

@@ -1,6 +1,6 @@
 # Grandpappy's Turnt Juice
 
-## A cocktail inspired by October in Southeast Tennessee.
+A cocktail inspired by October in Southeast Tennessee.
 
 There's a chill in the air. The smell of the season's first blaze in the
 fireplace is on the breeze. Winter is coming to the Appalachian

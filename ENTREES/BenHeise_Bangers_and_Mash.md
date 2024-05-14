@@ -62,9 +62,6 @@ Americans).
  this temperature), turn the oven off, put the bangers back in to
  warm because other projects are taking up your kitchen counter space
  and in hindsight you probably should've cleared those off first.
-
-\"
-
 8. Look for a colander for your potatoes, fail to find one, realize
  colanders are probably how the French spy on most Americans and that
  you're better off without one. Carefully drain the water from the

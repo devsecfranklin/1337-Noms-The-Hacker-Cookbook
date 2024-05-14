@@ -5,9 +5,10 @@ you can see the markup for it and use this as a template
 
 ## Ingredients
 
--1 package of tempeh (8oz) -1/2 cup of balsamic vinegar (125mL) -4
-teaspoons tamari or soy sauce (20mL) -1 tablespoon maple syrup (15mL) -1
-tablespoon olive oil (15mL)
+- 1 package of tempeh (8oz) -1/2 cup of balsamic vinegar (125mL)
+- 4 teaspoons tamari or soy sauce (20mL)
+- 1 tablespoon maple syrup (15mL) 
+- 1 tablespoon olive oil (15mL)
 
 ## Instructions
 

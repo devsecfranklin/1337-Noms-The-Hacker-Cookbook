@@ -18,7 +18,7 @@ Poached salmon done with your dishes!
 5. Run the dishwasher
 6. Unwrap the salmon and enjoy
 
-## Tips n' Tricks!
+## Tips n' Tricks
 
 - Serve the salmon on some of your freshly cleaned dishes.
 - This recipie is great for dinner parties.

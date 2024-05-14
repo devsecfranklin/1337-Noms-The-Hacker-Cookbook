@@ -37,7 +37,7 @@ long.
 2. Put roast in instant pot
 3. Add au jus gravy mix, ranch dressing mix, salt and pepper.
 4. Switch Instant Pot to "Pressure" and set for 2 hours.
- 1. Alternatively, set Slow Cooker to "high" and cook for 8 hours.
+ Alternatively, set Slow Cooker to "high" and cook for 8 hours.
 5. Do not remove until meat falls apart to the touch.
 6. Optional - Toast some provolone cheese onto a hoagie roll and serve
  "philly cheese steak style".

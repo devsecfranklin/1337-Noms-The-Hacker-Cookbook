@@ -6,11 +6,11 @@
 
 ![image](images/sl3dges_low-carb_sticky_pork_belly.jpg){.align-center}
 
-## Recipe:
+## Recipe
 
 Makes 6 servings
 
-*You will need an oiled sautée pan, at a medium heat*
+You will need an oiled sautée pan, at a medium heat
 
 ## Pork Belly Ingredients
 

@@ -13,9 +13,9 @@
 - 1/2 cup of half and half
 - Coffee (nom)
 - Liquor of choice:
- - Vodka
- - Peppermint Schnapps \[Suggested\]
- - Whatever just don't fuck it up
+  - Vodka
+  - Peppermint Schnapps \[Suggested\]
+  - Whatever just don't fuck it up
 
 ### Optional Ingredients
 
@@ -53,7 +53,7 @@
 - Add sprinkles!! :D
 - Enjoy!
 
-```
+```sh
 
                                        o$$$$$$oo
                                     o$"        "$oo

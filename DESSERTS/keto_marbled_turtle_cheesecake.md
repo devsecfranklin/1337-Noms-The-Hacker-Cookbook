@@ -19,7 +19,7 @@ Recipe: Makes 12 Slices
 
 ## Ingredients
 
-**You will need a 9″ Springform pan**
+You will need a 9″ Springform pan
 
 ### crust
 

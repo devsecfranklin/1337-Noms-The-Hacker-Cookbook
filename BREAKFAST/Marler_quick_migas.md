@@ -34,22 +34,22 @@ won't blow up if you do it wrong, though I will if you add cheese.
 ## Instructions
 
 1. Use your favorite skillet for cooking eggs and heat it up
-2. Take the chorizo out of it's inedible wrapper (you bought the cheap
+1. Take the chorizo out of it's inedible wrapper (you bought the cheap
  stuff, right? That casing is not edible) and put it in the pan
-3. Chop up the chorizo with a spatula while it cooks until you get it
+1. Chop up the chorizo with a spatula while it cooks until you get it
  into small chunks
-4. Crack the eggs and put them into a plastic cup
-5. Season the eggs with salt and pepper in the cup
-6. Stir up the eggs with a fork until they are as blended as you like
+1. Crack the eggs and put them into a plastic cup
+1. Season the eggs with salt and pepper in the cup
+1. Stir up the eggs with a fork until they are as blended as you like
  them to be
-7. When the chorizo is done, pour in the eggs
-8. Crush the fritos in the bag, then open the bag over the skillet and
+1. When the chorizo is done, pour in the eggs
+1. Crush the fritos in the bag, then open the bag over the skillet and
  dump them in
-9. Add the salsa to the skillet
-10. Add anything else you want to add to cook with the eggs
-11. Stir and chop with the spatula until the eggs are cooked as far as
+1. Add the salsa to the skillet
+1. Add anything else you want to add to cook with the eggs
+1. Stir and chop with the spatula until the eggs are cooked as far as
  you like them cooked (I like my eggs dry as a Texas drought)
-12. Remove skillet from heat and divide accordingly onto plates
-13. If you have any fresh veggies you want to add for garnish, now is
+1. Remove skillet from heat and divide accordingly onto plates
+1. If you have any fresh veggies you want to add for garnish, now is
  your chance to do so
-14. Enjoy!
+1. Enjoy!

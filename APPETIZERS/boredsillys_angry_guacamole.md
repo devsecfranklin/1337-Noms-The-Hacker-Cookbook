@@ -22,7 +22,7 @@ Serves 8 to 10
 - Sea salt
 - Garlic powder
 
-## Preparation Tips and Tricks: [*Read this section first*]
+## Preparation Tips and Tricks: Read this section first
 
 **Cilantro**: Hate destemming cilantro like I do? **BEFORE** you wash
 it, use a fork to rake down the length of the bunch from the base toward

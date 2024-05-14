@@ -1,10 +1,9 @@
 # tiptone's Mexican Martini
 
-**Serving Size**: Two Cocktails, **Calories**: Yes, definitely
+Serving Size: Two Cocktails
+Calories: Yes, definitely
 
-::: {.images alt="Mexican Martini"}
-images/tiptone-mexican-martini.
-:::
+![image](images/tiptone-mexican-martini.jpg){.align-center, .images alt="Mexican Martini"}
 
 ## Ingredients
 
@@ -23,4 +22,4 @@ images/tiptone-mexican-martini.
 4. Strain into cocktail glasses and garnish with olive(s)\*
 5. Enjoy
 
-**mrstiptone insists this should be jalapeno stuffed olives**
+mrstiptone insists this should be jalapeno stuffed olives

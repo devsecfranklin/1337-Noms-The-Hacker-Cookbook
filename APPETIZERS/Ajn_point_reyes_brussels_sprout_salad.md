@@ -22,10 +22,10 @@ the chance. Here goes...
  mandolin slicer moving in a single direction until only the portion
  you would have trimmed is left. Consistency is key here; you want
  light, shredded bits with some thinly sliced core pieces
-1. In a large bowl, mix oil, syrup, mustard and blue cheese with a
+2. In a large bowl, mix oil, syrup, mustard and blue cheese with a
  fork, mashing the cheese until smooth and integrated. You could use
  a food processor, but I find this easier. Balance cheese/oil/mustard
  to your preference, along with light salt/pepper.
-1. Mix in sprouts until you achieve a dressing:sprout ratio you like.
+3. Mix in sprouts until you achieve a dressing:sprout ratio you like.
  We prefer it pretty thin on dressing. Add pears and sprinkle with
  walnuts. Serve with grilled beef/pork/lamb.

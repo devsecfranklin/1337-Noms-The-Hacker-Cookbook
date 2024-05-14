@@ -1,4 +1,4 @@
-# Eclectic Freedom Fries:
+# Eclectic Freedom Fries
 
 Makes a very diverse and healthy snack.
 

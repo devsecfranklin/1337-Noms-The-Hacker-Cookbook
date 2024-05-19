@@ -2,6 +2,7 @@
 *.swp
 *.pdf
 _build/
+hacker_cookbook.tex
 **/logs/*
 **/_markdown_hacker_cookbook/*
 

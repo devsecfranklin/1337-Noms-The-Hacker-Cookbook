@@ -27,66 +27,81 @@ NC='\033[0m' # No Color
 
 # --- Some config Variables ----------------------------------------
 CATEGORIES=("APPETIZERS" "BREAKFAST" "COOKWARE" "DESSERTS" "DRINKS" "ENTREES" "SAUCES" "SIDES" "SNACKS")
+LOGGING_DIR="/tmp/cookbook/log"
 MY_DATE=$(date '+%Y-%m-%d-%H')
-RAW_OUTPUT="generate_cookbook_${MY_DATE}.txt" # log file name
-TEX_OUTPUT="cookbook/hacker_cookbook.tex"
+MY_PWD="${PWD}"
+RAW_OUTPUT="${LOGGING_DIR}/generate_cookbook_${MY_DATE}.txt" # log file name
+TEX_DIR="/tmp/cookbook"
+TEX_OUTPUT="${TEX_DIR}/hacker_cookbook.tex"
 
-function path_setup() {
-  # path madness
-  CURRENT_DIR="${PWD}"
-  #echo -e "${LGREEN}Current dir: ${LCYAN}${CURRENT_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
-  PROG_DIR="$0"
+function directory_setup() {
 
-  SCRIPT_DIR=$(echo $PROG_DIR | sed 's|\(.*\)/.*|\1|')
-  #echo -e "${LGREEN}Found script dir: ${LCYAN}${SCRIPT_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
-  SUB_DIR=$(echo $SCRIPT_DIR | rev | cut -d'/' -f2- | rev)
-  #echo "Sub dir: $SUB_DIR"
-  if [ "$SUB_DIR" != "bin" ]; then
-    LOGGING_DIR="$CURRENT_DIR/$SUB_DIR/logs"
-    DATA_DIR="$CURRENT_DIR/$SUB_DIR/data"
-  else
-    LOGGING_DIR="$CURRENT_DIR/logs"
-    DATA_DIR="$CURRENT_DIR/data"
+  # ##### LaTeX #####
+  if [ ! -d "${TEX_DIR}" ]; then
+    #echo -e "${LRED}Creating LaTeX dir: ${LCYAN}${TEX_DIR}${NC}"
+    mkdir -p ${TEX_DIR}
   fi
 
-  if [ -d "${LOGGING_DIR}" ]; then
-    RAW_OUTPUT="${LOGGING_DIR}/${RAW_OUTPUT}"
-    echo -e "\n${LCYAN}------------------ Starting Backup Tool ------------------${NC}" | tee -a "${RAW_OUTPUT}"
-    echo -e "${LGREEN}Found log dir: ${LCYAN}${LOGGING_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
-    echo -e "${LGREEN}Log file path is: ${LCYAN}${RAW_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
-    echo -e "${LGREEN}LaTeX file path is: ${LCYAN}${TEX_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
-  else
-    echo -e "${LRED}Did not find log dir: ${LCYAN}${RAW_OUTPUT}${NC}"
-    LOGGING_DIR="."
-    RAW_OUTPUT="${LOGGING_DIR}/${RAW_OUTPUT}"
+  # ##### Logging #####
+  if [ ! -d "${LOGGING_DIR}" ]; then
+    #echo -e "${LRED}Creating log dir: ${LCYAN}${LOGGING_DIR}${NC}"
+    mkdir -p ${LOGGING_DIR}
   fi
+
+  # output the results
+  echo -e "\n${LCYAN}------------------ Building Cookbook ------------------${NC}" | tee -a "${RAW_OUTPUT}"
+  echo -e "${LGREEN}Log file path is: ${LCYAN}${RAW_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
+  echo -e "${LGREEN}LaTeX directory is: ${LCYAN}${TEX_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
 }
 
+# The frontmatter includes ToC, colophon, etc.
 function frontmatter() {
-  cat ${CURRENT_DIR}/cookbook/frontmatter/header.tex \
-    ${CURRENT_DIR}/cookbook/frontmatter/frontmatter.tex | tee -a "${TEX_OUTPUT}"
+  echo -e "${LGREEN}Adding frontmatter...${NC}" | tee -a "${RAW_OUTPUT}"
+  cp .admin/tex/preamble.tex ${TEX_DIR}
+  cat .admin/tex/frontmatter/header.tex \
+    .admin/tex/frontmatter/frontmatter.tex | tee -a "${TEX_OUTPUT}"
+  echo -e "\n" | tee -a "${TEX_OUTPUT}"
 }
 
+# the recipes
 function mainmatter() {
-  cat ${CURRENT_DIR}/cookbook/mainmatter/mainmatter.tex | tee -a "${TEX_OUTPUT}"
+  COUNTER=0
+  echo -e "${LGREEN}Adding mainmatter...${NC}" | tee -a "${RAW_OUTPUT}"
+  cat .admin/tex/mainmatter/mainmatter.tex | tee -a "${TEX_OUTPUT}"
+
   for i in ${CATEGORIES[@]}; do
-    THESE_FILES=$(ls ../${i}/*.md)
+    cp -Rp ${i} ${TEX_DIR}
+
+    # start with the section header
+    # convert section headers to tex files
+
+    THESE_FILES=$(ls ${TEX_DIR}/${i}/*.md)
     for j in $THESE_FILES; do
-      echo "\markdownInput{../${j}}"
+      sed -i -e "s/images\//${i}\/images\//g" ${j}
+      echo "\markdownInput{${j}}" | tee -a "${TEX_OUTPUT}"
+      ((COUNTER+=1)) # increment recipe count
     done
   done
 }
 
 function backmatter() {
-  cat ${CURRENT_DIR}/cookbook/backmatter/backmatter.tex \
-    ${CURRENT_DIR}/cookbook/backmatter/end.tex | tee -a "${TEX_OUTPUT}"
+  echo -e "${LGREEN}Adding backmatter...${NC}" | tee -a "${RAW_OUTPUT}"
+  cat .admin/tex/backmatter/backmatter.tex \
+    .admin/tex/backmatter/end.tex | tee -a "${TEX_OUTPUT}"
 }
 
 function main() {
-  path_setup
+  directory_setup
+
+  # remove any stale output file
+  if [ -f "${TEX_OUTPUT}" ]; then rm ${TEX_OUTPUT} && touch ${TEX_OUTPUT}; fi
+
   frontmatter
   mainmatter
   backmatter
+
+  cp ${TEX_OUTPUT} ${MY_PWD}/.admin/tex
+  cd ${TEX_DIR} && latexmk -pdf -file-line-error -interaction=nonstopmode -synctex=1 -shell-escape hacker_cookbook
 }
 
 main "$@"

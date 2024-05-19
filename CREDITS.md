@@ -1,5 +1,8 @@
-Credits
-=======
+# Credits
+
+- [This link shows who worked on this project](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/graphs/contributors)
+
+These folks have added their recipes to the project:
 
 - [@iHeartMalware](https://twitter.com/iheartmalware)
   - Organizing the project

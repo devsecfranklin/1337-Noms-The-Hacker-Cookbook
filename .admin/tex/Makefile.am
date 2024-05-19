@@ -5,7 +5,7 @@ clean:
 	rm -rf _build *.egg-info
 	@find . -name '*.pyc' | xargs rm -rf
 	@find . -name '__pycache__' | xargs rm -rf
-	@for trash in *.aux *.bbl *.blg *.lof *.log *.lot *.out *.pdf *.synctex.gz *.toc ; do \
+	@for trash in *.aux *.bbl *.blg *.err *.fdb_latexmk *.fls *.idx *.lof *.log *.lot *.lua *.out *.pdf *.synctex.gz *.toc Makefile Makefile.in _markdown_hacker_cookbook; do \
 		if [ -f "$$trash" ]; then rm -rf $$trash ; fi ; \
         done
 

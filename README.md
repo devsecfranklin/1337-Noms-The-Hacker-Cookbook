@@ -4,6 +4,12 @@
 
 ![hacked](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/blob/main/admin/images/hacked.jpg?raw=true)
 
-[Click here to learn how to add your recipe to this project!](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/blob/main/admin/CONTRIBUTING.rst)
+## :hammer_and_wrench: Contributing :hammer_and_wrench:
 
-If you still need help you can reach out to [@thedevilsvoice](https://twitter.com/thedevilsvoice) or [@iheartmalware](https://twitter.com/iheartmalware).
+* A page that explains [how to add your recipe to this project!](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/blob/main/.admin/CONTRIBUTING.md)
+* An [older wiki page](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/wiki/Adding-Recipes) that may be of help.
+
+## Maintainers
+
+* [@thedevilsvoice](https://twitter.com/thedevilsvoice)
+* [@iheartmalware](https://twitter.com/iheartmalware)

@@ -2,7 +2,8 @@
 *.swp
 *.pdf
 _build/
-admin/logs/
+**/logs/*
+**/_markdown_hacker_cookbook/*
 
 AUTHORS
 COPYING

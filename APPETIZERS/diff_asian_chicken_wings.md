@@ -1,5 +1,4 @@
-diff's Asian Chicken Wings
-==========================
+# diff's Asian Chicken Wings
 
 Growing up on the East Coast and working in some resturants, I came to
 enjoy "Chinese" chicken wings, which had not really been Chinese at all.
@@ -7,8 +6,7 @@ You can't get them in authentic places, but it was still tasty. After
 trying for a while without luck to find a worthy replacement in the Bay
 Area, I decided to essentially reverse engineer the taste.
 
-Sauce Ingredients
------------------
+## Sauce Ingredients
 
 - 1/4 cup of sugar
 - 1/8 cup of salt
@@ -18,7 +16,7 @@ Sauce Ingredients
 - 1/4 cup of rice wine
 - 1/4 cup of vinegar (slightly less)
 - 1 tsp of 5 spice powder (replace with habanero for extra heat, but
-    add cumin)
+ add cumin)
 - 1 tsp of ginger powered
 - 1 tsp real ginger (freshly grated)
 - 1 tsp onion powder
@@ -33,11 +31,10 @@ wings depending on the vessel used to marinate.
 For best results, put into a bag (or vacuum seal) and freeze, to allow
 the marinade to penetrade the chicken more.
 
-Cooking
--------
+## Cooking
 
-Remove chicken from container and let excess marinade strain back in
--you could likely use this marinade again if you've liked it. Don't
+Remove chicken from container and let excess marinade strain back in.
+You could likely use this marinade again if you've liked it. Don't
 bother with the onion chunks unless you want to add them to some other
 stir fry dish.
 
@@ -47,10 +44,10 @@ first flip as the marinade has the raw chicken juice in it. As you cool,
 you can brush with honey to create a crispier skin.
 
 - Smoking the chicken wings ends up adding an extra interesting layer,
-    though this just elongates the process
+ though this just elongates the process
 - Sauce/chicken is fine to sous vide with, this is an awesome
-    alternative to cooking it fully on the grill. Juice will be safe for
-    basting of making a concetrated dipping sauce.
+ alternative to cooking it fully on the grill. Juice will be safe for
+ basting of making a concetrated dipping sauce.
 - Alternatively you can actually fry the chicken wings, as a resturant
-    would. This just tends to be a bit more messy and the clean up can
-    be bothersome.
+ would. This just tends to be a bit more messy and the clean up can
+ be bothersome.

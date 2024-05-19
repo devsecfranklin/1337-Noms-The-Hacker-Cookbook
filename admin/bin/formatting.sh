@@ -4,8 +4,14 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
+# v0.1 02/25/2022 Maintainer script
+# v0.2 05/13/2024 Remove spaces after conversion
+
 set -euo pipefail
-#IFS=$'\n\t'
+IFS=$'\n\t'
+
+# --- Some config Variables ----------------------------------------
+MY_DATE=$(date '+%Y-%m-%d-%H')
 
 #Black        0;30     Dark Gray     1;30
 #Red          0;31     Light Red     1;31
@@ -19,28 +25,18 @@ set -euo pipefail
 RED='\033[0;31m'
 LRED='\033[1;31m'
 LGREEN='\033[1;32m'
+LBLUE='\033[1;34m'
 CYAN='\033[0;36m'
-LCYAN='\033[1;36m'
 LPURP='\033[1;35m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
-# --- Some config Variables ----------------------------------------
-CATEGORIES=("APPETIZERS" "BREAKFAST" "COOKWARE" "DESSERTS" "DRINKS" "ENTREES" "SAUCES" "SIDES" "SNACKS")
-MY_DATE=$(date '+%Y-%m-%d-%H')
-RAW_OUTPUT="generate_cookbook_${MY_DATE}.txt" # log file name
-TEX_OUTPUT="cookbook/hacker_cookbook.tex"
-
 function path_setup() {
-  # path madness
   CURRENT_DIR="${PWD}"
-  #echo -e "${LGREEN}Current dir: ${LCYAN}${CURRENT_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
   PROG_DIR="$0"
-
   SCRIPT_DIR=$(echo $PROG_DIR | sed 's|\(.*\)/.*|\1|')
-  #echo -e "${LGREEN}Found script dir: ${LCYAN}${SCRIPT_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
   SUB_DIR=$(echo $SCRIPT_DIR | rev | cut -d'/' -f2- | rev)
-  #echo "Sub dir: $SUB_DIR"
+  echo "Sub dir: $SUB_DIR"
   if [ "$SUB_DIR" != "bin" ]; then
     LOGGING_DIR="$CURRENT_DIR/$SUB_DIR/logs"
     DATA_DIR="$CURRENT_DIR/$SUB_DIR/data"
@@ -54,39 +50,48 @@ function path_setup() {
     echo -e "\n${LCYAN}------------------ Starting Backup Tool ------------------${NC}" | tee -a "${RAW_OUTPUT}"
     echo -e "${LGREEN}Found log dir: ${LCYAN}${LOGGING_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
     echo -e "${LGREEN}Log file path is: ${LCYAN}${RAW_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
-    echo -e "${LGREEN}LaTeX file path is: ${LCYAN}${TEX_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
   else
-    echo -e "${LRED}Did not find log dir: ${LCYAN}${RAW_OUTPUT}${NC}"
+    echo -e "${LGRED}Did not find log dir: ${LCYAN}${RAW_OUTPUT}${NC}"
     LOGGING_DIR="."
     RAW_OUTPUT="${LOGGING_DIR}/${RAW_OUTPUT}"
   fi
 }
 
-function frontmatter() {
-  cat ${CURRENT_DIR}/cookbook/frontmatter/header.tex \
-    ${CURRENT_DIR}/cookbook/frontmatter/frontmatter.tex | tee -a "${TEX_OUTPUT}"
+
+function shell_script_fmt() {
+  echo -e "${CYAN}Formatting shell scripts...${NC}"
+  shfmt -i 2 -l -w ../bootstrap.sh
+  shfmt -i 2 -l -w formatting.sh
+  shfmt -i 2 -l -w generate_book.sh
 }
 
-function mainmatter() {
-  cat ${CURRENT_DIR}/cookbook/mainmatter/mainmatter.tex | tee -a "${TEX_OUTPUT}"
-  for i in ${CATEGORIES[@]}; do
-    THESE_FILES=$(ls ../${i}/*.md)
-    for j in $THESE_FILES; do
-      echo "\markdownInput{../${j}}"
+function convert_rst_to_md() {
+  FILES=*.rst
+  if [ ! -n "${FILES}" ]; then
+    for f in $FILES; do
+      filename="${f%.*}"
+      echo "Converting ${f} to ${filename}.md"
+      $(pandoc $f -f rst -t markdown -o ${filename}.md)
     done
+  fi
+}
+
+function format_markdown(){
+  FILES=*.md
+  for f in $FILES; do
+    filename="${f%.*}"
+    echo "Removing spaces from ${filename}.md"
+    cat ${filename}.md | tr -s ' ' > /tmp/tmp_file
+    mv /tmp/tmp_file ${filename}.md
+    echo "Running markdown lint on ${filename}.md"
+    mdl ${filename}.md 
   done
 }
 
-function backmatter() {
-  cat ${CURRENT_DIR}/cookbook/backmatter/backmatter.tex \
-    ${CURRENT_DIR}/cookbook/backmatter/end.tex | tee -a "${TEX_OUTPUT}"
-}
-
 function main() {
-  path_setup
-  frontmatter
-  mainmatter
-  backmatter
+  shell_script_fmt
+  convert_rst_to_md
+  format_markdown
 }
 
 main "$@"

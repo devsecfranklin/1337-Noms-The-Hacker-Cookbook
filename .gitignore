@@ -2,6 +2,7 @@
 *.swp
 *.pdf
 _build/
+admin/logs/
 
 AUTHORS
 COPYING

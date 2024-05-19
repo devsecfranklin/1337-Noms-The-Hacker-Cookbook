@@ -9,7 +9,7 @@ clean:
 		if [ -f "$$trash" ]; then rm -rf $$trash ; fi ; \
         done
 
-paper:
+cookbook:
 	latexmk -pdf -file-line-error -interaction=nonstopmode -synctex=1 -shell-escape hacker_cookbook
 	bibtex hacker_cookbook
 	latexmk -pdf -file-line-error -interaction=nonstopmode -synctex=1 -shell-escape hacker_cookbook

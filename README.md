@@ -8,6 +8,7 @@
 
 * A page that explains [how to add your recipe to this project!](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/blob/main/.admin/CONTRIBUTING.md)
 * An [older wiki page](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/wiki/Adding-Recipes) that may be of help.
+* [This link shows exactly who did and did not on this project](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/graphs/contributors)
 
 ## Maintainers
 

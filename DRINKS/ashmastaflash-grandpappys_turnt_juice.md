@@ -11,15 +11,14 @@ Not for the faint of heart, or the faint of pancreas. If you need to
 shoot your blood sugar through the roof and take the edge way off, this
 is the drink for you.
 
-![Grandpappy's Turnt
-Juice](images/ashmastaflash-grandpappys_turnt_juice.jpg)
+![Grandpappy's Turnt Juice](images/ashmastaflash-grandpappys_turnt_juice.jpg)
 
-Tools:
+## Tools
 
 - Martini shaker
 - Mason jar
 
-Ingredients:
+## Ingredients
 
 - Woodford Reserve bourbon
 - Woodford Reserve cherries
@@ -28,7 +27,7 @@ Ingredients:
 - Unsulphured molasses
 - Angostura bitters
 
-Directions:
+## Directions
 
 1. Put a tablespoon of molasses into the shaker along with a handful of
  crushed ice
@@ -41,5 +40,4 @@ Directions:
  shaker and drop it into the turnt juice.
 
 Enjoy!
-
-\_@ashmastaflash\_
+@ashmastaflash

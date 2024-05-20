@@ -1,8 +1,8 @@
 # Credits
 
-- [This link shows who worked on this project](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/graphs/contributors)
+- [This link shows exactly who did and did not on this project](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/graphs/contributors)
 
-These folks have added their recipes to the project:
+These folks have added their recipes to the project, and their names to this file:
 
 - [@iHeartMalware](https://twitter.com/iheartmalware)
   - Organizing the project
@@ -13,7 +13,7 @@ These folks have added their recipes to the project:
   - Street Corn
   - Jangajji
 - @da_667 - Crock Pot Cheesey Chicken Chili (Dinner)
-- ``Ajn <https://github.com/x41x41x90>``\ \_\_
+- [Ajn](https://github.com/x41x41x90)
 - [@v3rtig0 (Russ Rogers)](https://twitter.com/v3rtig0)
 - @timstrazz aka diff - diff’s Asian Chicken Wings
 - @boredsilly

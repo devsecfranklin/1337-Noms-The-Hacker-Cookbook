@@ -57,7 +57,13 @@ function directory_setup() {
 # The frontmatter includes ToC, colophon, etc.
 function frontmatter() {
   echo -e "${LGREEN}Adding frontmatter...${NC}" | tee -a "${RAW_OUTPUT}"
+  
+  # Copy TeX files to tmp build dir
+  cp -Rp .admin/tex/frontmatter ${TEX_DIR}
   cp .admin/tex/preamble.tex ${TEX_DIR}
+  cp -Rp .admin/images ${TEX_DIR}
+  
+  # build the front pages
   cat .admin/tex/frontmatter/header.tex \
     .admin/tex/frontmatter/frontmatter.tex | tee -a "${TEX_OUTPUT}"
   echo -e "\n" | tee -a "${TEX_OUTPUT}"
@@ -74,10 +80,15 @@ function mainmatter() {
 
     # start with the section header
     # convert section headers to tex files
+    if [ -f ".admin/tex/${i}/section.tex" ]; then
+      echo -e "${LGREEN}Found section header: ${LCYAN}${i}${NC}" | tee -a "${RAW_OUTPUT}"
+      cat .admin/tex/${i}/section.tex | tee -a "${TEX_OUTPUT}"
+    fi
 
     THESE_FILES=$(ls ${TEX_DIR}/${i}/*.md)
     for j in $THESE_FILES; do
       sed -i -e "s/images\//${i}\/images\//g" ${j}
+      echo -e "${LGREEN}Adding recipe: ${LCYAN}${j}${NC}" | tee -a "${RAW_OUTPUT}"
       echo "\markdownInput{${j}}" | tee -a "${TEX_OUTPUT}"
       ((COUNTER+=1)) # increment recipe count
     done
@@ -90,7 +101,27 @@ function backmatter() {
     .admin/tex/backmatter/end.tex | tee -a "${TEX_OUTPUT}"
 }
 
+function cleanup() {
+  echo "Cleaning up..." | tee -a "${RAW_OUTPUT}"
+
+  # copy final file to original dir
+  echo -e "${LGREEN}Copying PDF to project dir: ${LCYAN}${TEX_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
+  cp ${TEX_OUTPUT} ${MY_PWD}
+  
+  # Blow away the temp working dir
+  if [ -d "${TEX_DIR}" ]; then
+    echo -e "${LGREEN}Erase tmp build dir: ${LCYAN}${TEX_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
+  fi
+}
+
 function main() {
+
+  # Check to see if script is being run from correct relative path
+  if [ ! -f ".admin/bin/generate_book.sh" && ! -d ".admin/tex"]; then
+    echo -e "${LRED}Please run this tool from top level of repo clone${NC}"
+    exit 1
+  fi
+
   directory_setup
 
   # remove any stale output file
@@ -102,6 +133,8 @@ function main() {
 
   cp ${TEX_OUTPUT} ${MY_PWD}/.admin/tex
   cd ${TEX_DIR} && latexmk -pdf -file-line-error -interaction=nonstopmode -synctex=1 -shell-escape hacker_cookbook
+
+  cleanup
 }
 
 main "$@"

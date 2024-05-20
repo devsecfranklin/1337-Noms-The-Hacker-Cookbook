@@ -1,6 +1,6 @@
 # Moonbas3's New Fashioned
 
-![Moonbas3 New Fashioned](https://i.imgur.com/HqXth1P.jpg)
+![Moonbas3 New Fashioned](images/HqXth1P.jpg)
 
 ## Discussion
 

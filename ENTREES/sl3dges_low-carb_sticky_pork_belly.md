@@ -4,7 +4,7 @@
 - 86g Fat
 - 17g Protein
 
-![image](images/sl3dges_low-carb_sticky_pork_belly.jpg){.align-center}
+![stickyporkbelly](images/sl3dges_low-carb_sticky_pork_belly.jpg){.align-center}
 
 ## Recipe
 

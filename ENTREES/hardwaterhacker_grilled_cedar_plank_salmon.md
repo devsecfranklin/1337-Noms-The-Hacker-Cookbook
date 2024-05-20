@@ -49,6 +49,4 @@ Keep a close eye on the grill during cooking. The brown sugar mixture is
 likely to flare up. Knock down flames with a spray bottle filled with
 water.
 
-::: {.imagee alt="Grilled Cedar Plank Salmon"}
-images/hardwaterhacker_grilled_cedar_plank_salmon.jpg
-:::
+![Grilled Cedar Plank Salmon](images/hardwaterhacker_grilled_cedar_plank_salmon.jpg)

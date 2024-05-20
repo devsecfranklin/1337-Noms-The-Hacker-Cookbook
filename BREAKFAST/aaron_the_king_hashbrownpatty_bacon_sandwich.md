@@ -20,14 +20,14 @@ Play with your food and then eat it!
  on the bottom hashbrownpatty
 - Place the top hashbrownpatty on top of the bacon kilobytes
 
-## Tips n' Tricks
+## Tips and Tricks
 
 - Please don't put ketchup on it.
 
-![image](images/aaron_the_king_hashbrownpatty_bacon_sandwich_0.jpg)
+![hashbrownpatty0](images/aaron_the_king_hashbrownpatty_bacon_sandwich_0.jpg)
 
-![image](images/aaron_the_king_hashbrownpatty_bacon_sandwich_1.jpg)
+![hashbrownpatty1](images/aaron_the_king_hashbrownpatty_bacon_sandwich_1.jpg)
 
-![image](images/aaron_the_king_hashbrownpatty_bacon_sandwich_2.jpg)
+![hashbrownpatty2](images/aaron_the_king_hashbrownpatty_bacon_sandwich_2.jpg)
 
-![image](images/aaron_the_king_hashbrownpatty_bacon_sandwich_3.jpg)
+![hashbrownpatty3](images/aaron_the_king_hashbrownpatty_bacon_sandwich_3.jpg)

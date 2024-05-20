@@ -57,12 +57,12 @@ function directory_setup() {
 # The frontmatter includes ToC, colophon, etc.
 function frontmatter() {
   echo -e "${LGREEN}Adding frontmatter...${NC}" | tee -a "${RAW_OUTPUT}"
-  
+
   # Copy TeX files to tmp build dir
   cp -Rp .admin/tex/frontmatter ${TEX_DIR}
   cp .admin/tex/preamble.tex ${TEX_DIR}
   cp -Rp .admin/images ${TEX_DIR}
-  
+
   # build the front pages
   cat .admin/tex/frontmatter/header.tex \
     .admin/tex/frontmatter/frontmatter.tex | tee -a "${TEX_OUTPUT}"
@@ -76,21 +76,26 @@ function mainmatter() {
   cat .admin/tex/mainmatter/mainmatter.tex | tee -a "${TEX_OUTPUT}"
 
   for i in ${CATEGORIES[@]}; do
+    echo -e "${LGREEN}Copying folder: ${LCYAN}${i}${NC}" | tee -a "${RAW_OUTPUT}"
     cp -Rp ${i} ${TEX_DIR}
 
     # start with the section header
-    # convert section headers to tex files
-    if [ -f ".admin/tex/${i}/section.tex" ]; then
-      echo -e "${LGREEN}Found section header: ${LCYAN}${i}${NC}" | tee -a "${RAW_OUTPUT}"
-      cat .admin/tex/${i}/section.tex | tee -a "${TEX_OUTPUT}"
+    if [ -f "${TEX_DIR}/${i}/section.tex" ]; then
+      echo -e "${LGREEN}Found section header: ${LCYAN}${TEX_DIR}/${i}/section.tex${NC}" | tee -a "${RAW_OUTPUT}"
+      NEW_DIR=$(echo "${TEX_DIR}/${i}/images/" | sed 's@/@\\/@g')
+      echo -e "${LGREEN}Update image path in section header to: ${LCYAN}${NEW_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
+      sed -i -e "s/images\//${NEW_DIR}/g" ${TEX_DIR}/${i}/section.tex
+      cat ${TEX_DIR}/${i}/section.tex | tee -a "${TEX_OUTPUT}"
     fi
 
     THESE_FILES=$(ls ${TEX_DIR}/${i}/*.md)
     for j in $THESE_FILES; do
-      sed -i -e "s/images\//${i}\/images\//g" ${j}
+      sed -i -e "s/images\//${NEW_DIR}/g" ${j} # fix image directory
+      sed -i 's|^#|##|' ${j}                   # fix the markdown heading level
       echo -e "${LGREEN}Adding recipe: ${LCYAN}${j}${NC}" | tee -a "${RAW_OUTPUT}"
+      echo "\pagebreak" | tee -a "${TEX_OUTPUT}" # new page for every recipe
       echo "\markdownInput{${j}}" | tee -a "${TEX_OUTPUT}"
-      ((COUNTER+=1)) # increment recipe count
+      ((COUNTER += 1)) # increment recipe count
     done
   done
 }
@@ -106,11 +111,12 @@ function cleanup() {
 
   # copy final file to original dir
   echo -e "${LGREEN}Copying PDF to project dir: ${LCYAN}${TEX_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
-  cp ${TEX_OUTPUT} ${MY_PWD}
-  
+  cp ${TEX_DIR}/hacker_cookbook.pdf ${MY_PWD}
+
   # Blow away the temp working dir
   if [ -d "${TEX_DIR}" ]; then
     echo -e "${LGREEN}Erase tmp build dir: ${LCYAN}${TEX_DIR}${NC}" | tee -a "${RAW_OUTPUT}"
+    rm -rf ${TEX_DIR}
   fi
 }
 
@@ -129,6 +135,7 @@ function main() {
 
   frontmatter
   mainmatter
+  echo -e "${LGREEN}Processed ${COUNTER} recipes total.${NC}" | tee -a "${RAW_OUTPUT}"
   backmatter
 
   cp ${TEX_OUTPUT} ${MY_PWD}/.admin/tex

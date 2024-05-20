@@ -7,35 +7,41 @@ oven, and don't over bake it! Opening the oven will cause a draft and in
 turn cause irregularities in the temperature, which makes the cheesecake
 crack. Over baking will dry it out and also make it crack.
 
-Nutritional Information:
+- Makes 12 Slices
+- Nutritional Information Per Slice: 5g Net Carbs 50g Fat 10g Protein
 
-Per Slice-
-
-5g Net Carbs 50g Fat 10g Protein
-
-Recipe: Makes 12 Slices
-
-![image](images/keto_marbled_turtle_cheesecake.jpg){.align-center}
+![keto_marbled_turtle_cheesecake](images/keto_marbled_turtle_cheesecake.jpg){.align-center}
 
 ## Ingredients
 
-You will need a 9″ Springform pan
+You will need a 9 inch Springform pan
 
 ### crust
 
-6 Tbsp of Butter 1/3 Cup of Swerve 2 Cups of Almond Flour 3 Tbsp of
-Cocoa Baking Powder (A very small) Pinch of Salt
+- 6 Tbsp of Butter
+- 1/3 Cup of Swerve
+- 2 Cups of Almond Flour
+- 3 Tbsp of Cocoa Baking Powder
+- (A very small) Pinch of Salt
 
 ### Filling
 
-4 Eggs 1 Cup of Swerve 1 Tsp of Vanilla Extract 3 8oz Packs of Cream
-Cheese 1/3 Cup of Sour Cream 2 Tbsp of Cocoa Baking Powder
+- 4 Eggs
+- 1 Cup of Swerve
+- 1 Tsp of Vanilla Extract
+- 3 8oz Packs of Cream Cheese
+- 1/3 Cup of Sour Cream
+- 2 Tbsp of Cocoa Baking Powder
 
 ### Caramel
 
-4 Tbsp of Butter 1 Tbsp of Coconut Oil 4 Tbsp of Heavy Cream 1 tsp of
-Vanilla Extract 3 Tbsp of Swerve A Pinch of Salt 1 Cup Pecans, roughly
-chopped
+- 4 Tbsp of Butter
+- 1 Tbsp of Coconut Oil
+- 4 Tbsp of Heavy Cream
+- 1 tsp of Vanilla Extract
+- 3 Tbsp of Swerve
+- A Pinch of Salt
+- 1 Cup Pecans, roughly chopped
 
 ## Recipe
 
@@ -55,13 +61,13 @@ pan and place on baking sheet
  minutes.
 3. Gently add one egg at a time, mixing for about 1 minute in between
  each egg.
-4. separate out 1 -- 1 1/2 Cups of the filling into a separate bowl and
+4. separate out 1 to 1 1/2 Cups of the filling into a separate bowl and
  add 2 Tbsp of Cocoa baking powder, mixing for about 1 minute.
 5. Pour the regular mix into the springform pan. Add the chocolate mix
  in portions around the pan. Use a butter knife to carefully swirl
  the chocolate mix through the regular mix to create a marbled
  effect.
-6. Bake for 40 -- 45 minutes, or until it is puffy and golden around
+6. Bake for 40 to 45 minutes, or until it is puffy and golden around
  the edges.
 7. Run a knife around the inside of the rim to loosen the cake, but let
  it cool for a while before removing the rim!

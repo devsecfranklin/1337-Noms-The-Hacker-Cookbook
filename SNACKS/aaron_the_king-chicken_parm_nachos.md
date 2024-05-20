@@ -33,26 +33,26 @@ Turn your leftover chicken parm into an exciting midnight snack!
 - After you've finished your nachos just pick up the chicken parm and
  eat it with your hands.
 
-::: images
+::: nacho0
 ../images/aaron_the_king-chicken_parm_nachos_0.jpg
 :::
 
-::: images
+::: nacho1
 ../images/aaron_the_king-chicken_parm_nachos_1.jpg
 :::
 
-::: images
+::: nacho2
 ../images/aaron_the_king-chicken_parm_nachos_2.jpg
 :::
 
-::: images
+::: nacho3
 ../images/aaron_the_king-chicken_parm_nachos_3.jpg
 :::
 
-::: images
+::: nacho4
 ../images/aaron_the_king-chicken_parm_nachos_4.jpg
 :::
 
-::: images
+::: nacho5
 ../images/aaron_the_king-chicken_parm_nachos_5.jpg
 :::

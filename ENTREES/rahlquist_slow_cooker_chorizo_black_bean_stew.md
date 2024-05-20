@@ -3,7 +3,7 @@
 A large batch (about 6 quart) of thick, hearty, protein rich, low carb
 stew
 
-![image](images/rahlquist_slow_cooker_chorizo_black_bean_stew.jpg){.align-center}
+![chroizo stew](images/rahlquist_slow_cooker_chorizo_black_bean_stew.jpg){.align-center}
 
 ## Ingredients
 

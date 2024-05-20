@@ -3,7 +3,7 @@
 My variation of a traditional Irish soup. Serve with a hearty bread to
 dip.
 
-![image](images/dis0wn-TwoCheese_Bacon_Potato_and_Cauliflower_Soup.png){.align-center}
+![TwoCheese](images/dis0wn-TwoCheese_Bacon_Potato_and_Cauliflower_Soup.png){.align-center}
 
 ## Ingredients
 

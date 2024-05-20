@@ -3,7 +3,7 @@
 This is a recipe from wireheadlance's grandmother for fried chicken and
 gravy!
 
-![image](images/wireheadlance_grandmothers_chicken_and_gravy.jpg){.align-center}
+![grandmotherschickengravy](images/wireheadlance_grandmothers_chicken_and_gravy.jpg)
 
 ## Instructions
 

@@ -2,9 +2,9 @@
 
 Simple, hot, and tasty stuff to share with pals.
 
-![image](images/wimzkl_caramelized-onion-mushroom-stuffin_1.jpg){.align-center}
+![onion1](images/wimzkl_caramelized-onion-mushroom-stuffin_1.jpg)
 
-![image](images/wimzkl_caramelized-onion-mushroom-stuffin_2.jpg){.align-center}
+![onion2](images/wimzkl_caramelized-onion-mushroom-stuffin_2.jpg)
 
 ## Cooking Hardware
 

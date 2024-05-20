@@ -38,10 +38,10 @@ have as snacks.
 Quick prep and only oven time for cooking. For a quick meal add some
 quinoa or wild rice with a vegetable of choice.
 
-![image](images/elegin_balsamic_tempeh_1.jpg){.align-center}
+![balsamictempeh1](images/elegin_balsamic_tempeh_1.jpg)
 
-![image](images/elegin_balsamic_tempeh_2.jpg){.align-center}
+![balsamictempeh2](images/elegin_balsamic_tempeh_2.jpg)
 
-![image](images/elegin_balsamic_tempeh_3.jpg){.align-center}
+![balsamictempeh3](images/elegin_balsamic_tempeh_3.jpg)
 
-![image](images/elegin_balsamic_tempeh_4.jpg){.align-center}
+![balsamictempeh4](images/elegin_balsamic_tempeh_4.jpg)

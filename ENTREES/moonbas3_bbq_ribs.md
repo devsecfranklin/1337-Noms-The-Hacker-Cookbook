@@ -1,6 +1,6 @@
 # Moonbas3 St. Louis Style Barbecue Ribs
 
-![image](images/moonbas3_bbq_ribs.jpg){.align-center}
+![ribs](images/moonbas3_bbq_ribs.jpg){.align-center}
 
 ## Required Equipment
 

@@ -64,8 +64,9 @@ function frontmatter() {
   cp -Rp .admin/images ${TEX_DIR}
 
   # build the front pages
-  cat .admin/tex/frontmatter/header.tex \
-    .admin/tex/frontmatter/frontmatter.tex | tee -a "${TEX_OUTPUT}"
+  cat .admin/tex/frontmatter/header.tex | tee -a "${TEX_OUTPUT}"
+  echo -e "\n" | tee -a "${TEX_OUTPUT}"
+  cat .admin/tex/frontmatter/frontmatter.tex | tee -a "${TEX_OUTPUT}"
   echo -e "\n" | tee -a "${TEX_OUTPUT}"
 }
 
@@ -110,8 +111,12 @@ function cleanup() {
   echo "Cleaning up..." | tee -a "${RAW_OUTPUT}"
 
   # copy final file to original dir
-  echo -e "${LGREEN}Copying PDF to project dir: ${LCYAN}${TEX_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
-  cp ${TEX_DIR}/hacker_cookbook.pdf ${MY_PWD}
+  if [ -f "${TEX_DIR}/hacker_cookbook.pdf" ]; then
+    echo -e "${LGREEN}Copying PDF to project dir: ${LCYAN}${TEX_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
+    cp ${TEX_DIR}/hacker_cookbook.pdf ${MY_PWD}
+  else
+    echo -e "${LRED}PPDF generation failed.${NC}"
+  fi
 
   # Blow away the temp working dir
   if [ -d "${TEX_DIR}" ]; then
@@ -123,7 +128,7 @@ function cleanup() {
 function main() {
 
   # Check to see if script is being run from correct relative path
-  if [ ! -f ".admin/bin/generate_book.sh" && ! -d ".admin/tex"]; then
+  if [ ! -f ".admin/bin/generate_book.sh" && ! -d ".admin/tex" ]; then
     echo -e "${LRED}Please run this tool from top level of repo clone${NC}"
     exit 1
   fi

@@ -4,7 +4,7 @@
 
 ![hacked](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/blob/main/admin/images/hacked.jpg?raw=true)
 
-## :hammer_and_wrench: Contributing :hammer_and_wrench:
+## Contributing
 
 * A page that explains [how to add your recipe to this project!](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/blob/main/.admin/CONTRIBUTING.md)
 * An [older wiki page](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/wiki/Adding-Recipes) that may be of help.

@@ -10,7 +10,7 @@ crack. Over baking will dry it out and also make it crack.
 - Makes 12 Slices
 - Nutritional Information Per Slice: 5g Net Carbs 50g Fat 10g Protein
 
-![keto_marbled_turtle_cheesecake](images/keto_marbled_turtle_cheesecake.jpg){.align-center}
+![cheesecake](images/keto_marbled_turtle_cheesecake.jpg){.align-center}
 
 ## Ingredients
 
@@ -43,11 +43,11 @@ You will need a 9 inch Springform pan
 - A Pinch of Salt
 - 1 Cup Pecans, roughly chopped
 
-## Recipe
+## Crust Recipe
 
-1. Crust- Preheat oven to 375 Degrees
+1. Preheat oven to 375 Degrees
 2. Combine all ingredients well (I just used my hands to mix it because
- it's easier than using a mixer or hand mixer)
+ it\'s easier than using a mixer or hand mixer)
 3. Press the mix firmly into the bottom of your springform pan.
 4. Bake for 8 minutes then let cool
 
@@ -76,7 +76,7 @@ pan and place on baking sheet
 ### Caramel Directions
 
 Make sure to consistently whisk your caramel throughout the cooking
-process so it doesn't burn!
+process so it doesn\'t burn!
 
 1. Melt the butter in a small pan on medium heat and cook until it is
  golden brown. Add in the coconut oil and stir well.
@@ -84,7 +84,7 @@ process so it doesn't burn!
  and simmer for about 1 minute.
 3. Add in the sweetener, vanilla, and salt. Cook until it starts to get
  thicker and stickier.
-4. Remove from heat and stir to make sure it isn't separated, then pour
+4. Remove from heat and stir to make sure it isn\'t separated, then pour
  over the cooled cheesecake. Sprinkle on the chopped pecans.
 5. Chill in the fridge for at least 4 hours, then enjoy!
 

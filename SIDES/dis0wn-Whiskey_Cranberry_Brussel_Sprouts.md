@@ -1,6 +1,6 @@
 # dis0wn - Whiskey Cranberry Brussel Sprouts
 
-![brussel_sprouts](images/dis0wn-Whiskey_Cranberry_Brussel_Sprouts.jpg)
+![sprouts](images/dis0wn-Whiskey_Cranberry_Brussel_Sprouts.jpg)
 
 This is one of my wife\'s favorite sides and even if you hate brussel
 sprouts, this might be your opportunity to change your mind. Feeds 5-6 people.
@@ -42,5 +42,5 @@ Prepare your brussel sprouts depending on the option you picked above.
 - Stir on Low-Medium heat until all the brown sugar has disolved.
 - Toss in the shot of whiskey. Count to 3. Stand back and light it.
   - The flames will go out once all the alcohol has burned off.
-  - Make sure the cooking area is free of dry material with a high surface area. It'll be tough trying to explain that one to the fire marshall.
+  - Make sure the cooking area is free of dry material with a high surface area. It\'ll be tough trying to explain that one to the fire marshall.
 - Now that the fire is out, transfer the sprouts and the Vorpal Glaze of Awesomeness to a serving dish or directly to the plate.

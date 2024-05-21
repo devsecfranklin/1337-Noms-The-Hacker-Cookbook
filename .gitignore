@@ -1,6 +1,5 @@
 .DS_Store
 *.swp
-*.pdf
 _build/
 hacker_cookbook.tex
 **/logs/*

@@ -112,7 +112,7 @@ function cleanup() {
 
   # copy final file to original dir
   if [ -f "${TEX_DIR}/hacker_cookbook.pdf" ]; then
-    echo -e "${LGREEN}Copying PDF to project dir: ${LCYAN}${TEX_OUTPUT}${NC}" | tee -a "${RAW_OUTPUT}"
+    echo -e "${LGREEN}Copying PDF to project dir: ${LCYAN}$${TEX_DIR}/hacker_cookbook.pdf${NC}" | tee -a "${RAW_OUTPUT}"
     cp ${TEX_DIR}/hacker_cookbook.pdf ${MY_PWD}
   else
     echo -e "${LRED}PPDF generation failed.${NC}"

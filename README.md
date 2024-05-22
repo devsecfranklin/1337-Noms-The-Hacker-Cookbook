@@ -2,7 +2,7 @@
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-![hacked](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/blob/main/admin/images/hacked.jpg?raw=true)
+![hacked](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/blob/main/.admin/images/hacked.jpg?raw=true)
 
 ## Contributing
 

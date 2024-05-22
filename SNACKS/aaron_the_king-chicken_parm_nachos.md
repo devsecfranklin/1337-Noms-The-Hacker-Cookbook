@@ -17,10 +17,10 @@ Turn your leftover chicken parm into an exciting midnight snack!
 
 1. Arrange your chips on top of the chicken parm so that it is
    completely covered
-1. Sprinkle your shredded cheese over the tortilla chips so that
+2. Sprinkle your shredded cheese over the tortilla chips so that
    there's an even distribution
-1. Sprinkle your fun enhancers on the cheese (if any)
-1. Microwave until the cheese is melted to your satisfaction
+3. Sprinkle your fun enhancers on the cheese (if any)
+4. Microwave until the cheese is melted to your satisfaction
 
 ## Tips n Tricks
 

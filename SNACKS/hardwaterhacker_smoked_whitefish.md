@@ -18,10 +18,10 @@ pike.
 ## Preparation
 
 1. Rinse fillets well in cold water
-1. Combine dry ingredients and 1 quart (950 mL) water in a mixing bowl.
+2. Combine dry ingredients and 1 quart (950 mL) water in a mixing bowl.
    Mix until salt and sugar are completely dissolved.
-1. Add brine to a food grade container with remaining water. Mix well.
-1. Add fillets to brine.
+3. Add brine to a food grade container with remaining water. Mix well.
+4. Add fillets to brine.
 
 Place brined fillets in refrigerator or cooler packed with ice for 16
 hours. A longer brine time will result in saltier fish. Thinner fillets

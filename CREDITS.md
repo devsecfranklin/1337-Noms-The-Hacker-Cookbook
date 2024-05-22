@@ -1,6 +1,6 @@
 # Credits
 
-- [This link shows exactly who did and did not on this project](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/graphs/contributors)
+- [This link shows exactly who did and did not contribute on this project](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/graphs/contributors)
 
 These folks have added their recipes to the project, and their names to this file:
 

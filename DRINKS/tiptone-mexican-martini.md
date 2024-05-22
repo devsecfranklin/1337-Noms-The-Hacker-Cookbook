@@ -3,8 +3,6 @@
 Serving Size: Two Cocktails
 Calories: Yes, definitely
 
-![image](images/tiptone-mexican-martini.jpg){.align-center, .images alt="Mexican Martini"}
-
 ## Ingredients
 
 - 3oz Hornitos Reposado
@@ -19,7 +17,7 @@ Calories: Yes, definitely
 1. Salt the rim of two cocktail glasses
 2. Fill a cocktail shaker with ice and ingredients
 3. Shake vigorously
-4. Strain into cocktail glasses and garnish with olive(s)\*
+4. Strain into cocktail glasses and garnish with olive(s)
 5. Enjoy
 
 mrstiptone insists this should be jalapeno stuffed olives

@@ -1,7 +1,6 @@
 # Moonbas3's "Instant" Mississippi Pot Roast
 
-![Moonbas3 "Instant" Mississippi Pot
-Roast](images/moonbas3_mississippi_pot_roast.jpg)
+![Moonbas3PotRoast](images/moonbas3_mississippi_pot_roast.jpg)
 
 ## Discussion
 
@@ -23,12 +22,12 @@ long.
 
 ## Ingredients
 
-- 3- to 4-pound boneless beef roast, your choice of cut, I use chuck.
+- 3 to 4 pound boneless beef roast, your choice of cut, I use chuck.
 - 1 stick (8 tbsp) unsalted butter
 - 1 package au jus gravy mix
 - 1 package dry ranch dressing mix, such as Hidden Valley
 - Pepperoncini peppers, number to your liking, and a little juice
-- Salt and freshly ground pepper, if desired (\~1 tbsp of each)
+- Salt and freshly ground pepper, if desired (about 1 tbsp of each)
 
 ## Directions
 

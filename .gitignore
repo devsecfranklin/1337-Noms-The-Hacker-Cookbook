@@ -1,8 +1,9 @@
 .DS_Store
 *.swp
-*.pdf
 _build/
-admin/logs/
+hacker_cookbook.tex
+**/logs/*
+**/_markdown_hacker_cookbook/*
 
 AUTHORS
 COPYING

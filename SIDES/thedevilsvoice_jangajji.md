@@ -1,6 +1,6 @@
-# theDevilsVoice Jangajji (장아찌)
+# theDevilsVoice Jangajji
 
-Jangajji (장아찌) or pickled vegetables is a type of banchan (side dish)
+Jangajji or pickled vegetables is a type of banchan (side dish)
 made by pickling vegetables.
 
 ![Jangajji](images/thedevilsvoice_jangajji.jpg)

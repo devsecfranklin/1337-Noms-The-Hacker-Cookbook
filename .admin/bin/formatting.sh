@@ -57,7 +57,6 @@ function path_setup() {
   fi
 }
 
-
 function shell_script_fmt() {
   echo -e "${CYAN}Formatting shell scripts...${NC}"
   shfmt -i 2 -l -w ../bootstrap.sh
@@ -76,15 +75,15 @@ function convert_rst_to_md() {
   fi
 }
 
-function format_markdown(){
+function format_markdown() {
   FILES=*.md
   for f in $FILES; do
     filename="${f%.*}"
     echo "Removing spaces from ${filename}.md"
-    cat ${filename}.md | tr -s ' ' > /tmp/tmp_file
+    cat ${filename}.md | tr -s ' ' >/tmp/tmp_file
     mv /tmp/tmp_file ${filename}.md
     echo "Running markdown lint on ${filename}.md"
-    mdl ${filename}.md 
+    mdl ${filename}.md
   done
 }
 

@@ -79,12 +79,12 @@ Americans).
  blood sugar is hard.
 12. Garnish with Parsley
 
-![image](images/DS-aV05WkAAfTjd.jpg){.align-center}
+![bangers1](images/DS-aV05WkAAfTjd.jpg){.align-center}
 
-![image](images/DS-ez01WAAAjwCY.jpg){.align-center}
+![bangers2](images/DS-ez01WAAAjwCY.jpg){.align-center}
 
-![image](images/DS-hKTvW4AAP118.jpg){.align-center}
+![bangers3](images/DS-hKTvW4AAP118.jpg){.align-center}
 
-![image](images/DS-p7YYWkAMlRRK.jpg){.align-center}
+![bangers4](images/DS-p7YYWkAMlRRK.jpg){.align-center}
 
-![image](images/DS-rKFAWkAIUih1.jpg){.align-center}
+![bangers5](images/DS-rKFAWkAIUih1.jpg){.align-center}

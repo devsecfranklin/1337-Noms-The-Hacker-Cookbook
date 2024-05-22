@@ -1,4 +1,4 @@
-# \@hardwaterhackers Smoked Whitefish
+# @hardwaterhackers Smoked Whitefish
 
 This brine works great for lake whitefish, tullibee (aka cisco), and
 other similar oily white meat fish. It even works great for northern
@@ -19,7 +19,7 @@ pike.
 
 1. Rinse fillets well in cold water
 2. Combine dry ingredients and 1 quart (950 mL) water in a mixing bowl.
- Mix until salt and sugar are completely dissolved.
+   Mix until salt and sugar are completely dissolved.
 3. Add brine to a food grade container with remaining water. Mix well.
 4. Add fillets to brine.
 
@@ -29,7 +29,7 @@ should be brined for less time to prevent becoming overly salty. After
 brining, rinse fillets well in cold water and place on drying racks. The
 fillets will need to dry for 3 hours on drying racks in a refrigerator
 or a cool location to allow
-[pellicle](https://en.wikipedia.org/wiki/Pellicle_(cooking)) to form.
+[pellicle](<https://en.wikipedia.org/wiki/Pellicle_(cooking)>) to form.
 
 ## Smoking
 
@@ -44,11 +44,8 @@ temperature for another 1-2 hours. Monitor fillets for desired moisture
 content. I prefer my smoked whitefish a little drier. Decrease total
 cooking time if a higher moisture content is desired.
 
-![whitefish in
-brine](images/hardwaterhacker_smoked_whitefish-whitefish_brine.jpg)
+![whitefish1](images/hardwaterhacker_smoked_whitefish-whitefish_brine.jpg)
 
-![whitefish in
-smoker](images/hardwaterhacker_smoked_whitefish-whitefish_in_smoker.jpg)
+![whitefish2](images/hardwaterhacker_smoked_whitefish-whitefish_in_smoker.jpg)
 
-![smoked
-whitefish](images/hardwaterhacker_smoked_whitefish-smoked_whitefish.jpg)
+![whitefish3](images/hardwaterhacker_smoked_whitefish-smoked_whitefish.jpg)

@@ -13,7 +13,7 @@ Makes a very diverse and healthy snack.
 - Melted Cheddar Cheese (4oz) should suffice
 - Real Bacon Bits (Optional for Vegetarian/Vegans)
 - X2 2ft length cuts of Aluminium Foil (more lengths at x1 cut per
- person)
+  person)
 
 ## Directions
 

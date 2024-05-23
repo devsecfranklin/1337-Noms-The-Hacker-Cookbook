@@ -1,6 +1,6 @@
 # 1337-Noms-The-Hacker-Cookbook
 
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![License: CC BY-ND 4.0 DEED](https://img.shields.io/badge/license-CC--4.0--ND-lightgrey)](https://creativecommons.org/licenses/by-nd/4.0/)
 
 ![hacked](https://github.com/DEAD10C5/1337-Noms-The-Hacker-Cookbook/blob/main/.admin/images/hacked.jpg?raw=true)
 

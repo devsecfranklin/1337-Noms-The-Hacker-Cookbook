@@ -229,7 +229,7 @@ function install_debian() {
   # sudo apt install gnuplot gawk libtool psutils make autopoint
   #declare -a  Packages=( "doxygen" "gawk" "doxygen-latex" "automake" )
   # sudo apt install gnuplot gawk libtool psutils make autoconf automake texlive-latex-extra fig2dev
-  declare -a Packages=("git" "make" "automake" "libtool") # "python3-pygit2" )
+  declare -a Packages=("git" "make" "m4" "autoconf" "libtool" ) # "python3-pygit2" )
 
   # Container package installs will fail unless you do an initial update, the upgrade is optional
   if [ "${CONTAINER}" = true ]; then

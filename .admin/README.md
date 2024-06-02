@@ -15,3 +15,10 @@ You can generate a PDF of this book.
 ### make docker
 
 Build a Docker container with the application.
+
+## OpenBSD
+
+```sh
+doas pkg_add latexmk
+```
+

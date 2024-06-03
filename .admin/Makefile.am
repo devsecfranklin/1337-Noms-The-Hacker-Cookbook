@@ -22,9 +22,9 @@ docker:
 	@docker-compose -f docker-compose.yml run hacker_cookbook /bin/bash
 
 python: 
-	python3 -m venv _build
+	@$(PY39) -m venv _build
 	( \
-		source _build/bin/activate; \
+		. _build/bin/activate; \
 		_build/bin/python -m pip install --upgrade pip; \
 		_build/bin/python -m pip install -rsrc/requirements.txt; \
 	)

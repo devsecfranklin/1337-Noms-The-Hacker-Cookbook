@@ -19,6 +19,5 @@ RUN \
   apt-get install -y make git
 
 # Python3 setup
-RUN ls;\
-pip install --upgrade pip;\
-  pip3 install -rsrc/requirements.txt
+RUN pwd;\
+  pip install --upgrade pip

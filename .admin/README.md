@@ -4,6 +4,8 @@ Various Cookbook maintenance tools.
 
 [Git Large File Storage (LFS)](https://git-lfs.com/)
 
+[Git Large File Storage (LFS)](https://git-lfs.com/)
+
 ## :blue_book: Generate the Book :orange_book:
 
 You can generate a PDF of this book.

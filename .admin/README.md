@@ -1,6 +1,6 @@
 # admin
 
-Various maintenance tools.
+Various Cookbook maintenance tools.
 
 [Git Large File Storage (LFS)](https://git-lfs.com/)
 
@@ -18,7 +18,8 @@ Build a Docker container with the application.
 
 ## OpenBSD
 
-```sh
-doas pkg_add latexmk
-```
+- [install git-lfs](https://github.com/git-lfs/git-lfs)
 
+```sh
+doas pkg_add latexmk dos2unix geany
+```
